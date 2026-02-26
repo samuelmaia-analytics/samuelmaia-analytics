@@ -1,9 +1,9 @@
 # 👋 Olá, eu sou Samuel Maia | Analista de Dados Sênior
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/samuelmaiapro/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/samuelmaia-data-analyst/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:smaia2@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://github.com/samuelmaiapro"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://github.com/samuelmaia-data-analyst"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
 </p>
 
 ---
@@ -17,7 +17,7 @@ Atualmente, estou em transição para aprofundar meus conhecimentos em **Engenha
 📍 **Localização:** Fortaleza, CE  
 📧 **E-mail:** [smaia2@gmail.com](mailto:smaia2@gmail.com)  
 📱 **Telefone:** (85) 98409-6353  
-🔗 **LinkedIn:** [linkedin.com/in/samuelmaiapro](https://linkedin.com/in/samuelmaiapro)  
+🔗 **LinkedIn:** [linkedin.com/in/samuelmaia-data-analyst](https://linkedin.com/in/samuelmaia-data-analyst)  
 🎯 **PcD:** Hemiparesia direita - total independência técnica e operacional (Laudo disponível - CID T90.5)
 
 ---
@@ -26,23 +26,23 @@ Atualmente, estou em transição para aprofundar meus conhecimentos em **Engenha
 
 Aqui estão alguns dos meus principais projetos, onde aplico na prática minhas habilidades em análise, visualização e modelagem de dados.
 
-### 🔮 [Sistema de Predição de Churn](https://github.com/samuelmaiapro/churn-prediction)
+### 🔮 [Sistema de Predição de Churn](https://github.com/samuelmaia-data-analyst/churn-prediction)
 **Modelo de Machine Learning para identificar clientes com alto risco de cancelamento.**
-[![Acesse o Repositório](https://img.shields.io/badge/📁_Código_Fonte-churn--prediction-blue)](https://github.com/samuelmaiapro/churn-prediction)
-[![Aplicação Online](https://img.shields.io/badge/🚀_Live_Demo-Streamlit-FF4B4B)](https://telecom-churn-prediction-samuelmaiapro.streamlit.app/)
+[![Acesse o Repositório](https://img.shields.io/badge/📁_Código_Fonte-churn--prediction-blue)](https://github.com/samuelmaia-data-analyst/churn-prediction)
+[![Aplicação Online](https://img.shields.io/badge/🚀_Live_Demo-Streamlit-FF4B4B)](https://telecom-churn-prediction-samuelmaia-data-analyst.streamlit.app/)
 *   **Stack:** Python, Scikit-learn, FastAPI, Streamlit, Pandas.
 *   **Destaques:** Modelo com **85% de acurácia**, API REST, dashboard interativo e pipeline completo de ML.
 
-### 🛒 [Amazon Sales Analysis](https://github.com/samuelmaiapro/amazon-sales-analysis)
+### 🛒 [Amazon Sales Analysis](https://github.com/samuelmaia-data-analyst/amazon-sales-analysis)
 **Dashboard estratégico para análise aprofundada de vendas e performance comercial.**
-[![Acesse o Repositório](https://img.shields.io/badge/📁_Código_Fonte-amazon--sales--analysis-blue)](https://github.com/samuelmaiapro/amazon-sales-analysis)
-[![Aplicação Online](https://img.shields.io/badge/🚀_Live_Demo-Streamlit-FF4B4B)](https://amazon-sales-analysis-samuelmaiapro.streamlit.app/)
+[![Acesse o Repositório](https://img.shields.io/badge/📁_Código_Fonte-amazon--sales--analysis-blue)](https://github.com/samuelmaia-data-analyst/amazon-sales-analysis)
+[![Aplicação Online](https://img.shields.io/badge/🚀_Live_Demo-Streamlit-FF4B4B)](https://amazon-sales-analysis-samuelmaia-data-analyst.streamlit.app/)
 *   **Stack:** Python, Streamlit, Pandas, Plotly.
 *   **Destaques:** 4 visões estratégicas (Visão Geral, Financeira, Produtos, Insights), análise de sazonalidade e "desconto ótimo".
 
-### 📈 [Análise de Vendas com Python](https://github.com/samuelmaiapro/analise-vendas-python)
+### 📈 [Análise de Vendas com Python](https://github.com/samuelmaia-data-analyst/analise-vendas-python)
 **Análise exploratória de dados de vendas para identificação de tendências e oportunidades.**
-[![Acesse o Repositório](https://img.shields.io/badge/📁_Código_Fonte-analise--vendas--python-blue)](https://github.com/samuelmaiapro/analise-vendas-python)
+[![Acesse o Repositório](https://img.shields.io/badge/📁_Código_Fonte-analise--vendas--python-blue)](https://github.com/samuelmaia-data-analyst/analise-vendas-python)
 [![Aplicação Online](https://img.shields.io/badge/🚀_Live_Demo-Streamlit-FF4B4B)](https://analys-vendas-python.streamlit.app/)
 *   **Stack:** Python, Pandas, Matplotlib, Seaborn, Streamlit.
 *   **Destaques:** Análise exploratória completa, visualizações para suporte à decisão e definição de metas.
@@ -92,13 +92,13 @@ Aqui estão alguns dos meus principais projetos, onde aplico na prática minhas 
 
 <div align="center">
   <a href="https://github.com/samuelmaia-data-analyst">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=samuelmaiapro&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9"/>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samuelmaiapro&layout=compact&langs_count=7&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=samuelmaia-data-analyst&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samuelmaia-data-analyst&layout=compact&langs_count=7&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9"/>
   </a>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=samuelmaiapro&theme=react-dark&bg_color=0d1117&hide_border=true&area=true" width="95%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=samuelmaia-data-analyst&theme=react-dark&bg_color=0d1117&hide_border=true&area=true" width="95%"/>
 </div>
 
 ---
@@ -125,15 +125,15 @@ Aqui estão alguns dos meus principais projetos, onde aplico na prática minhas 
 ⭐ **"Dados não são apenas números; são histórias esperando para serem contadas e problemas esperando para serem resolvidos."**
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/samuelmaiapro/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/samuelmaia-data-analyst/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="mailto:smaia2@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://github.com/samuelmaiapro"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://github.com/samuelmaia-data-analyst"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
 </div>
 
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=samuelmaiapro&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=samuelmaia-data-analyst&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views"/>
 </p>
 
 <p align="center">⚡ Obrigado pela visita! Explore meus repositórios e veja as histórias que os dados podem contar. ⚡</p>
