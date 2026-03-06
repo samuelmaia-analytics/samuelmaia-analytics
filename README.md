@@ -2,14 +2,39 @@
 
 **Senior Data Analyst | Revenue Intelligence | Advanced Analytics**
 
-Language: [English](#samuel-maia) | [Portuguese (PT-BR)](#resumo-em-portugues-pt-br)
+Open to remote senior data analytics opportunities.
 
-![Python](https://img.shields.io/badge/Python-Analytics-blue?logo=python)
-![SQL](https://img.shields.io/badge/SQL-Data%20Analysis-blue?logo=postgresql)
-![PowerBI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)
-![MachineLearning](https://img.shields.io/badge/Machine%20Learning-ScikitLearn-green?logo=scikitlearn)
-![FastAPI](https://img.shields.io/badge/FastAPI-ML%20API-teal?logo=fastapi)
+Start Here: [Revenue Intelligence Platform Suite](https://github.com/samuelmaia-data-analyst/revenue-intelligence-platform-suite)
+
+I build end-to-end analytics systems that turn raw data into strategic business decisions, with focus on revenue intelligence, machine learning, and executive visibility.
+
+---
+
+## Core Projects
+
+### 1. Revenue Intelligence Platform Suite
+Integrated analytics ecosystem for revenue drivers, performance monitoring, scenario simulation, and executive dashboards.
+
+Repository  
+https://github.com/samuelmaia-data-analyst/revenue-intelligence-platform-suite
+
+### 2. Revenue Intelligence Platform - End-to-End Analytics & ML System
+Enterprise-style analytics platform with pipelines, feature engineering, ML models, and FastAPI prediction service.
+
+Repository  
+https://github.com/samuelmaia-data-analyst/Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System
+
+### 3. Churn Prediction
+Machine learning system for churn risk identification and retention decision support.
+
+Repository  
+https://github.com/samuelmaia-data-analyst/churn-prediction
+
+---
+
+## Tech Stack
+
+Python | SQL | Power BI | Pandas | NumPy | Scikit-learn | FastAPI | ETL Pipelines | Business Intelligence
 
 ---
 
@@ -21,118 +46,7 @@ Language: [English](#samuel-maia) | [Portuguese (PT-BR)](#resumo-em-portugues-pt
 
 ---
 
-# Portfolio Overview
+## Connect
 
-This GitHub serves as my analytics portfolio, showcasing projects that demonstrate how data can be transformed into business intelligence, predictive insights, and strategic decision support systems.
-
-My work focuses on **revenue analytics, machine learning applications, customer intelligence, and analytics engineering**.
-
----
-
-# Featured Project
-
-## Revenue Intelligence Platform Suite
-
-Integrated analytics ecosystem designed to help organizations understand revenue drivers, monitor performance, and support strategic business decisions.
-
-Includes:
-
-- revenue analytics
-- churn prediction
-- scenario simulation
-- executive dashboards
-- analytics pipelines
-- machine learning models
-
-Repository
-https://github.com/samuelmaia-data-analyst/revenue-intelligence-platform-suite
-
----
-
-# Analytics Platform Project
-
-## Revenue Intelligence Platform - End-to-End Analytics & ML System
-
-Enterprise-style analytics platform combining:
-
-- data pipelines
-- feature engineering
-- machine learning models
-- FastAPI prediction service
-- executive dashboards
-
-Focus:
-Transform raw data into revenue intelligence.
-
-Repository
-https://github.com/samuelmaia-data-analyst/Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System
-
----
-
-# Machine Learning Project
-
-## Churn Prediction
-
-Machine learning model designed to identify customers with high probability of churn.
-
-Business applications:
-
-- customer retention strategy
-- churn risk identification
-- predictive customer behavior analysis
-
-Repository
-https://github.com/samuelmaia-data-analyst/churn-prediction
-
----
-
-# Data Analysis Projects
-
-## Amazon Sales Analysis
-
-Exploratory data analysis focused on extracting insights from e-commerce sales data.
-
-Includes:
-
-- sales performance analysis
-- product category insights
-- revenue trend analysis
-
-Repository
-https://github.com/samuelmaia-data-analyst/amazon-sales-analysis
-
----
-
-# Tech Stack
-
-Python
-SQL
-Power BI
-Pandas
-NumPy
-Scikit-learn
-Machine Learning
-Data Modeling
-ETL Pipelines
-Business Intelligence
-
----
-
-# Connect with Me
-
-LinkedIn
+LinkedIn  
 https://linkedin.com/in/samuelmaia-data-analyst
-
----
-
-# Resumo em Portugues (PT-BR)
-
-Sou Senior Data Analyst com foco em Revenue Intelligence, analytics engineering e machine learning aplicado a decisao de negocio.
-
-Este portfolio apresenta projetos de:
-
-- analytics de receita
-- predicao de churn
-- simulacao de cenarios
-- dashboards executivos
-- pipelines de dados e modelos de ML
