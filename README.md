@@ -1,171 +1,116 @@
 # Samuel Maia
 
-**Senior Data Analyst | Revenue Intelligence | Advanced Analytics**
+Senior Data Analyst | Revenue Intelligence | Advanced Analytics
 
-I design end-to-end analytics systems that turn complex data into strategic decisions, with focus on revenue performance, retention, and executive visibility.
+I design analytics systems that transform raw data into strategic business decisions.
 
----
-
-# Start Here
-
-Portfolio main entry point  
-[https://github.com/samuelmaia-data-analyst/revenue-intelligence-platform-suite](https://github.com/samuelmaia-data-analyst/revenue-intelligence-platform-suite)
-
-This repository connects the full analytics ecosystem and links to the main projects.
+My work focuses on building end-to-end analytics solutions that combine data engineering, advanced analytics, machine learning, and executive dashboards to support revenue growth and data-driven decision-making.
 
 ---
 
-# Live Demo
+# Portfolio Overview
 
-Interactive analytics app  
-[https://github.com/samuelmaia-data-analyst/analise-vendas-python](https://github.com/samuelmaia-data-analyst/analise-vendas-python)
+This GitHub serves as my analytics portfolio, showcasing projects that demonstrate how data can be transformed into business intelligence, predictive insights, and strategic decision support systems.
 
----
-
-# Quick Review Path
-
-If you are reviewing my profile for Senior Data Analyst roles, use this order:
-
-1. Revenue Intelligence Platform Suite
-2. Revenue Intelligence Platform (End-to-End Analytics & ML System)
-3. Data Senior Analytics Showcase
-4. Churn Prediction Analytics System
-5. Amazon Sales Analytics
-6. Sales Analytics in Python
+My work focuses on revenue analytics, customer intelligence, machine learning applications, and analytics engineering.
 
 ---
 
-# Representative Impact (Portfolio Simulation)
-
-Illustrative business outcomes modeled in portfolio scenarios:
-
-* Revenue leakage detection: simulated recovery potential of 6-12%
-* Churn risk prioritization: simulated retention uplift of 8-15% in high-risk cohorts
-* Decision cycle time: simulated reduction of 30-45% with executive dashboards
-* Reporting automation: simulated analyst time savings of 25-40%
-
----
-
-# Analytics Portfolio
+# Featured Project
 
 ## Revenue Intelligence Platform Suite
 
-Integrated analytics ecosystem for revenue intelligence and executive decision support.
+Integrated analytics ecosystem designed to help organizations understand revenue drivers, monitor performance, and support strategic business decisions.
 
-Includes:
+Includes
 
-* Revenue analytics
-* Churn prediction
-* Scenario simulation
-* Executive dashboards
-* Data contracts and monitoring
+- revenue analytics  
+- churn prediction  
+- scenario simulation  
+- executive dashboards  
+- analytics pipelines  
+- machine learning models  
 
-Repository  
-[https://github.com/samuelmaia-data-analyst/revenue-intelligence-platform-suite](https://github.com/samuelmaia-data-analyst/revenue-intelligence-platform-suite)
+Repository
 
----
-
-## Revenue Intelligence Platform
-
-**End-to-End Analytics & Machine Learning System**
-
-Enterprise-style platform combining:
-
-* Data pipelines
-* Feature engineering
-* Machine learning models
-* FastAPI scoring service
-* Executive dashboards
-
-Repository  
-[https://github.com/samuelmaia-data-analyst/Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System](https://github.com/samuelmaia-data-analyst/Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System)
+https://github.com/samuelmaia-data-analyst/revenue-intelligence-platform-suite
 
 ---
 
-## Churn Prediction Analytics System
+# Analytics Platform Project
 
-Customer retention analytics platform with:
+## Revenue Intelligence Platform - End-to-End Analytics & ML System
 
-* Churn prediction models
-* Cost-sensitive decision thresholds
-* Retention action playbooks
-* Monitoring and model versioning
+Enterprise-style analytics platform combining
 
-Repository  
-[https://github.com/samuelmaia-data-analyst/churn-prediction](https://github.com/samuelmaia-data-analyst/churn-prediction)
+- data pipelines  
+- feature engineering  
+- machine learning models  
+- FastAPI prediction service  
+- executive dashboards  
 
----
+Focus
 
-## Data Senior Analytics Showcase
+Transform raw data into revenue intelligence.
 
-Senior-level analytics project focused on:
+Repository
 
-* Business decision support
-* Analytics architecture
-* Data governance and contracts
-* Executive dashboarding
-
-Repository  
-[https://github.com/samuelmaia-data-analyst/data-senior-analytics](https://github.com/samuelmaia-data-analyst/data-senior-analytics)
+https://github.com/samuelmaia-data-analyst/Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System
 
 ---
 
-## Amazon Sales Analytics
+# Machine Learning Project
 
-Revenue and performance analytics project including:
+## Churn Prediction
 
-* Revenue leakage detection
-* Scenario simulation
-* Operational decision cadence
-* Interactive dashboards
+Machine learning model designed to identify customers with high probability of churn.
 
-Repository  
-[https://github.com/samuelmaia-data-analyst/amazon-sales-analysis](https://github.com/samuelmaia-data-analyst/amazon-sales-analysis)
+Business applications
 
----
+- customer retention strategy  
+- churn risk identification  
+- predictive customer behavior analysis  
 
-## Sales Analytics in Python
+Repository
 
-Business analytics application featuring:
-
-* Revenue trend analysis
-* Pareto analysis
-* Year-over-year performance tracking
-* Interactive Streamlit dashboard
-
-Repository  
-[https://github.com/samuelmaia-data-analyst/analise-vendas-python](https://github.com/samuelmaia-data-analyst/analise-vendas-python)
+https://github.com/samuelmaia-data-analyst/churn-prediction
 
 ---
 
-# Technical Stack
+# Data Analysis Projects
+
+## Amazon Sales Analysis
+
+Exploratory data analysis focused on extracting insights from e-commerce sales data.
+
+Includes
+
+- sales performance analysis  
+- product category insights  
+- revenue trend analysis  
+
+Repository
+
+https://github.com/samuelmaia-data-analyst/amazon-sales-analysis
+
+---
+
+# Tech Stack
 
 Python  
 SQL  
+Power BI  
+Pandas  
+NumPy  
+Scikit-learn  
 Machine Learning  
-Streamlit  
-FastAPI  
-Data Contracts  
-Analytics Engineering  
-Business Intelligence
+Data Modeling  
+ETL Pipelines  
+Business Intelligence  
 
 ---
 
-# Focus Areas
-
-I build analytics systems that:
-
-* transform complex datasets into actionable insights
-* support executive decision making
-* improve revenue performance
-* scale analytics capabilities across organizations
-
----
-
-# Contact
+# Connect with Me
 
 LinkedIn  
-[https://linkedin.com/in/samuelmaia-data-analyst](https://linkedin.com/in/samuelmaia-data-analyst)
-
-Email  
-[smaia2@gmail.com](mailto:smaia2@gmail.com)
+https://linkedin.com/in/samuelmaia-data-analyst
