@@ -40,9 +40,9 @@ Python | SQL | Power BI | Pandas | NumPy | Scikit-learn | FastAPI | ETL Pipeline
 
 ## GitHub Analytics
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=samuelmaia-data-analyst&show_icons=true&theme=tokyonight)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=samuelmaia-data-analyst&show_icons=true&hide_border=true&cache_seconds=86400)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=samuelmaia-data-analyst&layout=compact&theme=tokyonight)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=samuelmaia-data-analyst&layout=compact&hide_border=true&cache_seconds=86400)
 
 ---
 
