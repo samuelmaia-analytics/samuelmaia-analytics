@@ -2,10 +2,12 @@
 
 **Senior Data Analyst | Revenue Intelligence | Advanced Analytics**
 
+Language: [English](#samuel-maia) | [Portuguese (PT-BR)](#resumo-em-portugues-pt-br)
+
 ![Python](https://img.shields.io/badge/Python-Analytics-blue?logo=python)
 ![SQL](https://img.shields.io/badge/SQL-Data%20Analysis-blue?logo=postgresql)
 ![PowerBI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?logo=powerbi)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-purple?logo=pandas)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)
 ![MachineLearning](https://img.shields.io/badge/Machine%20Learning-ScikitLearn-green?logo=scikitlearn)
 ![FastAPI](https://img.shields.io/badge/FastAPI-ML%20API-teal?logo=fastapi)
 
@@ -13,9 +15,9 @@
 
 ## GitHub Analytics
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=samuelmaia-data-analyst\&show_icons=true\&theme=tokyonight)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=samuelmaia-data-analyst&show_icons=true&theme=tokyonight)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=samuelmaia-data-analyst\&layout=compact\&theme=tokyonight)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=samuelmaia-data-analyst&layout=compact&theme=tokyonight)
 
 ---
 
@@ -27,7 +29,7 @@ My work focuses on **revenue analytics, machine learning applications, customer 
 
 ---
 
-# ⭐ Featured Project
+# Featured Project
 
 ## Revenue Intelligence Platform Suite
 
@@ -35,12 +37,12 @@ Integrated analytics ecosystem designed to help organizations understand revenue
 
 Includes:
 
-• revenue analytics
-• churn prediction
-• scenario simulation
-• executive dashboards
-• analytics pipelines
-• machine learning models
+- revenue analytics
+- churn prediction
+- scenario simulation
+- executive dashboards
+- analytics pipelines
+- machine learning models
 
 Repository
 https://github.com/samuelmaia-data-analyst/revenue-intelligence-platform-suite
@@ -49,15 +51,15 @@ https://github.com/samuelmaia-data-analyst/revenue-intelligence-platform-suite
 
 # Analytics Platform Project
 
-## Revenue Intelligence Platform – End-to-End Analytics & ML System
+## Revenue Intelligence Platform - End-to-End Analytics & ML System
 
 Enterprise-style analytics platform combining:
 
-• data pipelines
-• feature engineering
-• machine learning models
-• FastAPI prediction service
-• executive dashboards
+- data pipelines
+- feature engineering
+- machine learning models
+- FastAPI prediction service
+- executive dashboards
 
 Focus:
 Transform raw data into revenue intelligence.
@@ -75,9 +77,9 @@ Machine learning model designed to identify customers with high probability of c
 
 Business applications:
 
-• customer retention strategy
-• churn risk identification
-• predictive customer behavior analysis
+- customer retention strategy
+- churn risk identification
+- predictive customer behavior analysis
 
 Repository
 https://github.com/samuelmaia-data-analyst/churn-prediction
@@ -92,9 +94,9 @@ Exploratory data analysis focused on extracting insights from e-commerce sales d
 
 Includes:
 
-• sales performance analysis
-• product category insights
-• revenue trend analysis
+- sales performance analysis
+- product category insights
+- revenue trend analysis
 
 Repository
 https://github.com/samuelmaia-data-analyst/amazon-sales-analysis
@@ -120,3 +122,17 @@ Business Intelligence
 
 LinkedIn
 https://linkedin.com/in/samuelmaia-data-analyst
+
+---
+
+# Resumo em Portugues (PT-BR)
+
+Sou Senior Data Analyst com foco em Revenue Intelligence, analytics engineering e machine learning aplicado a decisao de negocio.
+
+Este portfolio apresenta projetos de:
+
+- analytics de receita
+- predicao de churn
+- simulacao de cenarios
+- dashboards executivos
+- pipelines de dados e modelos de ML
