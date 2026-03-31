@@ -55,7 +55,7 @@ Legacy portfolio repository retained for transition and history. Prefer `samuelm
 
 ### `SAMUEL_MAIA_DDF_TECH_032026`
 
-Case-based analytics exercise. Keep secondary and avoid presenting it as a portfolio centerpiece.
+Case-based analytics exercise. Keep secondary and avoid presenting it as a portfolio centerpiece. Do not include it in the active portfolio rewrite scope.
 
 ## Repositories to De-emphasize
 

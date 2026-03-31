@@ -32,7 +32,7 @@
    Legacy repository name that conflicts with the new positioning. Keep only if required for redirects or history; otherwise archive or de-emphasize.
 
 8. `SAMUEL_MAIA_DDF_TECH_032026`
-   Opaque naming weakens perception immediately. If it must remain public, rename conceptually in the description and do not pin it.
+   Opaque naming weakens perception immediately. Do not pin it. Treat it as visibility-only and keep it outside the active portfolio standardization work.
 
 ## Recommended Pinned Repositories
 
@@ -70,7 +70,7 @@
   Legacy portfolio repository retained for transition and history. Prefer `samuelmaia-analytics` as the canonical entry point.
 
 - `SAMUEL_MAIA_DDF_TECH_032026`
-  Case-based analytics exercise. Keep secondary and avoid presenting it as a portfolio centerpiece.
+  Case-based analytics exercise. Keep secondary and avoid presenting it as a portfolio centerpiece. No repository-internal changes recommended under the current portfolio scope.
 
 ## Repository Tiering Logic
 

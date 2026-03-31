@@ -13,12 +13,12 @@
 ## English
 
 I build analytics systems that connect data pipelines, metric logic, BI applications, machine learning, and business decision-making.
-My portfolio is organized to show how analytical work operates in mature environments: with clear business framing, reproducible workflows, governance discipline, data quality controls, and outputs that support real decisions.
+This portfolio is curated to show analytical work in a senior, business-facing format: clear problem framing, reproducible delivery, governance discipline, data quality controls, and outputs built for decision support.
 
 ### Professional Summary
 
 My work sits at the intersection of analytics engineering, data analytics, and business-facing analytical delivery.
-I focus on revenue and retention use cases, executive KPI visibility, analytical applications, and operating models that make data products easier to trust, maintain, and use.
+I focus on revenue and retention use cases, executive KPI visibility, analytical applications, and operating models that make analytical products easier to trust, maintain, and use.
 
 ### Focus Areas
 
@@ -51,6 +51,13 @@ I focus on revenue and retention use cases, executive KPI visibility, analytical
 - Quality, governance, and documentation assets that strengthen analytical credibility
 - Applied ML components used as decision support, not as isolated modeling exercises
 
+### Why This Portfolio Works as a Hub
+
+- One main entry point for portfolio positioning
+- Clear separation between flagship, core, and supporting repositories
+- Emphasis on business impact, architecture, governance, and analytical outputs
+- Reduced portfolio duplication across repositories with overlapping roles
+
 ### Business Impact Lens
 
 The portfolio is designed around practical business questions:
@@ -68,7 +75,7 @@ This GitHub is intentionally organized by priority, not by project count.
 
 ##### Revenue Intelligence Platform Suite
 
-The most complete expression of my positioning: a portfolio platform organized around revenue performance, retention exposure, executive KPI visibility, governance, observability, and action prioritization.
+The strongest expression of my current positioning: a portfolio platform organized around revenue performance, retention exposure, executive KPI visibility, governance, observability, and action prioritization.
 
 - Integrated analytical modules
 - Executive decision-support layer
@@ -108,6 +115,15 @@ Repository: https://github.com/samuelmaia-analytics/amazon-sales-analysis
 - `data-senior-analytics`: supporting repository for reproducible analytics and quality-minded delivery
 - `analise-vendas-python`: secondary repository that should support, not lead, the portfolio narrative
 
+### Suggested Public Repository Descriptions
+
+- `samuelmaia-analytics`: Senior portfolio for analytics engineering, revenue analytics, BI applications, data quality, governance, and decision-ready analytical systems.
+- `revenue-intelligence-platform-suite`: Revenue intelligence platform combining pipelines, KPI modeling, governance, observability, and executive decision support.
+- `Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System`: End-to-end analytics and ML system for revenue intelligence, KPI visibility, predictive scoring, API delivery, and executive reporting.
+- `churn-prediction`: Churn analytics and prioritization pipeline for telecom retention, executive reporting, and business-facing decision support.
+- `amazon-sales-analysis`: Commercial analytics project focused on discount leakage, revenue protection, category prioritization, and executive business framing.
+- `data-senior-analytics`: Reproducible analytics repository with layered pipelines, quality controls, governance documentation, and dashboard delivery.
+
 ### Project Index
 
 Portfolio structure and project recommendations:
@@ -136,12 +152,12 @@ If you are hiring for Analytics Engineer, Senior Data Analyst, Revenue Analytics
 ## Português (Brasil)
 
 Construo sistemas analíticos que conectam pipelines de dados, lógica de métricas, aplicações de BI, machine learning e tomada de decisão de negócio.
-Meu portfólio foi organizado para mostrar como o trabalho analítico opera em ambientes mais maduros: com enquadramento de negócio claro, workflows reproduzíveis, disciplina de governança, controles de qualidade de dados e outputs que apoiam decisões reais.
+Este portfólio foi organizado para apresentar trabalho analítico em um formato mais sênior e orientado ao negócio: enquadramento claro do problema, entrega reproduzível, disciplina de governança, controles de qualidade de dados e outputs voltados a suporte à decisão.
 
 ### Resumo Profissional
 
 Meu trabalho está na interseção entre analytics engineering, data analytics e entrega analítica voltada ao negócio.
-Tenho foco em casos de uso de receita e retenção, visibilidade executiva de KPIs, aplicações analíticas e modelos operacionais que tornam produtos de dados mais confiáveis, sustentáveis e úteis.
+Tenho foco em casos de uso de receita e retenção, visibilidade executiva de KPIs, aplicações analíticas e modelos operacionais que tornam produtos analíticos mais confiáveis, sustentáveis e úteis.
 
 ### Áreas de Foco
 
@@ -174,6 +190,13 @@ Tenho foco em casos de uso de receita e retenção, visibilidade executiva de KP
 - Ativos de qualidade, governança e documentação que fortalecem a credibilidade analítica
 - Componentes de ML aplicado como suporte à decisão, e não como exercício isolado de modelagem
 
+### Por Que Este Portfólio Funciona Como Hub
+
+- Um ponto principal de entrada para o posicionamento do portfólio
+- Separação clara entre repositório flagship, centrais e de apoio
+- Ênfase em impacto de negócio, arquitetura, governança e outputs analíticos
+- Redução de duplicidade de papel entre repositórios com funções semelhantes
+
 ### Lente de Impacto de Negócio
 
 O portfólio foi desenhado em torno de perguntas práticas de negócio:
@@ -191,7 +214,7 @@ Este GitHub foi organizado intencionalmente por prioridade, não por quantidade 
 
 ##### Revenue Intelligence Platform Suite
 
-É a expressão mais completa do meu posicionamento: uma plataforma de portfólio organizada em torno de performance de receita, exposição à retenção, visibilidade executiva de KPIs, governança, observabilidade e priorização de ações.
+É a expressão mais forte do meu posicionamento atual: uma plataforma de portfólio organizada em torno de performance de receita, exposição à retenção, visibilidade executiva de KPIs, governança, observabilidade e priorização de ações.
 
 - Módulos analíticos integrados
 - Camada executiva de suporte à decisão
@@ -230,6 +253,15 @@ Repositório: https://github.com/samuelmaia-analytics/amazon-sales-analysis
 - `amazon-sales-analysis`: analytics comercial e narrativa de impacto de negócio
 - `data-senior-analytics`: repositório de apoio para analytics reproduzível e entrega orientada à qualidade
 - `analise-vendas-python`: repositório secundário, que deve apoiar a narrativa e não liderá-la
+
+### Sugestões de Descrição Pública dos Repositórios
+
+- `samuelmaia-analytics`: Portfólio sênior de analytics engineering, revenue analytics, aplicações de BI, qualidade de dados, governança e sistemas analíticos voltados à decisão.
+- `revenue-intelligence-platform-suite`: Plataforma de revenue intelligence que combina pipelines, modelagem de KPIs, governança, observabilidade e suporte executivo à decisão.
+- `Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System`: Sistema ponta a ponta de analytics e ML para revenue intelligence, visibilidade de KPIs, scoring preditivo, entrega por API e reporte executivo.
+- `churn-prediction`: Pipeline de churn analytics e priorização para retenção em telecom, reporte executivo e suporte à decisão voltado ao negócio.
+- `amazon-sales-analysis`: Projeto de analytics comercial focado em discount leakage, proteção de receita, priorização por categoria e enquadramento executivo.
+- `data-senior-analytics`: Repositório de analytics reproduzível com pipelines em camadas, controles de qualidade, documentação de governança e entrega via dashboard.
 
 ### Índice do Portfólio
 
