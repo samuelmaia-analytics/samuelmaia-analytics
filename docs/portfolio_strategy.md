@@ -11,8 +11,8 @@ Current issues:
 - Repository descriptions are inconsistent in quality and language.
 - The current public narrative looks closer to a collection of projects than to a coherent analytical portfolio.
 - Legacy repositories such as `samuelmaia-data-analyst` and generic names such as `data-senior-analytics` dilute the stronger positioning.
-- A case repository with an opaque name (`SAMUEL_MAIA_DDF_TECH_032026`) adds noise instead of authority.
-- Under the current portfolio scope, that repository should be managed only as a visibility decision, not as a repository to rewrite or standardize.
+- `SAMUEL_MAIA_DDF_TECH_032026` is one of the strongest enterprise-adjacent assets in the portfolio, but its public name weakens immediate perception.
+- Under the current portfolio scope, that repository should be incorporated into the portfolio narrative without changing anything inside the repository itself.
 - Some repositories appear stronger in README structure than in their GitHub short descriptions, which means the first impression is weaker than the actual substance.
 
 ## Strategic Direction
@@ -37,10 +37,11 @@ Use one repository to represent the highest level of maturity and architectural 
 
 ### Layer 2: Core Proofs
 
-Use three repositories to reinforce the flagship from complementary angles:
+Use four repositories to reinforce the flagship from complementary angles:
 
 - `Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System`
 - `churn-prediction`
+- `SAMUEL_MAIA_DDF_TECH_032026`
 - `amazon-sales-analysis`
 
 ### Layer 3: Supporting Depth
@@ -55,8 +56,8 @@ Keep additional repositories visible only if they support the same narrative:
 Avoid giving prominence to repositories that weaken consistency:
 
 - `samuelmaia-data-analyst`
-- `SAMUEL_MAIA_DDF_TECH_032026`
-  Keep it outside the active rewrite scope and treat it as a non-pinned legacy/case artifact.
+
+`SAMUEL_MAIA_DDF_TECH_032026` should not be treated as noise in substance. The repository is strong; the main issue is naming and framing.
 
 ## What Senior Hiring Signals Look For
 
@@ -107,4 +108,4 @@ Every major repository should follow roughly this structure:
 2. Reorder pinned repositories around flagship and core proofs.
 3. Update GitHub short descriptions for all visible repositories.
 4. Normalize README structure across flagship and core repositories.
-5. De-emphasize legacy repositories and opaque names.
+5. De-emphasize legacy repositories and opaque names, while still surfacing the strongest enterprise-adjacent work through the portfolio hub.

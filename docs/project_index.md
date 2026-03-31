@@ -15,15 +15,18 @@
 3. `churn-prediction`
    Retention analytics and prioritization repository showing layered pipelines, business outputs, and analytical delivery.
 
-4. `amazon-sales-analysis`
+4. `SAMUEL_MAIA_DDF_TECH_032026`
+   Strongest enterprise-adjacent proof of governed publication, semantic modeling, operational monitoring, and external analytical consumption, but penalized by a weak repository name.
+
+5. `amazon-sales-analysis`
    Business analytics repository focused on discount leakage, revenue protection, category-level opportunity sizing, and executive framing.
 
 ### Supporting
 
-5. `data-senior-analytics`
+6. `data-senior-analytics`
    Useful supporting repository for reproducible analytics, contracts, CI, and data quality discipline, but weaker as a lead asset because the name is generic.
 
-6. `analise-vendas-python`
+7. `analise-vendas-python`
    Useful as historical proof of analytical work, but currently too junior in naming and positioning to sit ahead of the revenue and platform repositories.
 
 ### De-emphasize or Remove from Public Narrative
@@ -32,15 +35,15 @@
    Legacy repository name that conflicts with the new positioning. Keep only if required for redirects or history; otherwise archive or de-emphasize.
 
 8. `SAMUEL_MAIA_DDF_TECH_032026`
-   Opaque naming weakens perception immediately. Do not pin it. Treat it as visibility-only and keep it outside the active portfolio standardization work.
+   Opaque naming still weakens perception, but the repository itself is stronger than the name suggests. Include it in the curated portfolio narrative while avoiding any repository-internal changes.
 
 ## Recommended Pinned Repositories
 
 1. `revenue-intelligence-platform-suite`
 2. `Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System`
 3. `churn-prediction`
-4. `amazon-sales-analysis`
-5. `data-senior-analytics`
+4. `SAMUEL_MAIA_DDF_TECH_032026`
+5. `amazon-sales-analysis`
 6. `samuelmaia-analytics`
 
 ## Suggested One-Line Descriptions
@@ -57,6 +60,9 @@
 - `churn-prediction`
   Churn analytics and prioritization pipeline for telecom retention, executive reporting, and business-facing decision support.
 
+- `SAMUEL_MAIA_DDF_TECH_032026`
+  Governed analytics publishing and monitoring project with layered modeling, semantic marts, operational runbooks, and executive consumption surfaces.
+
 - `amazon-sales-analysis`
   Commercial analytics project focused on discount leakage, revenue protection, category prioritization, and executive business framing.
 
@@ -70,7 +76,7 @@
   Legacy portfolio repository retained for transition and history. Prefer `samuelmaia-analytics` as the canonical entry point.
 
 - `SAMUEL_MAIA_DDF_TECH_032026`
-  Case-based analytics exercise. Keep secondary and avoid presenting it as a portfolio centerpiece. No repository-internal changes recommended under the current portfolio scope.
+  Governed analytics publishing and monitoring project with enterprise-adjacent operating signals. Keep the repository unchanged internally and improve positioning through the portfolio hub and GitHub descriptions only.
 
 ## Repository Tiering Logic
 

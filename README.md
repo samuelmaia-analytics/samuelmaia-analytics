@@ -97,6 +97,13 @@ Customer churn and prioritization project structured around pipeline design, bus
 Repository: https://github.com/samuelmaia-analytics/churn-prediction
 Demo: https://telecom-churn-prediction-samuelmaiapro.streamlit.app/
 
+#### Olist Analytical Publishing and Governance Platform
+
+Analytical product built around layered modeling, governed publication, semantic marts, operational monitoring, and multi-surface consumption through Streamlit, SQL, Power BI, and external publishing.
+
+Repository: https://github.com/samuelmaia-analytics/SAMUEL_MAIA_DDF_TECH_032026
+Demo: https://samuelmaia-032026.streamlit.app/
+
 #### Amazon Sales Analysis
 
 Commercial analytics repository focused on discount leakage, revenue protection, category prioritization, and executive business framing.
@@ -108,6 +115,7 @@ Repository: https://github.com/samuelmaia-analytics/amazon-sales-analysis
 - `revenue-intelligence-platform-suite`: flagship positioning for analytics engineering, governance, BI, and revenue intelligence
 - `Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System`: strongest standalone proof of end-to-end analytical system design
 - `churn-prediction`: retention analytics and applied ML for business prioritization
+- `SAMUEL_MAIA_DDF_TECH_032026`: strongest proof of governed analytical publication, operational handoff, and enterprise-adjacent delivery, despite the weaker repository name
 - `amazon-sales-analysis`: commercial analytics and business impact storytelling
 - `data-senior-analytics`: supporting repository for reproducible analytics and quality-minded delivery
 - `analise-vendas-python`: secondary repository that should support, not lead, the portfolio narrative
@@ -118,6 +126,7 @@ Repository: https://github.com/samuelmaia-analytics/amazon-sales-analysis
 - `revenue-intelligence-platform-suite`: Revenue intelligence platform combining pipelines, KPI modeling, governance, observability, and executive decision support.
 - `Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System`: End-to-end analytics and ML system for revenue intelligence, KPI visibility, predictive scoring, API delivery, and executive reporting.
 - `churn-prediction`: Churn analytics and prioritization pipeline for telecom retention, executive reporting, and business-facing decision support.
+- `SAMUEL_MAIA_DDF_TECH_032026`: Governed analytics publishing and monitoring project with layered modeling, semantic marts, operational runbooks, and executive consumption surfaces.
 - `amazon-sales-analysis`: Commercial analytics project focused on discount leakage, revenue protection, category prioritization, and executive business framing.
 - `data-senior-analytics`: Reproducible analytics repository with layered pipelines, quality controls, governance documentation, and dashboard delivery.
 

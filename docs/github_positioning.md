@@ -25,8 +25,8 @@ Alternative version:
 1. `revenue-intelligence-platform-suite`
 2. `Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System`
 3. `churn-prediction`
-4. `amazon-sales-analysis`
-5. `data-senior-analytics`
+4. `SAMUEL_MAIA_DDF_TECH_032026`
+5. `amazon-sales-analysis`
 6. `samuelmaia-analytics`
 
 ## Description Patterns
@@ -45,6 +45,7 @@ Examples:
 
 - Revenue intelligence platform combining pipelines, KPI modeling, governance, observability, and executive decision support.
 - Churn analytics and prioritization pipeline for telecom retention, executive reporting, and business-facing decision support.
+- Governed analytics publishing and monitoring project with layered modeling, semantic marts, operational runbooks, and executive consumption surfaces.
 - Commercial analytics repository focused on discount leakage, revenue protection, category prioritization, and executive framing.
 
 ## Visibility Recommendations
@@ -52,6 +53,7 @@ Examples:
 Make more visible:
 
 - flagship revenue and retention repositories
+- enterprise-adjacent repositories with governed publication and operational monitoring
 - projects with architecture, outputs, demos, and governance
 - repositories that show stakeholder-facing delivery
 

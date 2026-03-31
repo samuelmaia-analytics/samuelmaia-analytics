@@ -15,8 +15,8 @@ Alternative:
 1. `revenue-intelligence-platform-suite`
 2. `Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System`
 3. `churn-prediction`
-4. `amazon-sales-analysis`
-5. `data-senior-analytics`
+4. `SAMUEL_MAIA_DDF_TECH_032026`
+5. `amazon-sales-analysis`
 6. `samuelmaia-analytics`
 
 ## Repository Descriptions
@@ -37,6 +37,10 @@ End-to-end analytics and ML system for revenue intelligence, KPI visibility, pre
 
 Churn analytics and prioritization pipeline for telecom retention, executive reporting, and business-facing decision support.
 
+### `SAMUEL_MAIA_DDF_TECH_032026`
+
+Governed analytics publishing and monitoring project with layered modeling, semantic marts, operational runbooks, and executive consumption surfaces.
+
 ### `amazon-sales-analysis`
 
 Commercial analytics project focused on discount leakage, revenue protection, category prioritization, and executive business framing.
@@ -53,14 +57,9 @@ Sales analytics project in Python focused on KPI analysis, reporting logic, and 
 
 Legacy portfolio repository retained for transition and history. Prefer `samuelmaia-analytics` as the canonical entry point.
 
-### `SAMUEL_MAIA_DDF_TECH_032026`
-
-Case-based analytics exercise. Keep secondary and avoid presenting it as a portfolio centerpiece. Do not include it in the active portfolio rewrite scope.
-
 ## Repositories to De-emphasize
 
 - `samuelmaia-data-analyst`
-- `SAMUEL_MAIA_DDF_TECH_032026`
 - `analise-vendas-python` if stronger repositories need the visibility
 
 ## Public Profile Cleanup

@@ -97,6 +97,13 @@ Projeto de churn e priorização de clientes estruturado em torno de desenho de 
 Repositório: https://github.com/samuelmaia-analytics/churn-prediction
 Demo: https://telecom-churn-prediction-samuelmaiapro.streamlit.app/
 
+#### Plataforma Analítica de Publicação, Governança e Monitoramento Olist
+
+Produto analítico estruturado em torno de modelagem em camadas, publicação governada, marts semânticos, monitoramento operacional e consumo por Streamlit, SQL, Power BI e publicação externa.
+
+Repositório: https://github.com/samuelmaia-analytics/SAMUEL_MAIA_DDF_TECH_032026
+Demo: https://samuelmaia-032026.streamlit.app/
+
 #### Amazon Sales Analysis
 
 Repositório de analytics comercial focado em discount leakage, proteção de receita, priorização por categoria e enquadramento executivo.
@@ -108,6 +115,7 @@ Repositório: https://github.com/samuelmaia-analytics/amazon-sales-analysis
 - `revenue-intelligence-platform-suite`: posicionamento flagship para analytics engineering, governança, BI e revenue intelligence
 - `Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System`: prova standalone mais forte de desenho de sistema analítico ponta a ponta
 - `churn-prediction`: analytics de retenção e ML aplicado para priorização de negócio
+- `SAMUEL_MAIA_DDF_TECH_032026`: prova mais forte de publicação analítica governada, handoff operacional e entrega enterprise-adjacent, apesar do nome público mais fraco
 - `amazon-sales-analysis`: analytics comercial e narrativa de impacto de negócio
 - `data-senior-analytics`: repositório de apoio para analytics reproduzível e entrega orientada à qualidade
 - `analise-vendas-python`: repositório secundário, que deve apoiar a narrativa e não liderá-la
@@ -118,6 +126,7 @@ Repositório: https://github.com/samuelmaia-analytics/amazon-sales-analysis
 - `revenue-intelligence-platform-suite`: Plataforma de revenue intelligence que combina pipelines, modelagem de KPIs, governança, observabilidade e suporte executivo à decisão.
 - `Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System`: Sistema ponta a ponta de analytics e ML para revenue intelligence, visibilidade de KPIs, scoring preditivo, entrega por API e reporte executivo.
 - `churn-prediction`: Pipeline de churn analytics e priorização para retenção em telecom, reporte executivo e suporte à decisão voltado ao negócio.
+- `SAMUEL_MAIA_DDF_TECH_032026`: Projeto de publicação e monitoramento analítico governado, com modelagem em camadas, marts semânticos, runbooks operacionais e superfícies executivas de consumo.
 - `amazon-sales-analysis`: Projeto de analytics comercial focado em discount leakage, proteção de receita, priorização por categoria e enquadramento executivo.
 - `data-senior-analytics`: Repositório de analytics reproduzível com pipelines em camadas, controles de qualidade, documentação de governança e entrega via dashboard.
 
