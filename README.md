@@ -1,153 +1,168 @@
-# Samuel Maia
+# Hi, I'm Samuel Maia 👋
 
-**Analytics Engineering, Revenue Analytics, and decision-ready analytical products**
+**Data Analyst | Analytics Engineer | Revenue Intelligence & Data Products**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samuelmaia-analytics)
-[![Revenue Platform](https://img.shields.io/badge/Demo-Revenue%20Platform-1F6FEB?logo=streamlit&logoColor=white)](https://revenue-intelligence-platform.streamlit.app/)
-[![Platform Suite](https://img.shields.io/badge/Demo-Platform%20Suite-0F766E?logo=streamlit&logoColor=white)](https://revenue-intelligence-platform-suite.streamlit.app/)
-[![Churn Prediction](https://img.shields.io/badge/Demo-Churn%20Prediction-B45309?logo=streamlit&logoColor=white)](https://telecom-churn-prediction-samuelmaiapro.streamlit.app/)
+I build analytics solutions that connect data engineering, analytics engineering, machine learning, and business intelligence into reliable decision-support systems.
 
-`Language:` **English** | [Português (Brasil)](./README.pt-BR.md)
+My work is focused on turning raw data into structured, trusted, and decision-ready analytical assets. I enjoy working across the full lifecycle of analytics delivery: data modeling, transformation, quality, automation, documentation, dashboarding, and stakeholder-facing insights.
 
-I build analytics systems that connect data pipelines, metric logic, BI applications, machine learning, and business decision-making.
-This portfolio is curated as a senior, business-facing view of my work: clear problem framing, reproducible delivery, governance discipline, data quality controls, and outputs designed for decision support.
+📍 Fortaleza, Brazil  
+🌍 Open to remote opportunities  
+📧 smaia2@gmail.com  
+🔗 [LinkedIn](https://linkedin.com/in/samuelmaia-analytics)
 
-## Professional Summary
+---
 
-My work sits at the intersection of analytics engineering, data analytics, and business-facing analytical delivery.
-I focus on revenue and retention use cases, executive KPI visibility, analytical applications, and operating models that make analytical products easier to trust, maintain, and operationalize.
+## About me
 
-## Focus Areas
+I work at the intersection of **analytics, engineering, and business decision-making**.
 
-- Analytics engineering for reliable analytical delivery
-- Revenue analytics and customer retention decision systems
-- KPI design, business performance modeling, and executive reporting
-- Data quality, governance, and LGPD-aware analytical practices
-- BI, dashboards, and analytical applications built for business teams
-- CI/CD-oriented delivery and reproducible operating workflows
+My portfolio reflects an end-to-end approach to data work, with projects involving:
 
-## Core Stack
+- analytical data modeling
+- ETL/ELT pipelines
+- dashboard and data app development
+- data quality and validation
+- documentation and governance
+- machine learning for business use cases
+- CI/CD and reproducible analytics workflows
 
+I value solutions that are not only technically sound, but also **clear, maintainable, collaborative, and useful for the business**.
+
+---
+
+## Core strengths
+
+### Analytics & Business
+- Revenue Analytics
+- Revenue Intelligence
+- KPI design and metric frameworks
+- Customer and sales analytics
+- Exploratory and diagnostic analysis
+- Business-oriented storytelling with data
+- Translating stakeholder needs into analytical solutions
+
+### Analytics Engineering & Data Foundations
+- ETL / ELT
+- Analytical data modeling
+- Curated and published data layers
+- Data quality and validation
+- Data contracts
+- Documentation of business rules and transformations
+- Reliable analytical asset publishing
+
+### Tools & Technologies
 - Python
+- PySpark
 - SQL
-- Power BI
-- Streamlit
-- FastAPI
-- dbt
-- Pandera
-- MLflow
+- Pandas
+- NumPy
 - scikit-learn
+- Streamlit
+- Plotly
+- FastAPI
+- DuckDB
+- SQLite
+- PyArrow
+- Power BI
+- Metabase
+- Git
 - GitHub Actions
+- CI/CD
+- Pytest
+- Ruff
+- Black
+- mypy
 
-## What I Build
+---
 
-- End-to-end analytical workflows from ingestion to executive consumption
-- KPI layers that keep business logic consistent across reporting and applications
-- Revenue and retention monitoring systems with prioritization logic
-- Business-facing analytical applications with clear outputs and stakeholder usability
-- Quality, governance, and documentation assets that strengthen analytical credibility
-- Applied ML components used as decision support, not as isolated modeling exercises
+## How I work
 
-## Why This Portfolio Works as a Hub
+I care about both delivery quality and team collaboration.
 
-- One main entry point for portfolio positioning
-- Clear separation between flagship, core, and supporting repositories
-- Emphasis on business impact, architecture, governance, and analytical outputs
-- Reduced portfolio duplication across repositories with overlapping roles
+My working style is based on:
 
-## Business Impact Lens
+- building with clarity and long-term maintainability in mind
+- documenting logic, assumptions, and decisions for continuity
+- collaborating well with technical and business stakeholders
+- improving trust in data before scaling reporting and insights
+- connecting analysis with process, governance, and operational reality
+- creating solutions that are useful beyond a single presentation or dashboard
 
-The portfolio is designed around practical business questions:
+---
 
-- Where is revenue at risk and what should the business act on first?
-- Which customers, channels, or categories deserve prioritization?
-- How should KPI logic remain stable across pipelines, dashboards, and executive reviews?
-- How do governance, data quality, and CI/CD improve trust in analytical outputs?
+## Featured projects
 
-## Portfolio Architecture
+### Revenue Intelligence Platform Suite
+An end-to-end analytics platform designed to support revenue visibility, business performance tracking, analytical consistency, and executive reporting.
 
-This GitHub is intentionally organized by priority, not by project count.
+**Highlights**
+- end-to-end analytical architecture
+- business-oriented metrics and monitoring
+- integration of analytics workflows, data models, and dashboards
+- strong focus on quality, usability, and decision support
 
-### Flagship Repository
+🔗 [Repository](https://github.com/samuelmaia-analytics/revenue-intelligence-platform-suite)  
+🚀 [Live Demo](https://revenue-intelligence-platform-suite.streamlit.app/)
 
-#### Revenue Intelligence Platform Suite
+---
 
-The strongest expression of my current positioning: a portfolio platform organized around revenue performance, retention exposure, executive KPI visibility, governance, observability, and action prioritization.
+### Olist Analytics Engineering Case
+A full analytics engineering project transforming transactional e-commerce data into a governed analytical asset for dashboards, SQL analysis, catalog publication, and BI consumption.
 
-- Integrated analytical modules
-- Executive decision-support layer
-- Shared contracts, governance artifacts, and release structure
+**Highlights**
+- item-level analytical modeling
+- curated and published layer separation
+- pseudonymized identifiers
+- API-based catalog synchronization
+- CI, linting, testing, and automated deployment workflows
 
-Repository: https://github.com/samuelmaia-analytics/revenue-intelligence-platform-suite
-Demo: https://revenue-intelligence-platform-suite.streamlit.app/
+🔗 [Repository](https://github.com/samuelmaia-analytics/SAMUEL_MAIA_DDF_TECH_032026)  
+🚀 [Live Demo](https://samuelmaia-032026.streamlit.app/)
 
-### Core Repositories
+---
 
-#### Revenue Intelligence Platform - End-to-End Analytics & ML System
+### Additional portfolio projects
+- [Revenue Intelligence Platform – End-to-End Analytics & ML System](https://github.com/samuelmaia-analytics/Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System)
+- [Data Senior Analytics](https://github.com/samuelmaia-analytics/data-senior-analytics)
+- [Sales Analytics with Python](https://github.com/samuelmaia-analytics/analise-vendas-python)
+- [Churn Prediction](https://github.com/samuelmaia-analytics/churn-prediction)
+- [Amazon Sales Analysis](https://github.com/samuelmaia-analytics/amazon-sales-analysis)
 
-Production-style analytics and machine learning repository combining layered pipelines, KPI modeling, predictive scoring, API delivery, and executive-facing output.
+---
 
-Repository: https://github.com/samuelmaia-analytics/Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System
-Demo: https://revenue-intelligence-platform.streamlit.app/
+## What I enjoy solving
 
-#### Churn Prediction
+I’m especially interested in problems such as:
 
-Customer churn and prioritization project structured around pipeline design, business-oriented risk analysis, reporting outputs, and decision support.
+- turning operational or transactional data into trusted analytical layers
+- reducing manual reporting effort through automation
+- improving data consistency and business visibility
+- designing analytical structures that support decision-making
+- building dashboards and data products that are both useful and maintainable
+- connecting data quality, governance, and analytics execution
 
-Repository: https://github.com/samuelmaia-analytics/churn-prediction
-Demo: https://telecom-churn-prediction-samuelmaiapro.streamlit.app/
+---
 
-#### Olist Analytical Publishing and Governance Platform
+## Currently deepening
+- analytics engineering practices
+- data quality and observability
+- business-facing machine learning applications
+- data governance fundamentals
+- scalable analytics systems for reporting and decision support
 
-Analytical product built around layered modeling, governed publication, semantic marts, operational monitoring, and multi-surface consumption through Streamlit, SQL, Power BI, and external publishing.
+---
 
-Repository: https://github.com/samuelmaia-analytics/SAMUEL_MAIA_DDF_TECH_032026
-Demo: https://samuelmaia-032026.streamlit.app/
+## Let’s connect
 
-#### Amazon Sales Analysis
+I’m always open to connecting with people working in:
 
-Commercial analytics repository focused on discount leakage, revenue protection, category prioritization, and executive business framing.
+- Data Analytics
+- Analytics Engineering
+- BI & Decision Support
+- Revenue / Sales Analytics
+- Data Products
+- Business Intelligence
 
-Repository: https://github.com/samuelmaia-analytics/amazon-sales-analysis
-
-## Selected Project Roles
-
-- `revenue-intelligence-platform-suite`: flagship positioning for analytics engineering, governance, BI, and revenue intelligence
-- `Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System`: strongest standalone proof of end-to-end analytical system design
-- `churn-prediction`: retention analytics and applied ML for business prioritization
-- `SAMUEL_MAIA_DDF_TECH_032026`: strongest proof of governed analytical publication, operational handoff, and enterprise-adjacent delivery, despite the weaker repository name
-- `amazon-sales-analysis`: commercial analytics and business impact storytelling
-- `data-senior-analytics`: supporting repository for reproducible analytics and quality-minded delivery
-- `analise-vendas-python`: secondary repository that should support, not lead, the portfolio narrative
-
-## Suggested Public Repository Descriptions
-
-- `samuelmaia-analytics`: Senior portfolio for analytics engineering, revenue analytics, BI applications, data quality, governance, and decision-ready analytical systems.
-- `revenue-intelligence-platform-suite`: Revenue intelligence platform combining pipelines, KPI modeling, governance, observability, and executive decision support.
-- `Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System`: End-to-end analytics and ML system for revenue intelligence, KPI visibility, predictive scoring, API delivery, and executive reporting.
-- `churn-prediction`: Churn analytics and prioritization pipeline for telecom retention, executive reporting, and business-facing decision support.
-- `SAMUEL_MAIA_DDF_TECH_032026`: Governed analytics publishing and monitoring project with layered modeling, semantic marts, operational runbooks, and executive consumption surfaces.
-- `amazon-sales-analysis`: Commercial analytics project focused on discount leakage, revenue protection, category prioritization, and executive business framing.
-- `data-senior-analytics`: Reproducible analytics repository with layered pipelines, quality controls, governance documentation, and dashboard delivery.
-
-## Project Index
-
-Portfolio structure and project recommendations:
-
-- [Project Index](./docs/project_index.md)
-- [Portfolio Strategy](./docs/portfolio_strategy.md)
-- [GitHub Positioning](./docs/github_positioning.md)
-- [GitHub Execution Pack](./docs/github_execution_pack.md)
-
-## Links
-
-- GitHub: https://github.com/samuelmaia-analytics
-- LinkedIn: https://www.linkedin.com/in/samuelmaia-analytics
-- Revenue Intelligence Platform Demo: https://revenue-intelligence-platform.streamlit.app/
-- Revenue Intelligence Platform Suite Demo: https://revenue-intelligence-platform-suite.streamlit.app/
-- Churn Prediction Demo: https://telecom-churn-prediction-samuelmaiapro.streamlit.app/
-- Portfolio Demo: https://samuelmaia-032026.streamlit.app/
-
-## Contact
-
-If you are hiring for Analytics Engineer, Senior Data Analyst, Revenue Analytics, BI, or business-facing data product roles, the best starting points are the flagship and core repositories above.
+📧 smaia2@gmail.com  
+🔗 [LinkedIn](https://linkedin.com/in/samuelmaia-analytics)
