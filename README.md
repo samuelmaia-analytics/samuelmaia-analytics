@@ -12,10 +12,13 @@
 ## Executive Summary
 
 I build analytics systems that help business teams trust data, act faster, and make better commercial decisions.
-This portfolio is intentionally curated as a senior-level view of my work across analytics engineering, revenue analytics, data quality, BI applications, and business-facing analytical delivery.
+This portfolio is intentionally curated to reflect a level of analytical maturity aligned with production-minded analytics engineering, revenue analytics, data quality, BI applications, and business-facing analytical delivery.
 
 The emphasis is not on project count.
 It is on decision value, architectural clarity, governed outputs, and credible execution from ingestion to executive consumption.
+
+This repository should be read as a premium portfolio hub and a working platform scaffold.
+It combines flagship portfolio projects with a root-level enterprise-style analytics platform that demonstrates contracts, observability, semantic metrics, GenAI-assisted insight drafts, governance controls, and dbt-like analytics engineering structure.
 
 ## Value Proposition
 
@@ -24,6 +27,24 @@ For recruiters, this portfolio shows a strong combination of analytics engineeri
 For data leaders, it demonstrates how I structure analytical products with clear runtime ownership, reproducible outputs, contracts, observability, and downstream consumption paths.
 
 For potential clients, it shows how data work can be translated into revenue protection, retention prioritization, KPI standardization, and stakeholder-ready applications instead of isolated notebooks or disconnected dashboards.
+
+### Audience Lens
+
+| Audience | What this repository shows |
+|---|---|
+| Recruiters | A portfolio with maturity aligned across analytics engineering, BI, governance, and business-facing delivery |
+| Data leaders | A maintainable operating model with quality gates, contracts, semantic consistency, and delivery surfaces |
+| Potential clients | How analytics work can become a decision product with measurable business relevance |
+
+### Executive Signals
+
+| Area | Signal |
+|---|---|
+| Business value | Revenue, retention, KPI standardization, and executive decision support |
+| Architecture | Layered pipelines, contract-aware outputs, governed artifacts, reusable platform services |
+| Quality | Automated tests, smoke checks, data validation, and policy checks |
+| Delivery | Streamlit, FastAPI, SQLite warehouse, SQL, dbt-like models, CI workflows |
+| Governance | Contracts, runtime config review, change-driver thresholds, observability, repository registry |
 
 ## Featured Projects
 
@@ -140,6 +161,15 @@ Primary technologies used across the portfolio:
 - GitHub Actions
 - pytest, Ruff, Black, isort, mypy
 
+### Delivery Footprint
+
+- Presentation: Streamlit multipage application
+- Service layer: FastAPI with protected endpoints
+- Warehouse: SQLite-backed local analytical surface
+- Transformation: SQL assets and dbt-like model structure
+- Quality: schema tests, SQL tests, contracts, smoke tests, policy checks
+- AI layer: provider-agnostic GenAI architecture with local fallback and OpenAI-compatible path
+
 ## Governance and Data Quality
 
 Governance is a visible part of the portfolio because analytical trust matters as much as modeling accuracy.
@@ -153,6 +183,14 @@ Examples of governance and quality signals present across the main repositories:
 - quality reports and governed processed artifacts
 - compatibility and deprecation discipline where legacy paths exist
 - issue templates, PR templates, CODEOWNERS, and contribution standards
+
+### Analytics Engineering Signals
+
+- `raw`, `staging`, `intermediate`, and `marts` layers under [`dbt/`](./dbt)
+- source definitions, schema tests, SQL data tests, and metric layer
+- business logic and lineage-oriented documentation
+- local dbt-like validation runner over the SQLite warehouse
+- semantic consistency between KPI definitions, marts, contracts, and downstream surfaces
 
 ## CI/CD
 
@@ -188,6 +226,15 @@ Execution evidence visible across the main repositories includes:
 - smoke-tested dashboards and APIs
 - release notes tied to repository evolution
 - repository structures that map documentation claims to code and tests
+
+### Current Platform Capabilities
+
+- executive dashboards and protected API endpoints
+- change-driver monitoring with configurable materiality thresholds
+- runtime configuration review and governance policy checks
+- historical metric, domain, and project trend tracking
+- GenAI-assisted drafts for KPI narrative, glossary, anomaly explanation, and executive summary
+- dbt-like analytics engineering layer with documented model flow
 
 ## Operational Signals
 
@@ -241,6 +288,7 @@ What makes it different:
 - governance and operating signals that are usually missing in portfolios
 - analytical outputs tied to stakeholder decisions
 - a clear bridge between analytics engineering, BI, data quality, and product thinking
+- a visible platform scaffold that makes the operating model inspectable at repository level
 
 ## Portfolio Structure
 
@@ -274,7 +322,7 @@ Recommended supporting documents:
 Current portfolio modernization priorities:
 
 1. Keep strengthening the flagship and core repositories as the primary hiring surface.
-2. Reduce narrative noise and keep only repositories that reinforce the same senior thesis.
+2. Reduce narrative noise and keep only repositories that reinforce the same maturity thesis.
 3. Continue improving release evidence, operational proofs, and downstream validation depth.
 4. Increase enterprise readiness signals where they remain local-first today.
 5. Keep English-first documentation and recruiter-facing positioning consistently polished.
