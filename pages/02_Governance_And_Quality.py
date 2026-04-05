@@ -3,6 +3,7 @@ from __future__ import annotations
 import streamlit as st
 
 from config.settings import get_settings
+from core.catalog import load_business_glossary, load_dataset_catalog
 from core.analytics_engineering import run_analytics_engineering_checks
 from core.governance_policy import build_governance_policy_report
 from core.pipeline import build_portfolio_snapshot
@@ -21,6 +22,8 @@ runtime_config = build_runtime_config_summary(settings)
 policy_report = build_governance_policy_report(settings)
 analytics_report = run_analytics_engineering_checks(settings)
 data_governance = load_data_governance_summary(settings.data_governance_path)
+business_glossary = load_business_glossary(settings)
+dataset_catalog = load_dataset_catalog(settings)
 
 col1, col2, col3 = st.columns(3)
 col1.metric("Total Checks", f"{quality_report['total_checks']}")
@@ -47,6 +50,12 @@ gov2.metric("Contains Personal Data", "YES" if data_governance["contains_persona
 gov3.metric("Minimum Retention", f"{data_governance['minimum_retention_days']} days")
 st.caption(data_governance["lgpd_positioning"].get("assessment", ""))
 st.dataframe(data_governance["inventory"], width="stretch", hide_index=True)
+
+st.subheader("Dataset Catalog")
+st.dataframe(dataset_catalog["datasets"], width="stretch", hide_index=True)
+
+st.subheader("Business Glossary")
+st.dataframe(business_glossary["terms"], width="stretch", hide_index=True)
 
 st.subheader("Runtime Configuration")
 auth = runtime_config["auth"]

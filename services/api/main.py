@@ -5,6 +5,7 @@ from typing import Annotated
 from fastapi import Depends, FastAPI
 
 from config.settings import get_settings
+from core.catalog import load_business_glossary, load_dataset_catalog
 from core.analytics_engineering import run_analytics_engineering_checks
 from core.governance_policy import build_governance_policy_report
 from core.pipeline import build_portfolio_snapshot
@@ -48,6 +49,28 @@ def governance_policy_checks(_api_key: SnapshotScope) -> dict[str, object]:
 @app.get("/governance/analytics-engineering")
 def governance_analytics_engineering(_api_key: SnapshotScope) -> dict[str, object]:
     return run_analytics_engineering_checks(get_settings())
+
+
+@app.get("/quality/status")
+def quality_status(_api_key: SnapshotScope) -> dict[str, object]:
+    snapshot_payload = build_portfolio_snapshot(get_settings())
+    return snapshot_payload["quality_report"]
+
+
+@app.get("/catalog/datasets")
+def catalog_datasets(_api_key: SnapshotScope) -> dict[str, object]:
+    return load_dataset_catalog(get_settings())
+
+
+@app.get("/catalog/glossary")
+def catalog_glossary(_api_key: SnapshotScope) -> dict[str, object]:
+    return load_business_glossary(get_settings())
+
+
+@app.get("/catalog/metrics")
+def catalog_metrics(_api_key: SnapshotScope) -> dict[str, object]:
+    snapshot_payload = build_portfolio_snapshot(get_settings())
+    return snapshot_payload["metric_catalog"]
 
 
 @app.get("/metrics")

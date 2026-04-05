@@ -10,6 +10,7 @@ from pathlib import Path
 class Settings:
     env: str
     log_level: str
+    config_dir: Path
     data_dir: Path
     artifacts_dir: Path
     observability_dir: Path
@@ -69,6 +70,7 @@ def get_settings() -> Settings:
     return Settings(
         env=os.getenv("PORTFOLIO_ENV", "dev"),
         log_level=os.getenv("PORTFOLIO_LOG_LEVEL", "INFO"),
+        config_dir=root / "config",
         data_dir=data_dir,
         artifacts_dir=artifacts_dir,
         observability_dir=observability_dir,

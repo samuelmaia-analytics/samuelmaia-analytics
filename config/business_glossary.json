@@ -1,0 +1,25 @@
+{
+  "terms": [
+    {
+      "term": "Decision Readiness Score",
+      "definition": "Composite signal that estimates how trustworthy and usable the current analytical surface is for executive decision-making.",
+      "business_area": "analytics_governance",
+      "owner": "samuelmaia-analytics",
+      "related_metrics": ["decision_readiness_score", "quality_pass_rate", "platform_trust_score"]
+    },
+    {
+      "term": "Platform Trust Score",
+      "definition": "Portfolio-level trust indicator derived from governance and observability signals across analytical assets.",
+      "business_area": "analytics_platform",
+      "owner": "samuelmaia-analytics",
+      "related_metrics": ["platform_trust_score", "governance_readiness_score", "observability_readiness_score"]
+    },
+    {
+      "term": "Change Driver",
+      "definition": "Material source of recent movement in portfolio metrics, projects, or repositories used to explain what changed and why it matters.",
+      "business_area": "executive_reporting",
+      "owner": "samuelmaia-analytics",
+      "related_metrics": ["decision_readiness_score", "quality_pass_rate"]
+    }
+  ]
+}

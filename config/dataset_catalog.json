@@ -1,0 +1,34 @@
+{
+  "datasets": [
+    {
+      "dataset": "portfolio_projects",
+      "path": "data/raw/portfolio_projects.csv",
+      "layer": "raw",
+      "description": "Root sample dataset containing portfolio project scoring metadata used by the platform scaffold.",
+      "grain": "one row per project",
+      "owner": "samuelmaia-analytics",
+      "refresh_mode": "manual_sample_refresh",
+      "contains_personal_data": false
+    },
+    {
+      "dataset": "portfolio_snapshot",
+      "path": "data/processed/portfolio_snapshot.json",
+      "layer": "published",
+      "description": "Canonical platform artifact combining semantic metrics, quality report, governance checks, trend history, and GenAI outputs.",
+      "grain": "one snapshot per pipeline run",
+      "owner": "samuelmaia-analytics",
+      "refresh_mode": "pipeline_run",
+      "contains_personal_data": false
+    },
+    {
+      "dataset": "portfolio_platform_db",
+      "path": "data/warehouse/portfolio_platform.db",
+      "layer": "warehouse",
+      "description": "SQLite analytical surface used for SQL assets, dbt-like models, and downstream validation.",
+      "grain": "mixed analytical tables",
+      "owner": "samuelmaia-analytics",
+      "refresh_mode": "pipeline_run",
+      "contains_personal_data": false
+    }
+  ]
+}

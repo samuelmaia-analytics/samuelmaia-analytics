@@ -119,6 +119,15 @@ Analytics-engineering validation is also available in:
 - API: `GET /governance/analytics-engineering`
 - Streamlit: `Governance and Quality`
 
+Additional operating references:
+
+- `docs/api.md`
+- `docs/business-case.md`
+- `docs/metric-layer.md`
+- `docs/data-governance.md`
+- `docs/data-quality.md`
+- `docs/roadmap.md`
+
 ## Analytics Engineering Layer
 
 The repository includes a dbt-inspired structure under `dbt/` with:

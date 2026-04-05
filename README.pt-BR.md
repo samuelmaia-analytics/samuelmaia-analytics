@@ -125,8 +125,14 @@ Ela introduz uma separação clara entre `app`, `core`, `services`, `config`, `d
 Comece por aqui:
 
 - [Architecture](./docs/architecture.md)
+- [Business Case](./docs/business-case.md)
+- [API](./docs/api.md)
+- [Metric Layer](./docs/metric-layer.md)
+- [Data Governance](./docs/data-governance.md)
+- [Data Quality](./docs/data-quality.md)
 - [Repository Structure](./docs/repository_structure.md)
 - [Quickstart](./docs/quickstart.md)
+- [Roadmap](./docs/roadmap.md)
 
 ## Arquitetura Técnica
 

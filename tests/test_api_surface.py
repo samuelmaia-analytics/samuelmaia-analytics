@@ -16,6 +16,10 @@ def test_api_metrics_and_repositories_surfaces() -> None:
     runtime_config_response = client.get("/governance/runtime-config", headers=headers)
     policy_checks_response = client.get("/governance/policy-checks", headers=headers)
     analytics_checks_response = client.get("/governance/analytics-engineering", headers=headers)
+    quality_response = client.get("/quality/status", headers=headers)
+    dataset_catalog_response = client.get("/catalog/datasets", headers=headers)
+    glossary_response = client.get("/catalog/glossary", headers=headers)
+    metric_catalog_response = client.get("/catalog/metrics", headers=headers)
     history_response = client.get("/metrics/history", headers=headers)
     domain_history_response = client.get("/metrics/domain-history", headers=headers)
     project_history_response = client.get("/metrics/project-history", headers=headers)
@@ -27,6 +31,10 @@ def test_api_metrics_and_repositories_surfaces() -> None:
     assert runtime_config_response.status_code == 200
     assert policy_checks_response.status_code == 200
     assert analytics_checks_response.status_code == 200
+    assert quality_response.status_code == 200
+    assert dataset_catalog_response.status_code == 200
+    assert glossary_response.status_code == 200
+    assert metric_catalog_response.status_code == 200
     assert history_response.status_code == 200
     assert domain_history_response.status_code == 200
     assert project_history_response.status_code == 200
@@ -38,6 +46,10 @@ def test_api_metrics_and_repositories_surfaces() -> None:
     assert "data_governance" in runtime_config_response.json()
     assert "checks" in policy_checks_response.json()
     assert "models_built" in analytics_checks_response.json()
+    assert "results" in quality_response.json()
+    assert "datasets" in dataset_catalog_response.json()
+    assert "terms" in glossary_response.json()
+    assert "headline_metrics" in metric_catalog_response.json()
     assert "series" in history_response.json()
     assert "series" in domain_history_response.json()
     assert "changes" in project_history_response.json()
