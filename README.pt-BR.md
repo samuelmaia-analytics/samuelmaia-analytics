@@ -114,7 +114,7 @@ Ele demonstra uma base analítica em estilo corporativo com contratos governados
 ### Ativos Complementares do Portfólio
 
 - `churn-prediction`: analytics de retenção orientado ao negócio, com pipeline em camadas, dashboard, superfície de API e monitoramento de drift
-- `SAMUEL_MAIA_DDF_TECH_032026`: publicação analítica governada, marts semânticos, monitoramento operacional, consumo analítico multi-superfície
+- `Governed-Analytics-Platform`: publicação analítica governada, marts semânticos, monitoramento operacional, consumo analítico multi-superfície
 - `amazon-sales-analysis`: analytics comercial, diagnóstico de vazamento de desconto, priorização por categoria, enquadramento executivo
 
 ## Enterprise Platform Scaffold
@@ -373,7 +373,7 @@ Este GitHub é intencionalmente organizado por prioridade, não por quantidade d
 - `Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System`
 - `samuelmaia-analytics`
 - `churn-prediction`
-- `SAMUEL_MAIA_DDF_TECH_032026`
+- `Governed-Analytics-Platform`
 - `amazon-sales-analysis`
 
 ### Profundidade de Apoio

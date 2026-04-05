@@ -15,7 +15,7 @@
 3. `churn-prediction`
    Retention analytics and prioritization repository showing layered pipelines, business outputs, and analytical delivery.
 
-4. `SAMUEL_MAIA_DDF_TECH_032026`
+4. `Governed-Analytics-Platform`
    Strongest enterprise-adjacent proof of governed publication, semantic modeling, operational monitoring, and external analytical consumption, but penalized by a weak repository name.
 
 5. `amazon-sales-analysis`
@@ -34,7 +34,7 @@
 7. `samuelmaia-data-analyst`
    Legacy repository name that conflicts with the new positioning. Keep only if required for redirects or history; otherwise archive or de-emphasize.
 
-8. `SAMUEL_MAIA_DDF_TECH_032026`
+8. `Governed-Analytics-Platform`
    Opaque naming still weakens perception, but the repository itself is stronger than the name suggests. Include it in the curated portfolio narrative while avoiding any repository-internal changes.
 
 ## Recommended Pinned Repositories
@@ -42,7 +42,7 @@
 1. `revenue-intelligence-platform-suite`
 2. `Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System`
 3. `churn-prediction`
-4. `SAMUEL_MAIA_DDF_TECH_032026`
+4. `Governed-Analytics-Platform`
 5. `amazon-sales-analysis`
 6. `samuelmaia-analytics`
 
@@ -60,7 +60,7 @@
 - `churn-prediction`
   Churn analytics and prioritization pipeline for telecom retention, executive reporting, and business-facing decision support.
 
-- `SAMUEL_MAIA_DDF_TECH_032026`
+- `Governed-Analytics-Platform`
   Governed analytics publishing and monitoring project with layered modeling, semantic marts, operational runbooks, and executive consumption surfaces.
 
 - `amazon-sales-analysis`
@@ -75,7 +75,7 @@
 - `samuelmaia-data-analyst`
   Legacy portfolio repository retained for transition and history. Prefer `samuelmaia-analytics` as the canonical entry point.
 
-- `SAMUEL_MAIA_DDF_TECH_032026`
+- `Governed-Analytics-Platform`
   Governed analytics publishing and monitoring project with enterprise-adjacent operating signals. Keep the repository unchanged internally and improve positioning through the portfolio hub and GitHub descriptions only.
 
 ## Repository Tiering Logic

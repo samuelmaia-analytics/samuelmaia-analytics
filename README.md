@@ -114,7 +114,7 @@ It demonstrates an enterprise-style analytics scaffold with governed contracts, 
 ### Supporting Portfolio Assets
 
 - `churn-prediction`: business-facing retention analytics with layered pipeline, dashboard, API path, and drift monitoring
-- `SAMUEL_MAIA_DDF_TECH_032026`: governed analytical publication, semantic marts, operational monitoring, multi-surface analytical consumption
+- `Governed-Analytics-Platform`: governed analytical publication, semantic marts, operational monitoring, multi-surface analytical consumption
 - `amazon-sales-analysis`: commercial analytics, discount leakage diagnostics, category prioritization, executive framing
 
 ## Enterprise Platform Scaffold
@@ -373,7 +373,7 @@ This GitHub is intentionally organized by priority, not by project count.
 - `Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System`
 - `samuelmaia-analytics`
 - `churn-prediction`
-- `SAMUEL_MAIA_DDF_TECH_032026`
+- `Governed-Analytics-Platform`
 - `amazon-sales-analysis`
 
 ### Supporting Depth

@@ -25,7 +25,7 @@ Alternative version:
 1. `revenue-intelligence-platform-suite`
 2. `Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System`
 3. `churn-prediction`
-4. `SAMUEL_MAIA_DDF_TECH_032026`
+4. `Governed-Analytics-Platform`
 5. `amazon-sales-analysis`
 6. `samuelmaia-analytics`
 

@@ -11,7 +11,7 @@ Current issues:
 - Repository descriptions are inconsistent in quality and language.
 - The current public narrative looks closer to a collection of projects than to a coherent analytical portfolio.
 - Legacy repositories such as `samuelmaia-data-analyst` and generic names such as `data-senior-analytics` dilute the stronger positioning.
-- `SAMUEL_MAIA_DDF_TECH_032026` is one of the strongest enterprise-adjacent assets in the portfolio, but its public name weakens immediate perception.
+- `Governed-Analytics-Platform` is one of the strongest enterprise-adjacent assets in the portfolio and now benefits from a name that improves immediate perception.
 - Under the current portfolio scope, that repository should be incorporated into the portfolio narrative without changing anything inside the repository itself.
 - Some repositories appear stronger in README structure than in their GitHub short descriptions, which means the first impression is weaker than the actual substance.
 
@@ -41,7 +41,7 @@ Use four repositories to reinforce the flagship from complementary angles:
 
 - `Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System`
 - `churn-prediction`
-- `SAMUEL_MAIA_DDF_TECH_032026`
+- `Governed-Analytics-Platform`
 - `amazon-sales-analysis`
 
 ### Layer 3: Supporting Depth
@@ -57,7 +57,7 @@ Avoid giving prominence to repositories that weaken consistency:
 
 - `samuelmaia-data-analyst`
 
-`SAMUEL_MAIA_DDF_TECH_032026` should not be treated as noise in substance. The repository is strong; the main issue is naming and framing.
+`Governed-Analytics-Platform` should not be treated as supporting noise. The repository is strong and now aligns better with the portfolio's public framing.
 
 ## What Senior Hiring Signals Look For
 
