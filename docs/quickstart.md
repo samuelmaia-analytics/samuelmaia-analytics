@@ -34,7 +34,7 @@ Protected endpoints require:
 ## Run the Streamlit App
 
 ```powershell
-streamlit run app/streamlit_app.py
+streamlit run streamlit_app.py
 ```
 
 ## Run Tests

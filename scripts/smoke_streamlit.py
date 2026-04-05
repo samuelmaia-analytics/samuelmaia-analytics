@@ -12,7 +12,7 @@ def main() -> None:
         [
             str(root / ".venv" / "Scripts" / "streamlit.exe"),
             "run",
-            "app/streamlit_app.py",
+            "streamlit_app.py",
             "--server.headless",
             "true",
             "--server.port",
