@@ -1,8 +1,14 @@
 from __future__ import annotations
 
 import json
+import sys
+from pathlib import Path
 
 import streamlit as st
+
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 from app.ui.components import render_kpi_grid, render_section_header
 from app.ui.theme import inject_theme
@@ -12,12 +18,12 @@ from core.pipeline import build_portfolio_snapshot
 
 def main() -> None:
     settings = get_settings()
-    inject_theme()
     st.set_page_config(
         page_title="Samuel Maia Analytics Platform",
         page_icon="SM",
         layout="wide",
     )
+    inject_theme()
 
     st.title("Analytics Portfolio Platform")
     st.caption("Enterprise-style decision support surface for analytics engineering and data products.")
