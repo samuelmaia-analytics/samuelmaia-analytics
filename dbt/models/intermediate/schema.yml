@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: int_project_scores
+    description: Reusable business logic for project-level scoring and health segmentation.
+    columns:
+      - name: project_id
+        tests:
+          - not_null
+          - unique
+      - name: project_health_band
+        tests:
+          - not_null
+  - name: int_domain_scores
+    description: Domain-level aggregated scores derived from standardized project facts.
+  - name: int_repository_health
+    description: Repository-level readiness logic for maintainability and portfolio integration.

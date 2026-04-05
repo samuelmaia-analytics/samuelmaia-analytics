@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["definitions", "dimensions", "headline_metrics", "domain_rollup"],
+  "properties": {
+    "definitions": { "type": "array" },
+    "dimensions": { "type": "array" },
+    "headline_metrics": { "type": "object" },
+    "domain_rollup": { "type": "object" }
+  }
+}
+

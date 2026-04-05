@@ -1,0 +1,15 @@
+{
+  "required_columns": [
+    "project_name",
+    "domain",
+    "governance_score",
+    "quality_score",
+    "execution_score",
+    "observability_score"
+  ],
+  "score_bounds": {
+    "min": 0,
+    "max": 100
+  }
+}
+

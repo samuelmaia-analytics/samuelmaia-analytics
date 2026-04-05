@@ -1,0 +1,44 @@
+{
+  "metrics": [
+    {
+      "name": "decision_readiness_score",
+      "description": "Weighted score for decision-ready portfolio delivery.",
+      "formula": "0.35 * governance_score + 0.35 * quality_pass_rate + 0.30 * execution_score",
+      "owner": "analytics_platform",
+      "category": "executive"
+    },
+    {
+      "name": "quality_pass_rate",
+      "description": "Share of data quality checks that passed.",
+      "formula": "passed_checks / total_checks * 100",
+      "owner": "data_quality",
+      "category": "quality"
+    },
+    {
+      "name": "platform_trust_score",
+      "description": "Composite trust indicator for analytics delivery.",
+      "formula": "0.5 * governance_score + 0.5 * observability_score",
+      "owner": "governance",
+      "category": "trust"
+    },
+    {
+      "name": "governance_readiness_score",
+      "description": "Average governance score for featured analytical assets.",
+      "formula": "avg(governance_score)",
+      "owner": "governance",
+      "category": "governance"
+    },
+    {
+      "name": "observability_readiness_score",
+      "description": "Average observability score for featured analytical assets.",
+      "formula": "avg(observability_score)",
+      "owner": "platform_reliability",
+      "category": "observability"
+    }
+  ],
+  "dimensions": [
+    "domain",
+    "category",
+    "owner"
+  ]
+}

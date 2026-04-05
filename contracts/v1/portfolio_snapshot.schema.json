@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "projects",
+    "repository_registry",
+    "quality_report",
+    "semantic_metrics",
+    "metric_catalog",
+    "operational_context",
+    "genai_outputs",
+    "genai_insight",
+    "change_drivers",
+    "observability_event"
+  ],
+  "properties": {
+    "projects": { "type": "array" },
+    "repository_registry": { "type": "array" },
+    "quality_report": { "type": "object" },
+    "semantic_metrics": { "type": "object" },
+    "metric_catalog": { "type": "object" },
+    "operational_context": { "type": "object" },
+    "genai_outputs": { "type": "object" },
+    "genai_insight": { "type": "object" },
+    "change_drivers": { "type": "object" },
+    "observability_event": { "type": "object" }
+  }
+}

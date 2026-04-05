@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: stg_portfolio_projects
+    description: Standardized portfolio project model with normalized project identifiers.
+    columns:
+      - name: project_id
+        tests:
+          - not_null
+          - unique
+      - name: domain
+        tests:
+          - not_null
+  - name: stg_repository_registry
+    description: Standardized repository registry model for readiness monitoring.
+    columns:
+      - name: repository_id
+        tests:
+          - not_null
+          - unique
+      - name: role
+        tests:
+          - not_null
+  - name: stg_metric_history
+    description: Portfolio-level historical metric series prepared for trend modeling.

@@ -1,0 +1,22 @@
+name: "portfolio_platform"
+version: "1.0.0"
+config-version: 2
+
+profile: "portfolio_platform"
+
+model-paths: ["models"]
+test-paths: ["tests"]
+docs-paths: ["docs"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+models:
+  portfolio_platform:
+    raw:
+      +materialized: view
+    staging:
+      +materialized: view
+    intermediate:
+      +materialized: view
+    marts:
+      +materialized: view

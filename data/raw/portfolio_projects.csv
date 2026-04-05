@@ -1,0 +1,6 @@
+project_name,domain,governance_score,quality_score,execution_score,observability_score
+Revenue Intelligence Platform Suite,revenue_analytics,90,92,88,84
+Revenue Intelligence Platform,analytics_engineering,94,95,91,87
+Churn Prediction,retention_analytics,85,89,86,79
+Amazon Sales Analysis,commercial_analytics,80,84,78,72
+

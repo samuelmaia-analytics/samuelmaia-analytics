@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "samuelmaia-analytics-portfolio-platform"
+version = "0.1.0"
+description = "Enterprise-style analytics portfolio platform scaffold with app, services, quality, metrics, observability, and GenAI insight surfaces."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Samuel Maia" }]
+dependencies = [
+  "fastapi>=0.115,<1.0",
+  "jsonschema>=4.0,<5.0",
+  "PyJWT>=2.8,<3.0",
+  "pydantic>=2.7,<3.0",
+  "streamlit>=1.33,<2.0",
+  "uvicorn>=0.30,<1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0,<9.0",
+  "ruff>=0.5,<1.0",
+  "httpx>=0.28,<1.0",
+]
+
+[tool.setuptools]
+packages = [
+  "app",
+  "app.ui",
+  "app.pages",
+  "config",
+  "core",
+  "core.ai",
+  "services",
+  "services.api",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

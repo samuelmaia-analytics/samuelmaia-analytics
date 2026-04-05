@@ -1,4 +1,22 @@
 .idea/
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.streamlit/
+*.pyc
+*.egg-info/
+
+# Generated runtime state
+data/observability/events.jsonl
+data/processed/history/
+data/processed/portfolio_snapshot.json
+data/processed/repository_registry_snapshot.json
+data/processed/semantic_metrics_snapshot.json
+data/warehouse/*.db
+
+# Local reference repositories
+tmp-*/
 
 # Private repository evaluation notes
 repo-review.private.md

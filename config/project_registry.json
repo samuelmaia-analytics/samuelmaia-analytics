@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "id": "revenue-intelligence-platform-suite",
+      "title": "Revenue Intelligence Platform Suite",
+      "role": "flagship",
+      "local_path": "tmp-revenue-intelligence-platform-suite",
+      "entrypoint": "README.md"
+    },
+    {
+      "id": "revenue-intelligence-platform-ml",
+      "title": "Revenue Intelligence Platform",
+      "role": "core",
+      "local_path": "tmp-revenue-intelligence-platform-ml",
+      "entrypoint": "README.md"
+    },
+    {
+      "id": "churn-prediction",
+      "title": "Churn Prediction",
+      "role": "core",
+      "local_path": "tmp-churn-prediction",
+      "entrypoint": "README.md"
+    }
+  ]
+}

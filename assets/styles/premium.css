@@ -1,0 +1,25 @@
+:root {
+  --sm-bg: #f4efe7;
+  --sm-panel: #fffaf4;
+  --sm-ink: #1f2933;
+  --sm-accent: #0f766e;
+  --sm-accent-soft: #d6f2ee;
+}
+
+.stApp {
+  background: linear-gradient(180deg, var(--sm-bg) 0%, #fcfbf9 100%);
+  color: var(--sm-ink);
+}
+
+[data-testid="stMetric"] {
+  background: var(--sm-panel);
+  border: 1px solid #e7ddd0;
+  border-radius: 16px;
+  padding: 12px;
+  box-shadow: 0 8px 24px rgba(32, 48, 64, 0.06);
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.02em;
+}
+

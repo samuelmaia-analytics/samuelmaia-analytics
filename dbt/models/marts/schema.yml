@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: mart_portfolio_scores
+    description: Domain-level portfolio mart for executive and BI consumption.
+    columns:
+      - name: domain
+        tests:
+          - not_null
+          - unique
+      - name: project_composite_score_avg
+        tests:
+          - not_null
+  - name: mart_repository_readiness
+    description: Portfolio integration readiness mart for repository-level governance.
+    columns:
+      - name: repository_id
+        tests:
+          - not_null
+          - unique
+      - name: readiness_status
+        tests:
+          - not_null
+  - name: mart_portfolio_overview
+    description: One-row executive overview mart for the latest analytical posture.
+    columns:
+      - name: timestamp_utc
+        tests:
+          - not_null

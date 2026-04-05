@@ -1,6 +1,6 @@
 # Samuel Maia
 
-**Analytics Engineering, Revenue Analytics e produtos analíticos voltados à decisão**
+**Portfólio premium de Analytics Engineering, revenue analytics, aplicações de BI e data products orientados à decisão**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samuelmaia-analytics)
 [![Revenue Platform](https://img.shields.io/badge/Demo-Revenue%20Platform-1F6FEB?logo=streamlit&logoColor=white)](https://revenue-intelligence-platform.streamlit.app/)
@@ -9,135 +9,291 @@
 
 `Idioma:` [English](./README.md) | **Português (Brasil)**
 
-Construo sistemas analíticos que conectam pipelines de dados, lógica de métricas, aplicações de BI, machine learning e tomada de decisão de negócio.
-Este portfólio foi organizado como uma visão mais sênior e orientada ao negócio do meu trabalho: enquadramento claro do problema, entrega reproduzível, disciplina de governança, controles de qualidade de dados e outputs voltados a suporte à decisão.
+## Resumo Executivo
 
-## Resumo Profissional
+Eu construo sistemas analíticos que ajudam áreas de negócio a confiar nos dados, agir com mais velocidade e tomar decisões comerciais melhores.
+Este portfólio foi intencionalmente curado como uma visão sênior do meu trabalho em analytics engineering, revenue analytics, data quality, aplicações de BI e entrega analítica orientada ao negócio.
 
-Meu trabalho está na interseção entre analytics engineering, data analytics e entrega analítica voltada ao negócio.
-Tenho foco em casos de uso de receita e retenção, visibilidade executiva de KPIs, aplicações analíticas e modelos operacionais que tornam produtos analíticos mais confiáveis, sustentáveis e operacionalizáveis.
+O foco não está em quantidade de projetos.
+Está em valor para decisão, clareza arquitetural, outputs governados e execução crível do dado bruto ao consumo executivo.
 
-## Áreas de Foco
+## Proposta de Valor
 
-- Analytics engineering para entrega analítica confiável
-- Revenue analytics e sistemas de decisão voltados à retenção
-- KPI design, modelagem de performance de negócio e reporting executivo
-- Data quality, governança e práticas analíticas aderentes à LGPD
-- BI, dashboards e aplicações analíticas para áreas de negócio
-- Entrega orientada a CI/CD e workflows reproduzíveis
+Para recrutadores, este portfólio mostra uma combinação forte entre disciplina de analytics engineering e framing de negócio.
 
-## Stack Principal
+Para líderes de dados, ele demonstra como estruturo produtos analíticos com ownership claro de runtime, outputs reproduzíveis, contratos, observabilidade e caminhos downstream de consumo.
+
+Para potenciais clientes, ele mostra como trabalho de dados pode ser traduzido em proteção de receita, priorização de retenção, padronização de KPIs e aplicações voltadas para stakeholders, em vez de notebooks isolados ou dashboards desconectados.
+
+## Projetos em Destaque
+
+### Revenue Intelligence Platform Suite
+
+Principal prova de portfólio para platform thinking, suporte executivo à decisão, governança, observabilidade e integração de módulos analíticos.
+
+- Foco: performance de receita, exposição de retenção, visibilidade de KPIs, priorização de ações
+- Sinais: estrutura monorepo, contratos compartilhados, aplicação executiva, disciplina de release
+- Repositório: https://github.com/samuelmaia-analytics/revenue-intelligence-platform-suite
+- Demo: https://revenue-intelligence-platform-suite.streamlit.app/
+
+### Revenue Intelligence Platform - End-to-End Analytics & ML System
+
+É a prova técnica standalone mais forte do portfólio.
+Mostra um sistema batch orientado a produção com outputs governados, artefatos de warehouse, entrega via API, consumo por dbt, UI com smoke tests e documentação operacional.
+
+- Foco: analytics engineering end-to-end, decision support com ML, modelagem de KPIs
+- Sinais: um runtime oficial, contratos, runbook, Docker, SQL, dbt, matriz de CI
+- Repositório: https://github.com/samuelmaia-analytics/Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System
+- Demo: https://revenue-intelligence-platform.streamlit.app/
+
+### Churn Prediction
+
+Projeto de churn analytics orientado ao negócio, estruturado em torno de execução de pipeline, lógica de priorização, artefatos de reporting, monitoramento e usabilidade para stakeholders.
+
+- Foco: retenção de clientes, priorização, análise de cenários, acionabilidade de negócio
+- Sinais: pipeline em camadas, dashboard baseado em artefatos, surface de API, drift monitoring
+- Repositório: https://github.com/samuelmaia-analytics/churn-prediction
+- Demo: https://telecom-churn-prediction-samuelmaiapro.streamlit.app/
+
+### Repositórios de Apoio Selecionados
+
+- `SAMUEL_MAIA_DDF_TECH_032026`: publicação analítica governada, semantic marts, monitoramento operacional, consumo analítico multi-superfície
+- `amazon-sales-analysis`: analytics comercial, diagnóstico de leakage de desconto, priorização por categoria, framing executivo
+- `data-senior-analytics`: entrega analítica reproduzível com controles de qualidade, documentação de governança e outputs para dashboard
+
+## Enterprise Platform Scaffold
+
+Este repositório agora também inclui um scaffold root-level maintainable voltado a desenvolvimento de produtos analíticos em padrão enterprise.
+Ele introduz uma separação clara entre `app`, `core`, `services`, `config`, `data`, `docs`, `assets` e `tests`, além de uma base funcional para FastAPI, Streamlit, data quality, semantic metrics, GenAI insights, observability e CI/CD.
+
+Comece por aqui:
+
+- [Architecture](./docs/architecture.md)
+- [Repository Structure](./docs/repository_structure.md)
+- [Quickstart](./docs/quickstart.md)
+
+## Arquitetura Técnica
+
+O portfólio é organizado em torno de sistemas analíticos, não de análises isoladas.
+Nos principais repositórios, o modelo operacional recorrente é:
+
+```text
+dados de origem -> ingestão -> validação -> transformação -> camada semântica/de KPIs
+-> modelagem ou scoring -> artefatos governados -> consumo via dashboard/API/SQL
+```
+
+```mermaid
+flowchart LR
+    A[Dados de Origem] --> B[Ingestão]
+    B --> C[Validação e Quality Gates]
+    C --> D[Camadas de Transformação]
+    D --> E[Camada Semântica e de KPIs]
+    E --> F[Modelagem ou Scoring]
+    F --> G[Artefatos Governados]
+    G --> H[Dashboards]
+    G --> I[APIs]
+    G --> J[Consumo via SQL e BI]
+```
+
+Padrões arquiteturais centrais demonstrados no portfólio:
+
+- fluxos em camadas como `raw -> bronze -> silver -> gold`
+- lógica de negócio separada das camadas de apresentação
+- dashboards que consomem artefatos gerados em vez de virarem uma segunda fonte de verdade
+- outputs com contratos para reporting, exports processados e consumidores downstream
+- reprodutibilidade local-first com caminho claro para conectores enterprise e warehouse
+- produtos analíticos desenhados em torno de perguntas de negócio, não só de implementação técnica
+
+### Arquitetura do Portfólio
+
+```mermaid
+flowchart TB
+    HUB[Portfolio Hub]
+    HUB --> FLAGSHIP[Revenue Intelligence Platform Suite]
+    HUB --> CORE1[Revenue Intelligence Platform]
+    HUB --> CORE2[Churn Prediction]
+    HUB --> CORE3[Governed Publishing Platform]
+    HUB --> CORE4[Amazon Sales Analysis]
+    FLAGSHIP --> GOV[Governança e Contratos]
+    FLAGSHIP --> OBS[Observabilidade]
+    FLAGSHIP --> EXEC[Aplicações Executivas]
+    CORE1 --> AE[Analytics Engineering]
+    CORE1 --> MLOPS[Batch ML e Serving]
+    CORE2 --> RET[Priorização de Retenção]
+    CORE4 --> COMM[Analytics Comercial]
+```
+
+## Stack
+
+Tecnologias principais utilizadas ao longo do portfólio:
 
 - Python
 - SQL
-- Power BI
 - Streamlit
 - FastAPI
 - dbt
 - Pandera
-- MLflow
 - scikit-learn
+- MLflow
+- Power BI
+- Docker
 - GitHub Actions
+- pytest, Ruff, Black, isort, mypy
 
-## O Que Eu Construo
+## Governança e Qualidade de Dados
 
-- Workflows analíticos ponta a ponta, da ingestão ao consumo executivo
-- Camadas de KPI que mantêm a lógica de negócio consistente entre pipelines e aplicações
-- Sistemas de monitoramento de receita e retenção com lógica de priorização
-- Aplicações analíticas voltadas ao negócio, com outputs claros e usabilidade para stakeholders
-- Ativos de qualidade, governança e documentação que fortalecem a credibilidade analítica
-- Componentes de ML aplicado como suporte à decisão, e não como exercício isolado de modelagem
+Governança é uma parte visível do portfólio porque confiança analítica importa tanto quanto acurácia de modelo.
 
-## Por Que Este Portfólio Funciona Como Hub
+Exemplos de sinais de governança e qualidade presentes nos principais repositórios:
 
-- Um ponto principal de entrada para o posicionamento do portfólio
-- Separação clara entre repositório flagship, centrais e de apoio
-- Ênfase em impacto de negócio, arquitetura, governança e outputs analíticos
-- Redução de duplicidade de papel entre repositórios com funções semelhantes
+- data contracts e validação de schema
+- estruturas explícitas de repositório e boundaries de ownership
+- architecture decision records
+- runbooks, guias de troubleshooting e release notes
+- quality reports e artefatos processados governados
+- disciplina de compatibilidade e depreciação quando existem caminhos legados
+- issue templates, PR templates, CODEOWNERS e padrões de contribuição
 
-## Lente de Impacto de Negócio
+## CI/CD
 
-O portfólio foi desenhado em torno de perguntas práticas de negócio:
+Os repositórios mais fortes vão além de testes unitários básicos.
+Eles usam CI/CD como evidência de que o trabalho é reproduzível, reviewable e operacionalmente coerente.
 
-- Onde a receita está em risco e qual deve ser a primeira ação do negócio?
-- Quais clientes, canais ou categorias merecem priorização?
-- Como manter a lógica de KPIs estável entre pipelines, dashboards e revisões executivas?
-- Como governança, qualidade de dados e CI/CD aumentam a confiança nos outputs analíticos?
+Sinais já demonstrados no portfólio:
 
-## Arquitetura do Portfólio
+- lint, formatação, type checking e testes automatizados
+- smoke tests para aplicações Streamlit e superfícies de API
+- validação de build para pacotes e containers
+- validação downstream de SQL e dbt
+- checagens de governança de repositório e ativos operacionais
+- workflows de release notes e publicação
 
-Este GitHub foi organizado intencionalmente por prioridade, não por quantidade de projetos.
+```mermaid
+flowchart LR
+    A[Código e Documentação] --> B[Quality Gates]
+    B --> C[Contratos e Validação]
+    C --> D[Workflows de CI]
+    D --> E[Disciplina de Build e Release]
+    E --> F[Demo, Aplicação ou Consumo Downstream]
+```
 
-### Repositório Flagship
+## Prova de Execução
 
-#### Revenue Intelligence Platform Suite
+Este portfólio foi desenhado para mostrar capacidade implementada, não apenas direção pretendida.
 
-É a expressão mais forte do meu posicionamento atual: uma plataforma de portfólio organizada em torno de performance de receita, exposição à retenção, visibilidade executiva de KPIs, governança, observabilidade e priorização de ações.
+Evidências de execução visíveis nos principais repositórios incluem:
 
-- Módulos analíticos integrados
-- Camada executiva de suporte à decisão
-- Contratos compartilhados, artefatos de governança e estrutura de releases
+- demos públicas em produção
+- artefatos gerados e exports governados
+- dashboards e APIs com smoke tests
+- release notes ligadas à evolução dos repositórios
+- estruturas de repositório que conectam claims documentais a código e testes
 
-Repositório: https://github.com/samuelmaia-analytics/revenue-intelligence-platform-suite
-Demo: https://revenue-intelligence-platform-suite.streamlit.app/
+## Sinais Operacionais
 
-### Repositórios Centrais
+Trabalho analítico de nível sênior deve ser inspecionável não apenas na camada de modelagem, mas também na camada operacional.
 
-#### Revenue Intelligence Platform - End-to-End Analytics & ML System
+Sinais operacionais demonstrados ao longo do portfólio incluem:
 
-Repositório analítico e de machine learning em estilo production, combinando pipelines em camadas, modelagem de KPIs, scoring preditivo, entrega por API e output executivo.
+- caminhos canônicos de runtime
+- ambientes documentados e fluxos claros de setup
+- runbooks, guias de troubleshooting e documentação no estilo incident
+- quality gates explícitos e comandos de validação
+- disciplina de release e de mudança
+- reprodutibilidade local-first com caminhos de evolução voltados a contexto enterprise
 
-Repositório: https://github.com/samuelmaia-analytics/Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System
-Demo: https://revenue-intelligence-platform.streamlit.app/
+## Como Eu Gero Valor de Negócio
 
-#### Churn Prediction
+Meu trabalho é desenhado para responder perguntas práticas como:
 
-Projeto de churn e priorização de clientes estruturado em torno de desenho de pipeline, análise de risco orientada ao negócio, outputs de reporting e suporte à decisão.
+- Onde a receita está em risco e em que o negócio deve agir primeiro?
+- Quais clientes, canais, categorias ou segmentos merecem priorização?
+- Como a lógica de KPIs deve permanecer estável entre pipelines, dashboards e revisões executivas?
+- Como governança, controles de qualidade e CI/CD aumentam a confiança nos outputs analíticos?
 
-Repositório: https://github.com/samuelmaia-analytics/churn-prediction
-Demo: https://telecom-churn-prediction-samuelmaiapro.streamlit.app/
+Valor tipicamente entregue por esses sistemas:
 
-#### Plataforma Analítica de Publicação, Governança e Monitoramento Olist
+- proteção de receita por meio de lógica de priorização
+- visibilidade de retenção por segmentação de risco de clientes
+- ciclos de decisão mais rápidos com dashboards baseados em artefatos e camadas de KPI
+- maior credibilidade analítica com outputs governados e workflows reproduzíveis
+- handoff mais limpo para stakeholders com documentação, contratos e ativos operacionais
 
-Produto analítico estruturado em torno de modelagem em camadas, publicação governada, marts semânticos, monitoramento operacional e consumo por Streamlit, SQL, Power BI e publicação externa.
+```mermaid
+flowchart LR
+    A[Pergunta de Negócio] --> B[Pipeline de Dados]
+    B --> C[Lógica de KPI e Decisão]
+    C --> D[Output Governado]
+    D --> E[Dashboard ou API]
+    E --> F[Ação do Stakeholder]
+    F --> G[Proteção de Receita ou Ganho de Eficiência]
+```
 
-Repositório: https://github.com/samuelmaia-analytics/SAMUEL_MAIA_DDF_TECH_032026
-Demo: https://samuelmaia-032026.streamlit.app/
+## Por Que Este Portfólio É Diferente
 
-#### Amazon Sales Analysis
+A maior parte dos portfólios públicos de dados otimiza por variedade de modelos ou quantidade de dashboards.
+Este foi construído para mostrar como trabalho analítico se comporta quando tratado como product surface real.
 
-Repositório de analytics comercial focado em discount leakage, proteção de receita, priorização por categoria e enquadramento executivo.
+O que o diferencia:
 
-Repositório: https://github.com/samuelmaia-analytics/amazon-sales-analysis
+- ênfase maior em framing de negócio do que em truques técnicos isolados
+- consistência arquitetural entre projetos
+- sinais de governança e operação que normalmente não aparecem em portfólios
+- outputs analíticos ligados a decisões de stakeholders
+- ponte clara entre analytics engineering, BI, data quality e product thinking
 
-## Papel dos Projetos
+## Estrutura do Portfólio
 
-- `revenue-intelligence-platform-suite`: posicionamento flagship para analytics engineering, governança, BI e revenue intelligence
-- `Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System`: prova standalone mais forte de desenho de sistema analítico ponta a ponta
-- `churn-prediction`: analytics de retenção e ML aplicado para priorização de negócio
-- `SAMUEL_MAIA_DDF_TECH_032026`: prova mais forte de publicação analítica governada, handoff operacional e entrega enterprise-adjacent, apesar do nome público mais fraco
-- `amazon-sales-analysis`: analytics comercial e narrativa de impacto de negócio
-- `data-senior-analytics`: repositório de apoio para analytics reproduzível e entrega orientada à qualidade
-- `analise-vendas-python`: repositório secundário, que deve apoiar a narrativa e não liderá-la
+Este GitHub é intencionalmente organizado por prioridade, não por quantidade de projetos.
 
-## Sugestões de Descrição Pública dos Repositórios
+### Flagship
 
-- `samuelmaia-analytics`: Portfólio sênior de analytics engineering, revenue analytics, aplicações de BI, qualidade de dados, governança e sistemas analíticos voltados à decisão.
-- `revenue-intelligence-platform-suite`: Plataforma de revenue intelligence que combina pipelines, modelagem de KPIs, governança, observabilidade e suporte executivo à decisão.
-- `Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System`: Sistema ponta a ponta de analytics e ML para revenue intelligence, visibilidade de KPIs, scoring preditivo, entrega por API e reporte executivo.
-- `churn-prediction`: Pipeline de churn analytics e priorização para retenção em telecom, reporte executivo e suporte à decisão voltado ao negócio.
-- `SAMUEL_MAIA_DDF_TECH_032026`: Projeto de publicação e monitoramento analítico governado, com modelagem em camadas, marts semânticos, runbooks operacionais e superfícies executivas de consumo.
-- `amazon-sales-analysis`: Projeto de analytics comercial focado em discount leakage, proteção de receita, priorização por categoria e enquadramento executivo.
-- `data-senior-analytics`: Repositório de analytics reproduzível com pipelines em camadas, controles de qualidade, documentação de governança e entrega via dashboard.
+- `revenue-intelligence-platform-suite`
 
-## Índice do Portfólio
+### Provas Centrais
 
-Estrutura do portfólio e recomendações:
+- `Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System`
+- `churn-prediction`
+- `SAMUEL_MAIA_DDF_TECH_032026`
+- `amazon-sales-analysis`
+
+### Profundidade de Apoio
+
+- `data-senior-analytics`
+- `analise-vendas-python`
+
+Documentos complementares recomendados:
 
 - [Project Index](./docs/project_index.md)
 - [Portfolio Strategy](./docs/portfolio_strategy.md)
 - [GitHub Positioning](./docs/github_positioning.md)
 - [GitHub Execution Pack](./docs/github_execution_pack.md)
+
+## Roadmap
+
+Prioridades atuais de modernização do portfólio:
+
+1. Continuar fortalecendo os repositórios flagship e core como principal hiring surface.
+2. Reduzir ruído narrativo e manter visíveis apenas os repositórios que reforçam a mesma tese sênior.
+3. Continuar aprofundando evidências de release, provas operacionais e validação downstream.
+4. Aumentar sinais de readiness corporativo onde hoje a abordagem ainda é local-first.
+5. Manter a documentação em inglês como padrão principal, com posicionamento para recrutadores sempre polido.
+
+## Para Recrutadores
+
+Se você está contratando para Analytics Engineer, Senior Data Analyst, Revenue Analytics, BI ou papéis ligados a data products orientados ao negócio, comece por aqui:
+
+1. `revenue-intelligence-platform-suite` para platform thinking e entrega executiva
+2. `Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System` para a prova standalone mais forte de engenharia
+3. `churn-prediction` para retenção, priorização e acionabilidade de negócio
+
+O que você deve conseguir encontrar rapidamente:
+
+- contexto de negócio claro
+- arquitetura em camadas
+- outputs governados
+- aplicações analíticas testadas
+- documentação que explica tanto a implementação quanto o modelo operacional
 
 ## Links
 
@@ -150,4 +306,4 @@ Estrutura do portfólio e recomendações:
 
 ## Contato
 
-Se você está contratando para Analytics Engineer, Senior Data Analyst, Revenue Analytics, BI ou funções de produto de dados voltadas ao negócio, os melhores pontos de entrada são os repositórios flagship e centrais acima.
+Se você está avaliando candidatos ou parceiros para analytics engineering, analytics orientado ao negócio, revenue analytics ou entrega de data products, este repositório é o melhor ponto de entrada para o portfólio.

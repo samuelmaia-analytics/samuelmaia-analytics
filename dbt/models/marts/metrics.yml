@@ -1,0 +1,20 @@
+version: 2
+
+metrics:
+  - name: decision_readiness_score
+    label: Decision Readiness Score
+    model: ref('mart_portfolio_overview')
+    description: Latest portfolio-level decision readiness indicator.
+    calculation_method: average
+    expression: decision_readiness_score
+    timestamp: timestamp_utc
+    time_grains: [day]
+    dimensions: [project_count, ready_repository_count]
+  - name: ready_repository_count
+    label: Ready Repository Count
+    model: ref('mart_portfolio_overview')
+    description: Number of repositories marked as ready in the latest portfolio overview.
+    calculation_method: average
+    expression: ready_repository_count
+    timestamp: timestamp_utc
+    time_grains: [day]
