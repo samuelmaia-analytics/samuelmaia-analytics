@@ -4,15 +4,15 @@
 
 # Samuel Maia | Data Analysis & Analytics Engineering
 
-I build business-facing analytics products that turn raw data into reliable decision assets across Data Analysis, Analytics Engineering, BI, and executive dashboards.
+Data professional with 10+ years of experience delivering business-facing analytics products across Data Analysis, Analytics Engineering, BI, and executive dashboards.
 
-Based in Fortaleza, Brazil. Open to remote work, CLT opportunities, PJ contracts, full-time roles, long-term engagements, consulting projects, freelance work, and strategic advisory conversations.
+Based in Fortaleza, Brazil. Open to remote work, CLT opportunities, PJ contracts, full-time roles, long-term engagements, consulting projects, freelance work, and strategic advisory.
 
 ## About
 
-I am a data professional with 10+ years of experience across data analysis, automation, systems integration, and business-oriented analytical solutions.
+I translate raw data into reliable decision assets through end-to-end analytical delivery.
 
-My work is end-to-end: data ingestion, ETL/ELT, analytical modeling, KPI design, dashboard development, testing, governance, and documentation with delivery discipline.
+My scope includes ingestion, ETL/ELT, analytical modeling, KPI design, dashboard delivery, data quality, testing, governance, and technical documentation.
 
 [⬆ Back to top](#top)
 

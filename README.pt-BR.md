@@ -4,15 +4,15 @@
 
 # Samuel Maia | Análise de Dados e Analytics Engineering
 
-Construo produtos analíticos orientados ao negócio que transformam dados brutos em ativos confiáveis para decisão, com foco em Análise de Dados, Analytics Engineering, BI e dashboards executivos.
+Profissional de dados com 10+ anos de experiência na entrega de produtos analíticos orientados ao negócio em Análise de Dados, Analytics Engineering, BI e dashboards executivos.
 
 Baseado em Fortaleza, Brasil. Aberto a trabalho remoto, oportunidades CLT, contratos PJ, posições full-time, contratos de longo prazo, consultoria, freelance e advisory estratégico.
 
 ## Sobre
 
-Sou profissional de dados com 10+ anos de experiência em análise de dados, automação, integração de sistemas e soluções analíticas orientadas ao negócio.
+Transformo dados brutos em ativos confiáveis para decisão, com entrega analítica de ponta a ponta.
 
-Atuo de ponta a ponta: ingestão, ETL/ELT, modelagem analítica, desenho de KPIs, dashboards, testes, governança e documentação com disciplina de entrega.
+Meu escopo inclui ingestão, ETL/ELT, modelagem analítica, desenho de KPIs, dashboards, qualidade de dados, testes, governança e documentação técnica.
 
 [⬆ Voltar ao topo](#top)
 
