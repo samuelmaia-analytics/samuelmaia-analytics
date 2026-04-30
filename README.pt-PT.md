@@ -164,3 +164,13 @@ LinkedIn: https://www.linkedin.com/in/samuelmaia-analytics
 Se estiver a recrutar para Análise de Dados, Analytics Engineering, BI ou produtos de dados orientados ao negócio, estou disponível para conversar.
 
 [⬆ Voltar ao topo](#top)
+
+## License
+
+This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
+
+To view a copy of this license, visit:
+https://creativecommons.org/licenses/by-nc/4.0/
+
+[![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
+
