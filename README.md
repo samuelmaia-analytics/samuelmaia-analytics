@@ -94,21 +94,27 @@ Live demo: https://data-analytics-sr.streamlit.app/
 - Strong entry point for showing practical Python + Pandas + analytics delivery.
 
 Repository: https://github.com/samuelmaia-analytics/analise-vendas-python  
-Live demo: https://sales-analytics-dashboardd.streamlit.app/
+Live demo: https://sales-analytics-dashboardd.streamlit.app/  
+Alternative demo: https://analys-vendas-python-v2.streamlit.app/
 
 [⬆ Back to top](#top)
 
-## Additional projects and case work
+## Complete project index with Streamlit samples
 
-| Project | Focus | Status |
-|---|---|---|
-| Revenue Intelligence Platform Suite | revenue analytics, performance, retention, executive decision support | private / available on request |
-| Revenue Intelligence Platform - End-to-End Analytics & ML System | raw-to-insight pipeline, ML-oriented analytics, governed outputs | private / available on request |
-| Churn Prediction | retention analytics, customer risk scoring, prioritization | private / available on request |
-| Consolidacao BHDigital | data consolidation and analytical organization | private / available on request |
-| Olist / Dadosfera Case | e-commerce analytics, data lake-style layers, SQL, documentation, dashboards, governance | case project |
+| Project | Focus | Repository | Streamlit sample / live demo | Status |
+|---|---|---|---|---|
+| Governed Analytics Platform | governed analytics, data quality, documentation, LGPD-aware delivery | https://github.com/samuelmaia-analytics/Governed-Analytics-Platform | https://governed-analytics-platform.streamlit.app/ | public |
+| Central de Automação e Operações | operational analytics, SLA/backlog visibility, alerting and automation | https://github.com/samuelmaia-analytics/central-automacao-operacoes | https://central-automacao-operacoes.streamlit.app/ | public |
+| Amazon Sales Analysis | commercial analytics, sales diagnostics, product/category performance | https://github.com/samuelmaia-analytics/amazon-sales-analysis | https://amazon-sales-analysis-samuemaiapro.streamlit.app/ | public |
+| Data Senior Analytics | senior-style analytics app, curated KPIs, executive readability | https://github.com/samuelmaia-analytics/data-senior-analytics | https://data-analytics-sr.streamlit.app/ | public |
+| Analise Vendas Python | sales analytics, Python/Pandas, KPI reporting | https://github.com/samuelmaia-analytics/analise-vendas-python | https://sales-analytics-dashboardd.streamlit.app/ / https://analys-vendas-python-v2.streamlit.app/ | private repository / demo available |
+| Revenue Intelligence Platform Suite | revenue analytics, performance, retention, executive decision support | https://github.com/samuelmaia-analytics/revenue-intelligence-platform-suite | https://revenue-intelligence-platform-suite.streamlit.app/ | private repository / demo available |
+| Revenue Intelligence Platform - End-to-End Analytics & ML System | raw-to-insight pipeline, ML-oriented analytics, governed outputs | https://github.com/samuelmaia-analytics/Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System | https://revenue-intelligence-platform.streamlit.app/ | private repository / demo available |
+| Churn Prediction | retention analytics, customer risk scoring, prioritization | https://github.com/samuelmaia-analytics/churn-prediction | https://telecom-churn-prediction-samuelmaiapro.streamlit.app/ | private repository / demo available |
+| Olist / Dadosfera Case | e-commerce analytics, data lake-style layers, SQL, documentation, dashboards, governance | Case project | https://samuelmaia-032026.streamlit.app/ | case project |
+| Consolidação BHDigital | data consolidation and analytical organization | https://github.com/samuelmaia-analytics/consolidacao-bhdigital | Demo not publicly confirmed yet | private / under curation |
 
-> Some repositories may be private while they are being reviewed, polished, or prepared for public portfolio visibility. Public links above are prioritized for recruiters and hiring managers.
+> Some repositories may be private while they are being reviewed, polished, or prepared for public portfolio visibility. Public demos are listed whenever there is a known Streamlit sample.
 
 [⬆ Back to top](#top)
 
