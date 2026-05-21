@@ -10,7 +10,7 @@ My work is centered on turning raw data into reliable management assets: analyti
 
 I have hands-on experience with SQL, Power BI, Excel, Python/Pandas, ETL/ELT, Streamlit, DuckDB, dbt, GitHub Actions, testing, documentation, and data governance. I also bring business experience in commercial operations, team leadership, training, negotiation, and performance monitoring.
 
-I am looking for opportunities as a Data Analyst, BI Analyst, or Analytics Engineer at a strong junior to mid-level range, with openness to remote, hybrid, CLT, PJ, full-time, consulting, and freelance work.
+I am looking for opportunities as a Data Analyst, BI Analyst, or Analytics Engineer in environments that value a consistent technical foundation, business vision, data quality, documentation, and continuous learning.
 
 [⬆ Back to top](#top)
 
