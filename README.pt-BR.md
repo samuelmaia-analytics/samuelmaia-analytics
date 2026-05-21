@@ -10,7 +10,7 @@ Meu foco é transformar dados brutos em ativos confiáveis para gestão: pipelin
 
 Tenho experiência prática com SQL, Power BI, Excel, Python/Pandas, ETL/ELT, Streamlit, DuckDB, dbt, GitHub Actions, testes, documentação e governança de dados, além de vivência de negócio em operações comerciais, liderança de equipe, treinamento, negociação e acompanhamento de performance.
 
-Busco oportunidades como Analista de Dados, BI Analyst ou Analytics Engineer em nível júnior forte a pleno, com abertura para atuação remota, híbrida, CLT, PJ, full-time, consultoria e projetos freelance.
+Busco oportunidades como Analista de Dados, BI Analyst ou Analytics Engineer em ambientes que valorizem base técnica consistente, visão de negócio, qualidade de dados, documentação e evolução contínua.
 
 [⬆ Voltar ao topo](#top)
 
