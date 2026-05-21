@@ -4,6 +4,17 @@
 
 # Samuel Maia | Data Analyst | BI | Analytics Engineering
 
+<p align="left">
+  <a href="https://github.com/samuelmaia-analytics"><img src="https://img.shields.io/badge/GitHub-samuelmaia--analytics-181717?style=for-the-badge&logo=github" alt="GitHub" /></a>
+  <a href="https://www.linkedin.com/in/samuelmaia-analytics/"><img src="https://img.shields.io/badge/LinkedIn-Samuel%20Maia-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" /></a>
+  <img src="https://img.shields.io/badge/Python-Data%20Analysis-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/SQL-Analytics-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
+  <img src="https://img.shields.io/badge/Power%20BI-Dashboards-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
+  <img src="https://img.shields.io/badge/Streamlit-Apps-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
+  <img src="https://img.shields.io/badge/dbt-Analytics%20Engineering-FF694B?style=for-the-badge&logo=dbt&logoColor=white" alt="dbt" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+</p>
+
 I am a data professional based in Fortaleza, Brazil, focused on building analytical solutions that connect data, business, quality, and decision-making.
 
 My work is centered on turning raw data into reliable management assets: analytical pipelines, curated datasets, dashboards, standardized KPIs, quality validations, technical documentation, and business-oriented analytical products.
