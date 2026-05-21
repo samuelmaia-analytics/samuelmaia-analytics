@@ -2,119 +2,145 @@
 
 [English](./README.md) | [Português (Brasil)](./README.pt-BR.md) | **Português (Portugal)**
 
-# Samuel Maia | Analista de Dados & Analytics Engineer
+# Samuel Maia | Analista de Dados Sénior & Analytics Engineer
 
-Profissional de dados baseado em Fortaleza, Brasil, com foco em Análise de Dados, BI, Analytics Engineering, automação, qualidade de dados e produtos analíticos orientados ao negócio.
+Sou profissional de dados, resido em Fortaleza/CE, Brasil, e trabalho na construção de soluções analíticas que ligam dados, negócio, governação e tomada de decisão.
 
-Combino experiência prática com SQL, Power BI, Excel, Python/Pandas, ETL/ELT, dashboards, documentação e governação de dados com vivência sólida de negócio em operações comerciais, liderança de equipa, formação, negociação e acompanhamento de desempenho.
+O meu foco é transformar dados brutos em ativos fiáveis para gestão: pipelines analíticos, bases curadas, dashboards executivos, indicadores padronizados, validações de qualidade, documentação técnica e produtos analíticos orientados a resultados.
 
-Disponível para oportunidades remotas, híbridas, CLT, PJ, full-time, consultoria e projetos freelance.
+Tenho experiência prática com SQL, Power BI, Excel, Python/Pandas, ETL/ELT, Streamlit, DuckDB, dbt, GitHub Actions, testes, documentação e governação de dados, além de vivência de negócio em operações comerciais, liderança de equipa, formação, negociação e acompanhamento de desempenho.
 
-[⬆ Voltar ao topo](#top)
-
-## Posicionamento profissional
-
-Construo ativos analíticos fiáveis para apoiar decisões de negócio. O meu trabalho normalmente liga dados brutos, regras de negócio, validações de qualidade, modelação analítica, dashboards e documentação clara.
-
-O meu posicionamento mais forte está na intersecção entre:
-
-- Análise de Dados e BI para tomada de decisão
-- Analytics Engineering e pipelines analíticos reproduzíveis
-- Dashboards executivos e padronização de KPI
-- Qualidade de dados, documentação, governação e consciência LGPD
-- Analytics para receita, vendas, operações, retenção e clientes
+Disponível para oportunidades remotas, híbridas, CLT, PJ, full-time, consultoria e projetos freelance em Análise de Dados, BI, Analytics Engineering, Governação de Dados e produtos analíticos orientados à decisão.
 
 [⬆ Voltar ao topo](#top)
 
-## Competências principais
+## Proposta de valor
 
-| Área | Ferramentas e práticas |
+Ajudo empresas a sair de relatórios dispersos e bases pouco fiáveis para uma estrutura analítica mais organizada, documentada e pronta para apoiar decisões.
+
+O meu trabalho normalmente envolve:
+
+- compreender o problema de negócio antes de construir a solução;
+- organizar dados em camadas analíticas mais fiáveis;
+- criar indicadores claros, consistentes e rastreáveis;
+- automatizar tratamentos, validações e rotinas recorrentes;
+- construir dashboards e aplicações analíticas para consumo executivo;
+- documentar regras, métricas, limitações e decisões técnicas;
+- aplicar boas práticas de qualidade, governação e LGPD quando necessário.
+
+[⬆ Voltar ao topo](#top)
+
+## Áreas de atuação
+
+| Frente | Como atuo |
 |---|---|
-| Análise de Dados | análise exploratória, KPI, relatórios de gestão, storytelling com dados, diagnóstico de negócio |
-| BI e Dashboards | Power BI, Streamlit, dashboards executivos, acompanhamento de desempenho, publicação analítica |
-| SQL e Bases de Dados | joins, filtros, agregações, consultas de validação, DuckDB, SQLite, modelação analítica |
-| Python | Pandas, NumPy, limpeza de dados, transformação, automação, validação e processamento batch |
-| ETL / ELT | ingestão, padronização, staging, camadas curadas e bases analíticas publicadas |
-| Qualidade e Governação | data quality, contratos de dados, documentação, rastreabilidade e consciência LGPD |
-| Práticas de Engenharia | Git, GitHub Actions, Pytest, Ruff, CI/CD e estrutura reproduzível de projetos |
-| Negócio e Liderança | análise comercial, formação, negociação, abordagem de clientes, orientação de equipa e acompanhamento de desempenho |
+| Análise de Dados e BI | análise exploratória, KPI, relatórios de gestão, storytelling com dados e apoio à decisão |
+| Analytics Engineering | pipelines analíticos, modelação, camadas raw/staging/curated/published e bases prontas para consumo |
+| Dashboards Executivos | Power BI, Streamlit, indicadores de desempenho, leitura de gestão e visualização orientada ao negócio |
+| Qualidade de Dados | validações, testes, consistência de métricas, rastreabilidade, documentação e monitorização |
+| Governação e LGPD | organização de ativos, dicionário de dados, regras de negócio, exposição controlada e documentação |
+| Automação Analítica | Python, Pandas, SQL, DuckDB, rotinas batch, GitHub Actions e redução de esforço manual |
+| Negócio e Operações | leitura comercial, desempenho, retenção, vendas, SLA/backlog, priorização e comunicação com stakeholders |
+
+[⬆ Voltar ao topo](#top)
+
+## Stack principal
+
+**Linguagens e análise:** Python, SQL, Pandas, NumPy, Excel Avançado  
+**BI e visualização:** Power BI, Streamlit, Plotly, Altair  
+**Dados e modelação:** DuckDB, SQLite, dbt, ETL/ELT, modelação analítica  
+**Qualidade e engenharia:** Pytest, Ruff, Git, GitHub Actions, CI/CD, documentação técnica  
+**Governação:** data quality, contratos de dados, dicionário de dados, rastreabilidade, consciência LGPD  
+**Negócio:** KPI, receita, vendas, operações, retenção, desempenho comercial e apoio à decisão
 
 [⬆ Voltar ao topo](#top)
 
 ## Portfólio em destaque
 
 ### 1) Governed Analytics Platform
-**Foco:** analytics governado, qualidade de dados, documentação, consciência LGPD e consumo executivo.
+**Foco:** governação analítica, qualidade de dados, documentação, LGPD e consumo executivo.
 
-- Simula uma plataforma analítica inspirada em produção, com verificações de qualidade, conceitos de governação, ativos documentados e dashboards executivos.
-- Forte sinal para vagas de Analytics Engineering, BI com governação, qualidade de dados e produtos analíticos prontos para decisão.
+Projeto com abordagem inspirada em ambiente de produção, demonstrando organização de ativos analíticos, verificações de qualidade, documentação, governação e camada de consumo executivo.
+
+**Porque este projeto é relevante:** evidencia maturidade para ir além do dashboard, tratando dados como produto fiável, com regras, validações, rastreabilidade e documentação.
 
 Repositório: https://github.com/samuelmaia-analytics/Governed-Analytics-Platform  
 Demo Streamlit: https://governed-analytics-platform.streamlit.app/
 
 ---
 
-### 2) Central de Automação e Operações
-**Foco:** analytics operacional, visibilidade de SLA/backlog, lógica de alertas, automação e suporte à decisão.
+### 2) Revenue Intelligence Platform Suite
+**Foco:** analytics de receita, desempenho, retenção e apoio à decisão executiva.
 
-- Construído como uma central de controlo operacional com regras de negócio, indicadores de risco e leitura executiva.
-- Demonstra como analytics pode apoiar priorização operacional, monitorização e melhoria de processos.
+Solução voltada para a leitura de receita e desempenho, com visão executiva para acompanhar indicadores, priorizar riscos e apoiar decisões comerciais.
+
+**Porque este projeto é relevante:** mostra capacidade de traduzir dados em inteligência de negócio para receita, retenção e desempenho.
+
+Repositório: https://github.com/samuelmaia-analytics/revenue-intelligence-platform-suite  
+Demo Streamlit: https://revenue-intelligence-platform-suite.streamlit.app/  
+Estado: repositório privado / demo disponível
+
+---
+
+### 3) Revenue Intelligence Platform - End-to-End Analytics & ML System
+**Foco:** pipeline ponta a ponta, analytics com Machine Learning e outputs governados.
+
+Projeto estruturado para demonstrar um fluxo completo de dados: tratamento, modelação, validação, análises, ML e superfícies de consumo.
+
+**Porque este projeto é relevante:** reforça visão de sistema analítico completo, não apenas análise isolada.
+
+Repositório: https://github.com/samuelmaia-analytics/Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System  
+Demo Streamlit: https://revenue-intelligence-platform.streamlit.app/  
+Estado: repositório privado / demo disponível
+
+---
+
+### 4) Central de Automação e Operações
+**Foco:** analytics operacional, SLA/backlog, alertas, automação e apoio à decisão.
+
+Central de controlo operacional com regras de negócio, indicadores de risco, priorização e leitura executiva.
+
+**Porque este projeto é relevante:** demonstra aplicação prática de analytics para eficiência operacional, monitorização e priorização.
 
 Repositório: https://github.com/samuelmaia-analytics/central-automacao-operacoes  
 Demo Streamlit: https://central-automacao-operacoes.streamlit.app/
 
 ---
 
-### 3) Amazon Sales Analysis
-**Foco:** analytics de vendas, diagnóstico comercial, desempenho por produto/categoria e dashboarding.
+### 5) Olist / Dadosfera Case
+**Foco:** analytics e-commerce, camadas estilo data lake, SQL, documentação, dashboards e governação.
 
-- Analisa desempenho comercial e transforma dados de vendas em indicadores práticos para tomada de decisão.
-- Projeto adequado para contextos de Analista de Dados, BI, Revenue Analytics e Sales Operations.
+Case técnico com organização de dados em camadas, análise comercial/logística, documentação, consultas SQL e publicação de dashboard.
 
-Repositório: https://github.com/samuelmaia-analytics/amazon-sales-analysis  
-Demo Streamlit: https://amazon-sales-analysis-samuemaiapro.streamlit.app/
+**Porque este projeto é relevante:** demonstra capacidade de resolver um desafio técnico de ponta a ponta, com preocupação em estrutura, clareza analítica e governação.
 
----
-
-### 4) Data Senior Analytics
-**Foco:** dashboard analítico em padrão sénior, dados curados, KPI e leitura executiva.
-
-- Organiza informação analítica numa interface orientada ao negócio para acelerar decisões.
-- Reforça experiência com Python, Streamlit, desenho de KPI e apresentação analítica estruturada.
-
-Repositório: https://github.com/samuelmaia-analytics/data-senior-analytics  
-Demo Streamlit: https://data-analytics-sr.streamlit.app/
-
----
-
-### 5) Analise Vendas Python
-**Foco:** análise de vendas com Python, tratamento de dados, KPI e reporting.
-
-- Demonstra fluxo analítico essencial: limpeza, transformação, indicadores de negócio e lógica de dashboard/relatório.
-- Forte ponto de entrada para mostrar prática com Python + Pandas + entrega analítica.
-
-Repositório: https://github.com/samuelmaia-analytics/analise-vendas-python  
-Demo Streamlit: https://sales-analytics-dashboardd.streamlit.app/  
-Demo alternativa: https://analys-vendas-python-v2.streamlit.app/
+Demo Streamlit: https://samuelmaia-032026.streamlit.app/  
+Estado: case técnico
 
 [⬆ Voltar ao topo](#top)
 
-## Índice completo de projetos com amostras Streamlit
+## Projetos complementares
 
 | Projeto | Foco | Repositório | Amostra Streamlit / demo | Estado |
 |---|---|---|---|---|
-| Governed Analytics Platform | analytics governado, qualidade de dados, documentação e LGPD | https://github.com/samuelmaia-analytics/Governed-Analytics-Platform | https://governed-analytics-platform.streamlit.app/ | público |
-| Central de Automação e Operações | analytics operacional, SLA/backlog, alertas e automação | https://github.com/samuelmaia-analytics/central-automacao-operacoes | https://central-automacao-operacoes.streamlit.app/ | público |
 | Amazon Sales Analysis | analytics comercial, vendas, produtos e categorias | https://github.com/samuelmaia-analytics/amazon-sales-analysis | https://amazon-sales-analysis-samuemaiapro.streamlit.app/ | público |
 | Data Senior Analytics | app analítico sénior, KPI curados e leitura executiva | https://github.com/samuelmaia-analytics/data-senior-analytics | https://data-analytics-sr.streamlit.app/ | público |
 | Analise Vendas Python | analytics de vendas, Python/Pandas e KPI | https://github.com/samuelmaia-analytics/analise-vendas-python | https://sales-analytics-dashboardd.streamlit.app/ / https://analys-vendas-python-v2.streamlit.app/ | repositório privado / demo disponível |
-| Revenue Intelligence Platform Suite | analytics de receita, desempenho, retenção e suporte à decisão executiva | https://github.com/samuelmaia-analytics/revenue-intelligence-platform-suite | https://revenue-intelligence-platform-suite.streamlit.app/ | repositório privado / demo disponível |
-| Revenue Intelligence Platform - End-to-End Analytics & ML System | pipeline raw-to-insight, analytics com ML e outputs governados | https://github.com/samuelmaia-analytics/Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System | https://revenue-intelligence-platform.streamlit.app/ | repositório privado / demo disponível |
 | Churn Prediction | retenção, scoring de risco de clientes e priorização de ação | https://github.com/samuelmaia-analytics/churn-prediction | https://telecom-churn-prediction-samuelmaiapro.streamlit.app/ | repositório privado / demo disponível |
-| Olist / Dadosfera Case | analytics e-commerce, camadas estilo data lake, SQL, documentação, dashboards e governação | case técnico | https://samuelmaia-032026.streamlit.app/ | case técnico |
 | Consolidação BHDigital | consolidação de dados e organização analítica | https://github.com/samuelmaia-analytics/consolidacao-bhdigital | Demo ainda não confirmada publicamente | privado / em curadoria |
 
-> Alguns repositórios podem estar privados enquanto passam por revisão, melhoria ou preparação para exposição pública no portfólio. As demos públicas foram listadas sempre que há uma amostra Streamlit conhecida.
+> Alguns repositórios podem estar privados enquanto passam por revisão, melhoria ou preparação para exposição pública. As demos públicas foram listadas sempre que há uma amostra Streamlit conhecida.
+
+[⬆ Voltar ao topo](#top)
+
+## Diferenciais de senioridade demonstrados no portfólio
+
+- **Visão de negócio:** projetos orientados a receita, vendas, retenção, operação, desempenho e tomada de decisão.
+- **Entrega ponta a ponta:** ingestão, tratamento, modelação, validação, documentação, dashboard e publicação.
+- **Governação aplicada:** preocupação com dicionário de dados, regras, rastreabilidade, qualidade e LGPD.
+- **Maturidade técnica:** uso de Python, SQL, DuckDB, dbt, Streamlit, Power BI, testes e CI/CD.
+- **Comunicação executiva:** foco em dashboards e narrativas que ligam dados a decisões reais.
+- **Experiência de negócio:** vivência comercial, liderança, formação, negociação e acompanhamento de desempenho.
 
 [⬆ Voltar ao topo](#top)
 
@@ -151,10 +177,11 @@ Demo alternativa: https://analys-vendas-python-v2.streamlit.app/
 
 ## Foco atual
 
-- Fortalecer Analytics Engineering e plataformas de dados inspiradas em produção
-- Construir projetos de portfólio com governação, documentação, testes e valor de negócio mais claros
-- Evoluir prontidão em cloud e práticas modernas de dados
-- Posicionamento para vagas de Analista de Dados, BI, Analytics Engineer e funções de dados orientadas ao negócio
+- Analytics Engineering e plataformas analíticas inspiradas em produção
+- Governação, qualidade e documentação aplicada a produtos de dados
+- BI executivo e dashboards orientados à decisão
+- Automação analítica com Python, SQL e boas práticas de engenharia
+- Evolução contínua em cloud, dados e arquitetura analítica
 
 [⬆ Voltar ao topo](#top)
 
@@ -163,7 +190,7 @@ Demo alternativa: https://analys-vendas-python-v2.streamlit.app/
 GitHub: https://github.com/samuelmaia-analytics  
 LinkedIn: https://www.linkedin.com/in/samuelmaia-analytics/
 
-Se está a recrutar para Análise de Dados, BI, Analytics Engineering ou produtos de dados orientados à decisão, estou disponível para conversar.
+Se está a recrutar para Análise de Dados, BI, Analytics Engineering, Governação de Dados ou produtos analíticos orientados à decisão, estou disponível para conversar.
 
 [⬆ Voltar ao topo](#top)
 
