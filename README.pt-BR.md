@@ -4,11 +4,11 @@
 
 # Samuel Maia | Analista de Dados & Analytics Engineer
 
-Profissional de dados baseado em Fortaleza, Brasil, com foco em Análise de Dados, BI, Analytics Engineering, automação, qualidade de dados e produtos analíticos orientados ao negócio.
+Sou profissional de dados, resido em Fortaleza/CE e atuo com Análise de Dados, BI, Analytics Engineering, automação, qualidade de dados e produtos analíticos orientados ao negócio.
 
-Uno experiência prática com SQL, Power BI, Excel, Python/Pandas, ETL/ELT, dashboards, documentação e governança de dados com uma vivência sólida de negócio em operações comerciais, liderança de equipe, treinamento, negociação e acompanhamento de performance.
+Tenho experiência prática com SQL, Power BI, Excel, Python/Pandas, ETL/ELT, dashboards, documentação e governança de dados, além de vivência sólida de negócio em operações comerciais, liderança de equipe, treinamento, negociação e acompanhamento de performance.
 
-Aberto a oportunidades remotas, híbridas, CLT, PJ, full-time, consultoria e projetos freelance.
+Estou aberto a oportunidades remotas, híbridas, CLT, PJ, full-time, consultoria e projetos freelance.
 
 [⬆ Voltar ao topo](#top)
 
@@ -46,7 +46,7 @@ Meu posicionamento mais forte está na interseção entre:
 ### 1) Governed Analytics Platform
 **Foco:** analytics governado, qualidade de dados, documentação, consciência LGPD e consumo executivo.
 
-- Simula uma plataforma analítica inspirada em produção, com checks de qualidade, conceitos de governança, ativos documentados e dashboards executivos.
+- Simula uma plataforma analítica inspirada em produção, com verificações de qualidade, conceitos de governança, ativos documentados e dashboards executivos.
 - Forte sinal para vagas de Analytics Engineering, BI com governança, qualidade de dados e produtos analíticos prontos para decisão.
 
 Repositório: https://github.com/samuelmaia-analytics/Governed-Analytics-Platform  
