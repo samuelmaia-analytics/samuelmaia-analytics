@@ -50,7 +50,7 @@ Meu posicionamento mais forte está na interseção entre:
 - Forte sinal para vagas de Analytics Engineering, BI com governança, qualidade de dados e produtos analíticos prontos para decisão.
 
 Repositório: https://github.com/samuelmaia-analytics/Governed-Analytics-Platform  
-Demo: https://governed-analytics-platform.streamlit.app/
+Demo Streamlit: https://governed-analytics-platform.streamlit.app/
 
 ---
 
@@ -61,7 +61,7 @@ Demo: https://governed-analytics-platform.streamlit.app/
 - Demonstra como analytics pode apoiar priorização operacional, monitoramento e melhoria de processos.
 
 Repositório: https://github.com/samuelmaia-analytics/central-automacao-operacoes  
-Demo: https://central-automacao-operacoes.streamlit.app/
+Demo Streamlit: https://central-automacao-operacoes.streamlit.app/
 
 ---
 
@@ -72,7 +72,7 @@ Demo: https://central-automacao-operacoes.streamlit.app/
 - Bom projeto para contextos de Analista de Dados, BI, Revenue Analytics e Sales Operations.
 
 Repositório: https://github.com/samuelmaia-analytics/amazon-sales-analysis  
-Demo: https://amazon-sales-analysis-samuemaiapro.streamlit.app/
+Demo Streamlit: https://amazon-sales-analysis-samuemaiapro.streamlit.app/
 
 ---
 
@@ -83,7 +83,7 @@ Demo: https://amazon-sales-analysis-samuemaiapro.streamlit.app/
 - Reforça experiência com Python, Streamlit, desenho de KPIs e apresentação analítica estruturada.
 
 Repositório: https://github.com/samuelmaia-analytics/data-senior-analytics  
-Demo: https://data-analytics-sr.streamlit.app/
+Demo Streamlit: https://data-analytics-sr.streamlit.app/
 
 ---
 
@@ -94,21 +94,27 @@ Demo: https://data-analytics-sr.streamlit.app/
 - Forte ponto de entrada para mostrar prática com Python + Pandas + entrega analítica.
 
 Repositório: https://github.com/samuelmaia-analytics/analise-vendas-python  
-Demo: https://sales-analytics-dashboardd.streamlit.app/
+Demo Streamlit: https://sales-analytics-dashboardd.streamlit.app/  
+Demo alternativa: https://analys-vendas-python-v2.streamlit.app/
 
 [⬆ Voltar ao topo](#top)
 
-## Projetos adicionais e cases
+## Índice completo de projetos com amostras Streamlit
 
-| Projeto | Foco | Status |
-|---|---|---|
-| Revenue Intelligence Platform Suite | analytics de receita, performance, retenção e suporte à decisão executiva | privado / disponível sob demanda |
-| Revenue Intelligence Platform - End-to-End Analytics & ML System | pipeline raw-to-insight, analytics com ML e saídas governadas | privado / disponível sob demanda |
-| Churn Prediction | retenção, scoring de risco de clientes e priorização de ação | privado / disponível sob demanda |
-| Consolidação BHDigital | consolidação de dados e organização analítica | privado / disponível sob demanda |
-| Olist / Dadosfera Case | analytics e-commerce, camadas estilo data lake, SQL, documentação, dashboards e governança | case técnico |
+| Projeto | Foco | Repositório | Amostra Streamlit / demo | Status |
+|---|---|---|---|---|
+| Governed Analytics Platform | analytics governado, qualidade de dados, documentação e LGPD | https://github.com/samuelmaia-analytics/Governed-Analytics-Platform | https://governed-analytics-platform.streamlit.app/ | público |
+| Central de Automação e Operações | analytics operacional, SLA/backlog, alertas e automação | https://github.com/samuelmaia-analytics/central-automacao-operacoes | https://central-automacao-operacoes.streamlit.app/ | público |
+| Amazon Sales Analysis | analytics comercial, vendas, produtos e categorias | https://github.com/samuelmaia-analytics/amazon-sales-analysis | https://amazon-sales-analysis-samuemaiapro.streamlit.app/ | público |
+| Data Senior Analytics | app analítico sênior, KPIs curados e leitura executiva | https://github.com/samuelmaia-analytics/data-senior-analytics | https://data-analytics-sr.streamlit.app/ | público |
+| Analise Vendas Python | analytics de vendas, Python/Pandas e KPIs | https://github.com/samuelmaia-analytics/analise-vendas-python | https://sales-analytics-dashboardd.streamlit.app/ / https://analys-vendas-python-v2.streamlit.app/ | repositório privado / demo disponível |
+| Revenue Intelligence Platform Suite | analytics de receita, performance, retenção e suporte à decisão executiva | https://github.com/samuelmaia-analytics/revenue-intelligence-platform-suite | https://revenue-intelligence-platform-suite.streamlit.app/ | repositório privado / demo disponível |
+| Revenue Intelligence Platform - End-to-End Analytics & ML System | pipeline raw-to-insight, analytics com ML e saídas governadas | https://github.com/samuelmaia-analytics/Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System | https://revenue-intelligence-platform.streamlit.app/ | repositório privado / demo disponível |
+| Churn Prediction | retenção, scoring de risco de clientes e priorização de ação | https://github.com/samuelmaia-analytics/churn-prediction | https://telecom-churn-prediction-samuelmaiapro.streamlit.app/ | repositório privado / demo disponível |
+| Olist / Dadosfera Case | analytics e-commerce, camadas estilo data lake, SQL, documentação, dashboards e governança | case técnico | https://samuelmaia-032026.streamlit.app/ | case técnico |
+| Consolidação BHDigital | consolidação de dados e organização analítica | https://github.com/samuelmaia-analytics/consolidacao-bhdigital | Demo ainda não confirmada publicamente | privado / em curadoria |
 
-> Alguns repositórios podem estar privados enquanto passam por revisão, polimento ou preparação para exposição pública no portfólio. Os links públicos acima foram priorizados para recrutadores e gestores de contratação.
+> Alguns repositórios podem estar privados enquanto passam por revisão, polimento ou preparação para exposição pública no portfólio. As demos públicas foram listadas sempre que há uma amostra Streamlit conhecida.
 
 [⬆ Voltar ao topo](#top)
 
