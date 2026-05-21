@@ -2,179 +2,162 @@
 
 **English** | [Português (Brasil)](./README.pt-BR.md) | [Português (Portugal)](./README.pt-PT.md)
 
-# Samuel Maia | Data Analysis & Analytics Engineering
+# Samuel Maia | Data Analyst & Analytics Engineer
 
-Data professional with 10+ years of experience delivering business-facing analytics products across Data Analysis, Analytics Engineering, BI, and executive dashboards.
+Data professional based in Fortaleza, Brazil, focused on Data Analysis, BI, Analytics Engineering, automation, data quality, and business-facing analytical products.
 
-Based in Fortaleza, Brazil. Open to remote roles, CLT, PJ, full-time, consulting, and strategic advisory.
+I combine hands-on experience with SQL, Power BI, Excel, Python/Pandas, ETL/ELT, dashboards, documentation, and data governance with a strong business background in commercial operations, team leadership, training, negotiation, and performance monitoring.
 
-## About
-
-I turn raw data into reliable decision assets with end-to-end delivery: ingestion, ETL/ELT, analytical modeling, KPI design, dashboard delivery, data quality, testing, governance, and technical documentation.
+Open to remote, hybrid, CLT, PJ, full-time, consulting, and freelance opportunities.
 
 [⬆ Back to top](#top)
 
-## What I Build / What I Solve
+## Professional positioning
 
-- Decision-ready analytics for revenue, retention, and operational performance
-- Executive dashboards in Streamlit and Power BI
-- ETL/ELT pipelines with quality checks, traceability, and reproducible outputs
-- Business-facing analytical applications with strong documentation and governance
-- Metrics layers that connect technical outputs to business action
+I build reliable analytical assets that help teams make better decisions. My work usually connects raw data, business rules, quality checks, analytical modeling, dashboards, and clear documentation.
 
-[⬆ Back to top](#top)
+My strongest positioning is at the intersection of:
 
-## Core Capabilities
-
-- Data Analysis, Analytics Engineering, BI, KPI design, business metrics
-- Python, SQL, Pandas, NumPy, PySpark
-- Streamlit, Power BI, Plotly, Altair
-- DuckDB, SQLite, FastAPI, dbt
-- Machine Learning-oriented analytical workflows
-- Git, GitHub Actions, CI/CD, Pytest, Ruff
-- Data quality, governance, testing, traceability, technical documentation
+- Data Analysis and BI for business decision-making
+- Analytics Engineering and reproducible analytical pipelines
+- Executive dashboards and KPI standardization
+- Data quality, documentation, governance, and LGPD-aware delivery
+- Revenue, sales, operations, retention, and customer analytics
 
 [⬆ Back to top](#top)
 
-## Featured Projects
+## Core skills
 
-### 1) Revenue Intelligence Platform Suite  
-**Subtitle:** Executive analytics platform for revenue-risk prioritization and portfolio-level delivery maturity.
+| Area | Tools and practices |
+|---|---|
+| Data Analysis | exploratory analysis, KPIs, management reports, storytelling with data, business diagnostics |
+| BI and Dashboards | Power BI, Streamlit, executive dashboards, performance monitoring, analytical publishing |
+| SQL and Databases | joins, filters, aggregations, validation queries, DuckDB, SQLite, analytical modeling |
+| Python | Pandas, NumPy, data cleaning, transformation, automation, validation, batch processing |
+| ETL / ELT | ingestion, standardization, staging, curated layers, published analytical datasets |
+| Quality and Governance | data quality checks, data contracts, documentation, traceability, LGPD awareness |
+| Engineering Practices | Git, GitHub Actions, Pytest, Ruff, CI/CD, reproducible project structure |
+| Business and Leadership | commercial analysis, training, negotiation, customer approach, team guidance, performance follow-up |
 
-- Unified decision surface with governance and observability
-- Strong signal of platform architecture, release discipline, and business framing
+[⬆ Back to top](#top)
 
-Repository: https://github.com/samuelmaia-analytics/revenue-intelligence-platform-suite  
-Live demo: https://revenue-intelligence-platform-suite.streamlit.app/  
-Why it matters: shows platform thinking, not isolated analytics assets.
+## Featured portfolio
 
----
+### 1) Governed Analytics Platform
+**Focus:** governed analytics, data quality, documentation, LGPD-aware analytical delivery, and executive consumption.
 
-### 2) Revenue Intelligence Platform (End-to-End Analytics + ML)  
-**Subtitle:** Production-minded analytics and ML system with governed outputs and multi-surface consumption.
-
-- Canonical pipeline with reproducible outputs and governed artifacts
-- Dashboard, API, and SQL/dbt paths aligned to one data truth
-
-Repository: https://github.com/samuelmaia-analytics/Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System  
-Live demo: https://revenue-intelligence-platform.streamlit.app/  
-Why it matters: balances analytical depth and delivery reliability.
-
----
-
-### 3) Governed Analytics Platform  
-**Subtitle:** Governed analytical publication with semantic assets and executive consumption surfaces.
-
-- Formal separation between internal analytics and published layers
-- Quality checks, governance controls, and executive consumption readiness
+- Simulates a production-inspired analytics platform with quality checks, governance concepts, documented assets, and executive dashboards.
+- Strong signal for roles involving Analytics Engineering, BI governance, data quality, and decision-ready analytical products.
 
 Repository: https://github.com/samuelmaia-analytics/Governed-Analytics-Platform  
-Live demo (publicly listed in repository materials): https://olist-governed-analytics-platform.streamlit.app/  
-Why it matters: demonstrates governance-by-design in analytics delivery.
+Live demo: https://governed-analytics-platform.streamlit.app/
 
 ---
 
-### 4) Churn Prediction  
-**Subtitle:** Retention analytics product with scoring, prioritization, and execution-oriented outputs.
+### 2) Central de Automação e Operações
+**Focus:** operational analytics, SLA/backlog visibility, alerting logic, automation, and decision support.
 
-Repository: https://github.com/samuelmaia-analytics/churn-prediction  
-Why it matters: translates ML into business prioritization.
+- Built as an operations control center with business rules, risk indicators, and executive visibility.
+- Demonstrates how analytics can support operational prioritization, monitoring, and process improvement.
+
+Repository: https://github.com/samuelmaia-analytics/central-automacao-operacoes  
+Live demo: https://central-automacao-operacoes.streamlit.app/
 
 ---
 
-### 5) Amazon Sales Analysis  
-**Subtitle:** Commercial analytics platform for sales diagnostics and opportunity prioritization.
+### 3) Amazon Sales Analysis
+**Focus:** sales analytics, commercial diagnostics, product/category performance, and dashboarding.
+
+- Analyzes commercial performance and turns sales data into practical indicators for decision-making.
+- Good fit for business analyst, BI analyst, revenue analyst, and sales operations contexts.
 
 Repository: https://github.com/samuelmaia-analytics/amazon-sales-analysis  
-Why it matters: links commercial analytics to decision-making.
+Live demo: https://amazon-sales-analysis-samuemaiapro.streamlit.app/
 
 ---
 
-### 6) Data Senior Analytics  
-**Subtitle:** Decision-focused analytics app with curated pipeline and executive readability.
+### 4) Data Senior Analytics
+**Focus:** senior-style analytical dashboarding, curated data, KPIs, and executive readability.
+
+- Organizes analytical information into a business-facing interface for faster decision-making.
+- Reinforces experience with Python, Streamlit, KPI design, and structured analytical presentation.
 
 Repository: https://github.com/samuelmaia-analytics/data-senior-analytics  
-Live demo: https://data-analytics-sr.streamlit.app  
-Why it matters: strong business-facing dashboard and analytical product framing.
+Live demo: https://data-analytics-sr.streamlit.app/
 
 ---
 
-### 7) Analise Vendas Python  
-**Subtitle:** Sales analytics data platform with reproducible batch flow and KPI reporting.
+### 5) Analise Vendas Python
+**Focus:** sales analysis with Python, data treatment, KPIs, and reporting.
+
+- Demonstrates core analytical workflow: data cleaning, transformation, business indicators, and dashboard/reporting logic.
+- Strong entry point for showing practical Python + Pandas + analytics delivery.
 
 Repository: https://github.com/samuelmaia-analytics/analise-vendas-python  
-Why it matters: consistent Python + SQL analytics engineering signal.
+Live demo: https://sales-analytics-dashboardd.streamlit.app/
 
 [⬆ Back to top](#top)
 
-## Live Demos (Publicly Confirmed)
+## Additional projects and case work
 
-- Revenue Intelligence Platform Suite: https://revenue-intelligence-platform-suite.streamlit.app/
-- Revenue Intelligence Platform: https://revenue-intelligence-platform.streamlit.app/
-- Governed Analytics Platform: https://olist-governed-analytics-platform.streamlit.app/
-- Data Senior Analytics: https://data-analytics-sr.streamlit.app
+| Project | Focus | Status |
+|---|---|---|
+| Revenue Intelligence Platform Suite | revenue analytics, performance, retention, executive decision support | private / available on request |
+| Revenue Intelligence Platform - End-to-End Analytics & ML System | raw-to-insight pipeline, ML-oriented analytics, governed outputs | private / available on request |
+| Churn Prediction | retention analytics, customer risk scoring, prioritization | private / available on request |
+| Consolidacao BHDigital | data consolidation and analytical organization | private / available on request |
+| Olist / Dadosfera Case | e-commerce analytics, data lake-style layers, SQL, documentation, dashboards, governance | case project |
 
-[⬆ Back to top](#top)
-
-## Tools and Technologies
-
-Python, SQL, Pandas, NumPy, PySpark, DuckDB, SQLite, Streamlit, Power BI, Plotly, Altair, FastAPI, dbt, Git, GitHub Actions, CI/CD, Pytest, Ruff, and ML-oriented analytical workflows.
-
-[⬆ Back to top](#top)
-
-## Governance, Quality and Trust
-
-- Data quality validation and reproducibility controls
-- Structured testing and CI reliability checks
-- Traceability through artifacts, manifests, and documented runtime paths
+> Some repositories may be private while they are being reviewed, polished, or prepared for public portfolio visibility. Public links above are prioritized for recruiters and hiring managers.
 
 [⬆ Back to top](#top)
 
-## Privacy and LGPD Awareness
+## Resume-aligned experience highlights
 
-I apply privacy-aware analytical design with data minimization, controlled exposure, and governance boundaries documented throughout delivery workflows.
+### Data Analyst | i9 Life Brasil | 2015-2019
+- Built and organized performance indicators for operational and management analysis.
+- Used SQL, Excel, Python, and Pandas to treat, validate, consolidate, and analyze data.
+- Supported recurring reporting routines, dashboards, metric standardization, and decision-making.
 
-LGPD awareness is treated as part of product quality and trust.
+### Data and Infrastructure Analyst | Grupo Boticário Brasil | 2019-2021
+- Worked with systems integration, process automation, data validation, and internal analytical support.
+- Supported exploratory analysis, data checks, reporting flows, and operational information structuring.
 
-[⬆ Back to top](#top)
+### Commercial Leader and Independent Sales Consultant | Up Essência | 2021-2024
+- Led direct sales, customer approach, negotiation, relationship management, and commercial performance follow-up.
+- Trained independent sales consultants in product presentation, customer objections, communication, and closing techniques.
+- Developed business-facing skills that strengthen analytical work: stakeholder communication, commercial reading, negotiation, and results orientation.
 
-## Delivery, Automation and CI/CD
-
-I build analytics with production-minded routines: linting, tests, CI/CD, versioned changes, and operational runbooks for predictable delivery and reliable business consumption.
-
-[⬆ Back to top](#top)
-
-## Current Focus and Availability
-
-Current focus:
-- Analytics Engineering and decision-ready BI
-- Governance and quality-centered analytics delivery
-- Practical cloud upskilling for production-aware analytics workflows
-
-Availability:
-- Remote work
-- CLT
-- PJ
-- Full-time
-- Long-term contracts
-- Consulting and freelance projects
+### Independent Data and Analytics Engineering Projects | 2025-2026
+- Built end-to-end data projects with ingestion, transformation, modeling, validation, documentation, dashboards, and publication.
+- Applied Python, SQL, Power BI, Streamlit, DuckDB, dbt, testing, and data quality practices to simulate real analytics environments.
 
 [⬆ Back to top](#top)
 
-## Education and Current Learning
+## Education and certifications
 
-- Continuous professional development in analytics engineering and business analytics
-- AWS Cloud Practitioner (in progress), expected completion in **June 2026**
-- Cloud upskilling focused on secure environment interaction, infrastructure awareness, and practical analytics delivery
+- Postgraduate degree in Innovation and Digital Transformation — in progress, expected completion in 2026
+- Postgraduate degree in Data Science — completed
+- Bachelor’s degree in Business Administration — completed
+- dbt Certification — completed
 
 [⬆ Back to top](#top)
 
-## Contact / Opportunities
+## Current focus
+
+- Strengthening analytics engineering and production-inspired data platforms
+- Building portfolio projects with clearer governance, documentation, testing, and business value
+- Improving cloud readiness and modern data stack practices
+- Positioning for Data Analyst, BI Analyst, Analytics Engineer, and business-facing data roles
+
+[⬆ Back to top](#top)
+
+## Contact
 
 GitHub: https://github.com/samuelmaia-analytics  
-LinkedIn: https://www.linkedin.com/in/samuelmaia-analytics
+LinkedIn: https://www.linkedin.com/in/samuelmaia-analytics/
 
-If you are hiring for Data Analysis, Analytics Engineering, BI, or business-facing data products, I am open to conversation.
+If you are hiring for Data Analysis, BI, Analytics Engineering, or decision-oriented data products, I am open to conversation.
 
 [⬆ Back to top](#top)
 
@@ -182,8 +165,7 @@ If you are hiring for Data Analysis, Analytics Engineering, BI, or business-faci
 
 This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
 
-To view a copy of this license, visit:
+To view a copy of this license, visit:  
 https://creativecommons.org/licenses/by-nc/4.0/
 
 [![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
-
