@@ -13,6 +13,7 @@
   <img src="https://img.shields.io/badge/Streamlit-Apps-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
   <img src="https://img.shields.io/badge/dbt-Analytics%20Engineering-FF694B?style=for-the-badge&logo=dbt&logoColor=white" alt="dbt" />
   <img src="https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+  https://www.credly.com/badges/cc8d5464-0903-4c0c-a125-f544aee89683/public_url
 </p>
 
 I am a data professional based in Fortaleza, Brazil, focused on building analytical solutions that connect data, business, quality, and decision-making.
