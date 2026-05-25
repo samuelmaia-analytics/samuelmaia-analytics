@@ -30,7 +30,18 @@ I have hands-on experience with SQL, Power BI, Excel, Python/Pandas, ETL/ELT, St
 
 I am looking for opportunities as a Data Analyst, BI Analyst, or Analytics Engineer in environments that value a consistent technical foundation, business vision, data quality, documentation, and continuous learning.
 
-[⬆ Back to top](#top)
+## Contents
+
+- [Value proposition](#value-proposition)
+- [Areas of work](#areas-of-work)
+- [Core stack](#core-stack)
+- [Featured portfolio](#featured-portfolio)
+- [Complementary projects](#complementary-projects)
+- [Maturity signals](#maturity-signals-demonstrated-in-this-portfolio)
+- [Resume-aligned experience highlights](#resume-aligned-experience-highlights)
+- [Education and certifications](#education-and-certifications)
+- [Current focus](#current-focus)
+- [Contact](#contact)
 
 ## Value proposition
 
@@ -46,8 +57,6 @@ My work usually involves:
 - documenting rules, metrics, limitations, and technical decisions;
 - applying quality, governance, and LGPD-aware practices when needed.
 
-[⬆ Back to top](#top)
-
 ## Areas of work
 
 | Area | How I work |
@@ -60,8 +69,6 @@ My work usually involves:
 | Analytical Automation | Python, Pandas, SQL, DuckDB, batch routines, GitHub Actions, and manual effort reduction |
 | Business and Operations | commercial reading, performance, retention, sales, SLA/backlog, prioritization, and stakeholder communication |
 
-[⬆ Back to top](#top)
-
 ## Core stack
 
 **Languages and analysis:** Python, SQL, Pandas, NumPy, Advanced Excel  
@@ -71,8 +78,6 @@ My work usually involves:
 **Quality and engineering:** Pytest, Ruff, Git, GitHub Actions, CI/CD, technical documentation  
 **Governance:** data quality, data contracts, data dictionaries, traceability, LGPD awareness  
 **Business:** KPIs, revenue, sales, operations, retention, commercial performance, and decision support
-
-[⬆ Back to top](#top)
 
 ## Featured portfolio
 
@@ -136,8 +141,6 @@ A technical case with layered data organization, commercial/logistics analysis, 
 Streamlit demo: https://samuelmaia-032026.streamlit.app/  
 Status: technical case
 
-[⬆ Back to top](#top)
-
 ## Complementary projects
 
 | Project | Focus | Repository | Streamlit sample / demo | Status |
@@ -150,8 +153,6 @@ Status: technical case
 
 > Some repositories may be private while they are being reviewed, polished, or prepared for public visibility. Public demos are listed whenever there is a known Streamlit sample.
 
-[⬆ Back to top](#top)
-
 ## Maturity signals demonstrated in this portfolio
 
 - **Business vision:** projects focused on revenue, sales, retention, operations, performance, and decision-making.
@@ -160,8 +161,6 @@ Status: technical case
 - **Consistent technical foundation:** use of Python, SQL, DuckDB, dbt, Streamlit, Power BI, tests, CI/CD, and AWS Cloud fundamentals.
 - **Business communication:** dashboards and narratives designed to connect data to real decisions.
 - **Commercial experience:** background with leadership, training, negotiation, customer service, and performance follow-up.
-
-[⬆ Back to top](#top)
 
 ## Resume-aligned experience highlights
 
@@ -183,8 +182,6 @@ Status: technical case
 - Built end-to-end data projects with ingestion, transformation, modeling, validation, documentation, dashboards, and publication.
 - Applied Python, SQL, Power BI, Streamlit, DuckDB, dbt, testing, data quality practices, and AWS Cloud fundamentals to simulate real analytics environments.
 
-[⬆ Back to top](#top)
-
 ## Education and certifications
 
 - Postgraduate degree in Innovation and Digital Transformation — in progress, expected completion in 2026
@@ -192,8 +189,6 @@ Status: technical case
 - Bachelor’s degree in Business Administration — completed
 - dbt Certification — completed
 - [AWS re/Start Graduate](https://www.credly.com/badges/cc8d5464-0903-4c0c-a125-f544aee89683/public_url) — AWS Cloud, cloud computing, Linux, networking, security, Python, databases, and professional cloud practices
-
-[⬆ Back to top](#top)
 
 ## Current focus
 
@@ -204,16 +199,12 @@ Status: technical case
 - Continuous development in cloud, data, and analytical architecture
 - Gradual development of technical English for international opportunities
 
-[⬆ Back to top](#top)
-
 ## Contact
 
 GitHub: https://github.com/samuelmaia-analytics  
 LinkedIn: https://www.linkedin.com/in/samuelmaia-analytics/
 
 If you are hiring for Data Analysis, BI, Analytics Engineering, Data Governance, or decision-oriented analytical products, I am open to conversation.
-
-[⬆ Back to top](#top)
 
 ## License
 
@@ -223,3 +214,5 @@ To view a copy of this license, visit:
 https://creativecommons.org/licenses/by-nc/4.0/
 
 [![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
+
+[⬆ Back to top](#top)
