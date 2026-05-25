@@ -12,15 +12,21 @@
   <img src="https://img.shields.io/badge/Power%20BI-Dashboards-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
   <img src="https://img.shields.io/badge/Streamlit-Apps-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
   <img src="https://img.shields.io/badge/dbt-Analytics%20Engineering-FF694B?style=for-the-badge&logo=dbt&logoColor=white" alt="dbt" />
+  <img src="https://img.shields.io/badge/AWS-Cloud%20Computing-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Cloud" />
   <img src="https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  https://www.credly.com/badges/cc8d5464-0903-4c0c-a125-f544aee89683/public_url
+</p>
+
+<p align="left">
+  <a href="https://www.credly.com/badges/cc8d5464-0903-4c0c-a125-f544aee89683/public_url">
+    <img src="./assets/aws-re-start-graduate.svg" alt="AWS re/Start Graduate Badge" width="120" />
+  </a>
 </p>
 
 I am a data professional based in Fortaleza, Brazil, focused on building analytical solutions that connect data, business, quality, and decision-making.
 
 My work is centered on turning raw data into reliable management assets: analytical pipelines, curated datasets, dashboards, standardized KPIs, quality validations, technical documentation, and business-oriented analytical products.
 
-I have hands-on experience with SQL, Power BI, Excel, Python/Pandas, ETL/ELT, Streamlit, DuckDB, dbt, GitHub Actions, testing, documentation, and data governance. I also bring business experience in commercial operations, team leadership, training, negotiation, and performance monitoring.
+I have hands-on experience with SQL, Power BI, Excel, Python/Pandas, ETL/ELT, Streamlit, DuckDB, dbt, GitHub Actions, testing, documentation, data governance, and AWS Cloud fundamentals. I also bring business experience in commercial operations, team leadership, training, negotiation, and performance monitoring.
 
 I am looking for opportunities as a Data Analyst, BI Analyst, or Analytics Engineer in environments that value a consistent technical foundation, business vision, data quality, documentation, and continuous learning.
 
@@ -61,6 +67,7 @@ My work usually involves:
 **Languages and analysis:** Python, SQL, Pandas, NumPy, Advanced Excel  
 **BI and visualization:** Power BI, Streamlit, Plotly, Altair  
 **Data and modeling:** DuckDB, SQLite, dbt, ETL/ELT, analytical modeling  
+**Cloud:** AWS Cloud, cloud computing fundamentals, cloud services, cloud platforms  
 **Quality and engineering:** Pytest, Ruff, Git, GitHub Actions, CI/CD, technical documentation  
 **Governance:** data quality, data contracts, data dictionaries, traceability, LGPD awareness  
 **Business:** KPIs, revenue, sales, operations, retention, commercial performance, and decision support
@@ -150,7 +157,7 @@ Status: technical case
 - **Business vision:** projects focused on revenue, sales, retention, operations, performance, and decision-making.
 - **End-to-end delivery:** ingestion, treatment, modeling, validation, documentation, dashboarding, and publication.
 - **Applied governance:** focus on data dictionaries, rules, traceability, quality, and LGPD awareness.
-- **Consistent technical foundation:** use of Python, SQL, DuckDB, dbt, Streamlit, Power BI, tests, and CI/CD.
+- **Consistent technical foundation:** use of Python, SQL, DuckDB, dbt, Streamlit, Power BI, tests, CI/CD, and AWS Cloud fundamentals.
 - **Business communication:** dashboards and narratives designed to connect data to real decisions.
 - **Commercial experience:** background with leadership, training, negotiation, customer service, and performance follow-up.
 
@@ -174,7 +181,7 @@ Status: technical case
 
 ### Independent Data and Analytics Engineering Projects | 2025-2026
 - Built end-to-end data projects with ingestion, transformation, modeling, validation, documentation, dashboards, and publication.
-- Applied Python, SQL, Power BI, Streamlit, DuckDB, dbt, testing, and data quality practices to simulate real analytics environments.
+- Applied Python, SQL, Power BI, Streamlit, DuckDB, dbt, testing, data quality practices, and AWS Cloud fundamentals to simulate real analytics environments.
 
 [⬆ Back to top](#top)
 
@@ -184,6 +191,7 @@ Status: technical case
 - Postgraduate degree in Data Science — completed
 - Bachelor’s degree in Business Administration — completed
 - dbt Certification — completed
+- [AWS re/Start Graduate](https://www.credly.com/badges/cc8d5464-0903-4c0c-a125-f544aee89683/public_url) — AWS Cloud, cloud computing, Linux, networking, security, Python, databases, and professional cloud practices
 
 [⬆ Back to top](#top)
 
