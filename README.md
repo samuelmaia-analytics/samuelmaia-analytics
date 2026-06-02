@@ -12,8 +12,7 @@
   <img src="https://img.shields.io/badge/Power%20BI-Dashboards-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI" />
   <img src="https://img.shields.io/badge/Streamlit-Apps-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
   <img src="https://img.shields.io/badge/dbt-Analytics%20Engineering-FF694B?style=for-the-badge&logo=dbt&logoColor=white" alt="dbt" />
-  <img src="https://img.shields.io/badge/AWS-Cloud%20Computing-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Cloud" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/AWS-Cloud%20Fundamentals-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Cloud" />
 </p>
 
 <p align="left">
@@ -22,59 +21,28 @@
   </a>
 </p>
 
-I am a data professional based in Fortaleza, Brazil, focused on building analytical solutions that connect data, business, quality, and decision-making.
+I am a data professional based in Fortaleza, Brazil, focused on building practical analytical solutions that connect data, business, quality, and decision-making.
 
-My work is centered on turning raw data into reliable management assets: analytical pipelines, curated datasets, dashboards, standardized KPIs, quality validations, technical documentation, and business-oriented analytical products.
+I work with SQL, Power BI, Excel, Python/Pandas, ETL/ELT, Streamlit, DuckDB, dbt, GitHub Actions, testing, documentation, data quality, and AWS Cloud fundamentals. My background also includes business experience in commercial operations, team leadership, training, negotiation, and performance monitoring.
 
-I have hands-on experience with SQL, Power BI, Excel, Python/Pandas, ETL/ELT, Streamlit, DuckDB, dbt, GitHub Actions, testing, documentation, data governance, and AWS Cloud fundamentals. I also bring business experience in commercial operations, team leadership, training, negotiation, and performance monitoring.
+I am open to opportunities as a Data Analyst, BI Analyst, Analytics Engineer, Junior Data Analyst, Junior BI Analyst, or freelance data projects. I am especially interested in teams that value clear communication, consistent delivery, business understanding, documentation, and continuous learning.
 
-I am looking for opportunities as a Data Analyst, BI Analyst, or Analytics Engineer in environments that value a consistent technical foundation, business vision, data quality, documentation, and continuous learning.
+## What I can help with
 
-## Contents
-
-- [Value proposition](#value-proposition)
-- [Areas of work](#areas-of-work)
-- [Core stack](#core-stack)
-- [Featured portfolio](#featured-portfolio)
-- [Complementary projects](#complementary-projects)
-- [Maturity signals](#maturity-signals-demonstrated-in-this-portfolio)
-- [Resume-aligned experience highlights](#resume-aligned-experience-highlights)
-- [Education and certifications](#education-and-certifications)
-- [Current focus](#current-focus)
-- [Contact](#contact)
-
-## Value proposition
-
-I help teams move from fragmented reports and unreliable datasets to a more organized, documented, and decision-ready analytical structure.
-
-My work usually involves:
-
-- understanding the business problem before building the solution;
-- organizing data into more reliable analytical layers;
-- creating clear, consistent, and traceable indicators;
-- automating data treatment, validation, and recurring routines;
-- building dashboards and analytical applications for management consumption;
-- documenting rules, metrics, limitations, and technical decisions;
-- applying quality, governance, and LGPD-aware practices when needed.
-
-## Areas of work
-
-| Area | How I work |
-|---|---|
-| Data Analysis and BI | exploratory analysis, KPIs, management reports, storytelling with data, and decision support |
-| Analytics Engineering | analytical pipelines, modeling, raw/staging/curated/published layers, and consumption-ready datasets |
-| Dashboards and Analytical Products | Power BI, Streamlit, performance indicators, management readability, and business-oriented visualization |
-| Data Quality | validations, tests, metric consistency, traceability, documentation, and monitoring |
-| Governance and LGPD | asset organization, data dictionaries, business rules, controlled exposure, and documentation |
-| Analytical Automation | Python, Pandas, SQL, DuckDB, batch routines, GitHub Actions, and manual effort reduction |
-| Business and Operations | commercial reading, performance, retention, sales, SLA/backlog, prioritization, and stakeholder communication |
+- Build dashboards and analytical reports for business teams.
+- Treat, clean, validate, and organize datasets for analysis.
+- Create KPIs, business rules, and data dictionaries.
+- Automate recurring analysis with Python, SQL, and spreadsheets.
+- Structure simple analytical pipelines and curated datasets.
+- Support data quality, documentation, and governance routines.
+- Translate business questions into clear analytical views.
 
 ## Core stack
 
 **Languages and analysis:** Python, SQL, Pandas, NumPy, Advanced Excel  
 **BI and visualization:** Power BI, Streamlit, Plotly, Altair  
 **Data and modeling:** DuckDB, SQLite, dbt, ETL/ELT, analytical modeling  
-**Cloud:** AWS Cloud, cloud computing fundamentals, cloud services, cloud platforms  
+**Cloud:** AWS Cloud fundamentals, Linux, networking, security, and databases  
 **Quality and engineering:** Pytest, Ruff, Git, GitHub Actions, CI/CD, technical documentation  
 **Governance:** data quality, data contracts, data dictionaries, traceability, LGPD awareness  
 **Business:** KPIs, revenue, sales, operations, retention, commercial performance, and decision support
@@ -82,9 +50,9 @@ My work usually involves:
 ## Featured portfolio
 
 ### 1) Governed Analytics Platform
-**Focus:** governed analytics, data quality, documentation, LGPD awareness, and management consumption.
+**Focus:** data quality, documentation, LGPD awareness, analytical organization, and management consumption.
 
-A production-inspired analytics platform that demonstrates analytical asset organization, quality checks, documentation, governance, and consumption layers.
+A practical analytics platform that demonstrates data asset organization, quality checks, documentation, governance concepts, and consumption layers.
 
 **Why this project matters:** it shows concern beyond dashboard delivery by treating data as a reliable product with rules, validations, traceability, and documentation.
 
@@ -106,16 +74,15 @@ Status: private repository / demo available
 
 ---
 
-### 3) Revenue Intelligence Platform - End-to-End Analytics & ML System
-**Focus:** end-to-end pipeline, machine-learning-oriented analytics, and documented outputs.
+### 3) Data Analytics Workflow
+**Focus:** data cleaning, quality score, Streamlit dashboard, SQLite persistence, and documentation.
 
-A structured project built to demonstrate a complete data flow: treatment, modeling, validation, analysis, ML-oriented outputs, and consumption surfaces.
+An analytical app that receives CSV/XLSX files, applies automated curation, shows data quality indicators, compares raw vs curated data, and supports simple persistence in SQLite.
 
-**Why this project matters:** it reinforces a complete analytical system mindset, not only isolated analysis.
+**Why this project matters:** it demonstrates practical readiness for data analysis, BI, analytical automation, and business-support routines.
 
-Repository: https://github.com/samuelmaia-analytics/Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System  
-Streamlit demo: https://revenue-intelligence-platform.streamlit.app/  
-Status: private repository / demo available
+Repository: https://github.com/samuelmaia-analytics/data-senior-analytics  
+Streamlit demo: https://data-analytics-sr.streamlit.app/
 
 ---
 
@@ -146,20 +113,19 @@ Status: technical case
 | Project | Focus | Repository | Streamlit sample / demo | Status |
 |---|---|---|---|---|
 | Amazon Sales Analysis | commercial analytics, sales, products, and categories | https://github.com/samuelmaia-analytics/amazon-sales-analysis | https://amazon-sales-analysis-samuemaiapro.streamlit.app/ | public |
-| Data Senior Analytics | analytical app with curated KPIs and management readability | https://github.com/samuelmaia-analytics/data-senior-analytics | https://data-analytics-sr.streamlit.app/ | public |
 | Analise Vendas Python | sales analytics, Python/Pandas, and KPIs | https://github.com/samuelmaia-analytics/analise-vendas-python | https://sales-analytics-dashboardd.streamlit.app/ / https://analys-vendas-python-v2.streamlit.app/ | private repository / demo available |
 | Churn Prediction | retention, customer risk scoring, and action prioritization | https://github.com/samuelmaia-analytics/churn-prediction | https://telecom-churn-prediction-samuelmaiapro.streamlit.app/ | private repository / demo available |
 | Consolidação BHDigital | data consolidation and analytical organization | https://github.com/samuelmaia-analytics/consolidacao-bhdigital | Demo not publicly confirmed yet | private / under curation |
 
 > Some repositories may be private while they are being reviewed, polished, or prepared for public visibility. Public demos are listed whenever there is a known Streamlit sample.
 
-## Maturity signals demonstrated in this portfolio
+## Portfolio strengths
 
 - **Business vision:** projects focused on revenue, sales, retention, operations, performance, and decision-making.
-- **End-to-end delivery:** ingestion, treatment, modeling, validation, documentation, dashboarding, and publication.
-- **Applied governance:** focus on data dictionaries, rules, traceability, quality, and LGPD awareness.
+- **Practical delivery:** ingestion, treatment, modeling, validation, documentation, dashboarding, and publication.
+- **Data quality:** focus on data dictionaries, rules, traceability, quality checks, and LGPD awareness.
 - **Consistent technical foundation:** use of Python, SQL, DuckDB, dbt, Streamlit, Power BI, tests, CI/CD, and AWS Cloud fundamentals.
-- **Business communication:** dashboards and narratives designed to connect data to real decisions.
+- **Communication with business:** dashboards and narratives designed to connect data to real decisions.
 - **Commercial experience:** background with leadership, training, negotiation, customer service, and performance follow-up.
 
 ## Resume-aligned experience highlights
@@ -178,8 +144,8 @@ Status: technical case
 - Trained independent sales consultants in product presentation, customer objections, communication, and closing techniques.
 - Developed transferable skills for data work: stakeholder communication, commercial reading, negotiation, and results orientation.
 
-### Independent Data and Analytics Engineering Projects | 2025-2026
-- Built end-to-end data projects with ingestion, transformation, modeling, validation, documentation, dashboards, and publication.
+### Independent Data and Analytics Projects | 2025-2026
+- Built data projects with ingestion, transformation, modeling, validation, documentation, dashboards, and publication.
 - Applied Python, SQL, Power BI, Streamlit, DuckDB, dbt, testing, data quality practices, and AWS Cloud fundamentals to simulate real analytics environments.
 
 ## Education and certifications
@@ -192,19 +158,19 @@ Status: technical case
 
 ## Current focus
 
-- Analytics Engineering and production-inspired analytical platforms
-- Governance, quality, and documentation applied to data products
-- Management BI and decision-oriented dashboards
-- Analytical automation with Python, SQL, and engineering best practices
-- Continuous development in cloud, data, and analytical architecture
-- Gradual development of technical English for international opportunities
+- Data Analysis, BI, and Analytics Engineering foundations
+- Power BI and decision-oriented dashboards
+- SQL, Python, Pandas, and analytical automation
+- Data quality, documentation, and governance practices
+- AWS Cloud fundamentals and data project deployment
+- Technical English for remote and international opportunities
 
 ## Contact
 
 GitHub: https://github.com/samuelmaia-analytics  
 LinkedIn: https://www.linkedin.com/in/samuelmaia-analytics/
 
-If you are hiring for Data Analysis, BI, Analytics Engineering, Data Governance, or decision-oriented analytical products, I am open to conversation.
+If you are hiring for Data Analysis, BI, Analytics Engineering, Data Governance, or practical analytical projects, I am open to conversation.
 
 ## License
 
