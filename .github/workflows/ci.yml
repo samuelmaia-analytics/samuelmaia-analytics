@@ -3,19 +3,7 @@ name: CI
 on:
   push:
     branches: [main]
-    paths-ignore:
-      - "README.md"
-      - "README.*.md"
-      - "*.md"
-      - "assets/**"
-      - "docs/**"
   pull_request:
-    paths-ignore:
-      - "README.md"
-      - "README.*.md"
-      - "*.md"
-      - "assets/**"
-      - "docs/**"
   workflow_dispatch:
 
 permissions:

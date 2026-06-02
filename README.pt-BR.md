@@ -15,9 +15,9 @@
   <img src="https://img.shields.io/badge/AWS-Fundamentos%20Cloud-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" />
 </p>
 
-Construo projetos práticos de dados orientados ao negócio, com Python, SQL, Power BI, Streamlit, qualidade de dados e documentação clara.
+Desenvolvo projetos práticos de analytics orientados ao negócio com Python, SQL, Power BI, Streamlit, controles de qualidade de dados e documentação clara.
 
-Baseado em Fortaleza, Brasil. Aberto a oportunidades remotas, vagas júnior/intermediárias em dados e projetos freelance de dados.
+Baseado em Fortaleza, Brasil. Aberto a oportunidades remotas, vagas júnior/intermediárias em dados e projetos freelance.
 
 ## Aberto a oportunidades
 
@@ -25,7 +25,7 @@ Baseado em Fortaleza, Brasil. Aberto a oportunidades remotas, vagas júnior/inte
 - Analista de Dados
 - Analista de BI Júnior
 - Analista de BI
-- Analytics Engineer inicial/intermediário
+- Analytics Engineer (nível inicial/intermediário)
 - Apoio em qualidade de dados e documentação
 - Projetos freelance de dashboards, relatórios e automações
 
@@ -54,10 +54,10 @@ Baseado em Fortaleza, Brasil. Aberto a oportunidades remotas, vagas júnior/inte
 
 ### 1) Data Analytics Workflow
 
-App analítico com limpeza de dados, score de qualidade, dashboard Streamlit, SQLite e documentação de apoio.
+Aplicação analítica com limpeza de dados, score de qualidade, dashboard em Streamlit, SQLite e documentação de apoio.
 
 Repositório: https://github.com/samuelmaia-analytics/data-senior-analytics  
-Demo: https://data-analytics-sr.streamlit.app
+Demonstração: https://data-analytics-sr.streamlit.app
 
 **O que demonstra:** limpeza de dados, validações de qualidade, dashboard, documentação e fluxo analítico prático.
 
@@ -68,7 +68,7 @@ Demo: https://data-analytics-sr.streamlit.app
 Projeto analítico com regras de qualidade, documentação de governança, glossário de negócio e fluxo de publicação.
 
 Repositório: https://github.com/samuelmaia-analytics/Governed-Analytics-Platform  
-Demo: https://olist-governed-analytics-platform.streamlit.app/
+Demonstração: https://olist-governed-analytics-platform.streamlit.app/
 
 **O que demonstra:** organização de dados, rastreabilidade, documentação e analytics com preocupação de governança.
 
@@ -76,10 +76,10 @@ Demo: https://olist-governed-analytics-platform.streamlit.app/
 
 ### 3) Revenue Intelligence Platform Suite
 
-Suite de analytics conectando métricas de negócio, qualidade de dados e visões de apoio à decisão.
+Suíte de analytics conectando métricas de negócio, qualidade de dados e visões de apoio à decisão.
 
 Repositório: https://github.com/samuelmaia-analytics/revenue-intelligence-platform-suite  
-Demo: https://revenue-intelligence-platform-suite.streamlit.app/
+Demonstração: https://revenue-intelligence-platform-suite.streamlit.app/
 
 **O que demonstra:** análise de receita, leitura de KPI, performance comercial e relatórios orientados à ação.
 
@@ -103,20 +103,19 @@ Repositório: https://github.com/samuelmaia-analytics/churn-prediction
 
 **O que demonstra:** analytics de clientes, indicadores de churn, análise de variáveis e apoio à retenção.
 
-## Pontos fortes do portfólio
+---
 
-- Analytics orientado a negócio, não apenas gráficos.
-- Entrega prática com dashboards, documentação e estrutura reproduzível.
-- Atenção à qualidade de dados, consistência de métricas e rastreabilidade.
-- Combinação de habilidades técnicas com vivência de negócio.
-- Posicionamento claro para oportunidades de entrada/intermediárias em Dados, BI e Analytics Engineering.
+### 6) Análise Vendas Python
 
-## Foco atual
+Fluxo analítico de vendas com Python e SQL em execução reproduzível.
 
-- Fortalecer fundamentos de SQL, Power BI, Python e Analytics Engineering.
-- Melhorar práticas de qualidade de dados, documentação e governança.
-- Construir projetos que mostrem valor de negócio e apoio claro à decisão.
-- Preparação para vagas remotas em dados e projetos analíticos freelance.
+Repositório: https://github.com/samuelmaia-analytics/analise-vendas-python
+
+## Nota para recrutadores e líderes técnicos
+
+- Estou aberto a vagas júnior e de nível intermediário em Dados e BI.
+- Também aceito projetos freelance e colaboração remota.
+- Pontos fortes: execução analítica prática, foco em qualidade de dados e disciplina de documentação.
 
 ## Contato
 
