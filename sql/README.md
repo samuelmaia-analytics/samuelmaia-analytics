@@ -14,4 +14,3 @@ The scaffold exports portfolio metadata into SQLite so that downstream SQL, BI, 
 Default path:
 
 `data/warehouse/portfolio_platform.db`
-

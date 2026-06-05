@@ -3,14 +3,20 @@ from __future__ import annotations
 import sqlite3
 from pathlib import Path
 
-from core.trend_series import build_domain_history_series, build_metric_history_series, build_project_history_series
+from core.trend_series import (
+    build_domain_history_series,
+    build_metric_history_series,
+    build_project_history_series,
+)
 
 
 def write_sqlite_exports(snapshot: dict[str, object], warehouse_path: Path) -> None:
     warehouse_path.parent.mkdir(parents=True, exist_ok=True)
     projects = snapshot["projects"]
     registry = snapshot["repository_registry"]
-    artifacts_dir = Path(snapshot["operational_context"]["freshness"]["artifacts"]["portfolio_snapshot"]["path"]).parent
+    artifacts_dir = Path(
+        snapshot["operational_context"]["freshness"]["artifacts"]["portfolio_snapshot"]["path"]
+    ).parent
     metric_history = build_metric_history_series(artifacts_dir)
     domain_history = build_domain_history_series(artifacts_dir)
     project_history = build_project_history_series(artifacts_dir)

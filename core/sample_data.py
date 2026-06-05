@@ -20,4 +20,3 @@ def load_portfolio_projects(csv_path: Path) -> list[PortfolioProject]:
             )
             for row in reader
         ]
-

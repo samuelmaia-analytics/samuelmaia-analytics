@@ -33,7 +33,12 @@ def build_metric_catalog(
 
     for bucket in domain_rollup.values():
         count = bucket["project_count"] or 1
-        for field_name in ("governance_score", "quality_score", "execution_score", "observability_score"):
+        for field_name in (
+            "governance_score",
+            "quality_score",
+            "execution_score",
+            "observability_score",
+        ):
             bucket[field_name] = round(bucket[field_name] / count, 2)
 
     return {
@@ -47,4 +52,3 @@ def build_metric_catalog(
 def export_metric_catalog(metric_catalog: dict[str, object], output_path: Path) -> None:
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(json.dumps(metric_catalog, indent=2), encoding="utf-8")
-

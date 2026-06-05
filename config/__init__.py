@@ -1,2 +1,1 @@
 """Central configuration module."""
-

@@ -16,9 +16,13 @@ from core.pipeline import build_portfolio_snapshot
 
 snapshot = build_portfolio_snapshot(get_settings())
 semantic_metrics = snapshot["semantic_metrics"]
-project_change_summary = snapshot["operational_context"]["snapshot_history"].get("project_change_summary", {})
+project_change_summary = snapshot["operational_context"]["snapshot_history"].get(
+    "project_change_summary", {}
+)
 driver_payload = snapshot.get("change_drivers", {})
-driver_levels = [driver.get("materiality", "stable") for driver in driver_payload.get("drivers", [])]
+driver_levels = [
+    driver.get("materiality", "stable") for driver in driver_payload.get("drivers", [])
+]
 
 render_hero_panel(
     "Executive Overview",
@@ -61,7 +65,9 @@ with intro_right:
 
 history = snapshot["operational_context"]["snapshot_history"].get("metric_history_series", [])
 if history:
-    render_section_header("Metric Trend", "Historical movement of the portfolio-level KPI set across recorded runs.")
+    render_section_header(
+        "Metric Trend", "Historical movement of the portfolio-level KPI set across recorded runs."
+    )
     st.caption(snapshot["operational_context"]["snapshot_history"].get("comparison_summary", ""))
     chart_rows = [
         {
@@ -74,11 +80,16 @@ if history:
     ]
     st.line_chart(chart_rows, x="timestamp_utc")
 
-render_section_header("Project Change Summary", "Asset-level contribution behind the current portfolio movement.")
+render_section_header(
+    "Project Change Summary", "Asset-level contribution behind the current portfolio movement."
+)
 st.caption(project_change_summary.get("summary", ""))
 project_changes = project_change_summary.get("changes", [])
 if driver_levels:
-    highest = max(driver_levels, key=lambda item: {"stable": 0, "watch": 1, "material": 2, "critical": 3}.get(item, 0))
+    highest = max(
+        driver_levels,
+        key=lambda item: {"stable": 0, "watch": 1, "material": 2, "critical": 3}.get(item, 0),
+    )
     render_severity_badge("Portfolio Change Severity", highest)
 if project_changes:
     st.dataframe(project_changes, width="stretch", hide_index=True)
@@ -98,5 +109,7 @@ with signal_col:
 with action_col:
     render_info_card(
         "Recommended Action",
-        snapshot.get("change_drivers", {}).get("recommended_action", "No action currently recommended."),
+        snapshot.get("change_drivers", {}).get(
+            "recommended_action", "No action currently recommended."
+        ),
     )

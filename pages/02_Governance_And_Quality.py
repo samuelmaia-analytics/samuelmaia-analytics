@@ -107,5 +107,7 @@ ae1, ae2, ae3 = st.columns(3)
 ae1.metric("AE Status", str(analytics_report["status"]).upper())
 ae2.metric("Models Built", f"{analytics_report['models_built']}")
 ae3.metric("Failed Tests", f"{analytics_report['failed_tests']}")
-st.caption("dbt-like local validation over the SQLite warehouse for sources, models, and SQL tests.")
+st.caption(
+    "dbt-like local validation over the SQLite warehouse for sources, models, and SQL tests."
+)
 st.dataframe(analytics_report["results"], width="stretch", hide_index=True)

@@ -16,7 +16,9 @@ snapshot = build_portfolio_snapshot(get_settings())
 catalog = snapshot["metric_catalog"]
 headline_metrics = catalog["headline_metrics"]
 domain_rollup = catalog["domain_rollup"]
-domain_history = snapshot["operational_context"]["snapshot_history"].get("domain_history_series", [])
+domain_history = snapshot["operational_context"]["snapshot_history"].get(
+    "domain_history_series", []
+)
 
 render_hero_panel(
     "Semantic Metrics",
@@ -45,22 +47,33 @@ with intro_right:
         ],
     )
 
-render_section_header("Headline Metrics", "Top-level metrics surfaced as the shared analytical language of the platform.")
+render_section_header(
+    "Headline Metrics",
+    "Top-level metrics surfaced as the shared analytical language of the platform.",
+)
 st.json(catalog["headline_metrics"])
 
-render_section_header("Metric Definitions", "Business-facing and technically reusable definitions for the current KPI set.")
+render_section_header(
+    "Metric Definitions",
+    "Business-facing and technically reusable definitions for the current KPI set.",
+)
 st.dataframe(catalog["definitions"], width="stretch", hide_index=True)
 
-render_section_header("Domain Rollup", "Aggregated scorecards showing analytical maturity across major capability domains.")
-rollup_rows = [
-    {"domain": domain, **metrics}
-    for domain, metrics in domain_rollup.items()
-]
+render_section_header(
+    "Domain Rollup",
+    "Aggregated scorecards showing analytical maturity across major capability domains.",
+)
+rollup_rows = [{"domain": domain, **metrics} for domain, metrics in domain_rollup.items()]
 st.dataframe(rollup_rows, width="stretch", hide_index=True)
 
 if domain_history:
-    render_section_header("Domain Trend History", "Historical movement of governance, quality, execution, and observability by domain.")
-    domain_choice = st.selectbox("Select a domain", options=sorted({row["domain"] for row in domain_history}))
+    render_section_header(
+        "Domain Trend History",
+        "Historical movement of governance, quality, execution, and observability by domain.",
+    )
+    domain_choice = st.selectbox(
+        "Select a domain", options=sorted({row["domain"] for row in domain_history})
+    )
     filtered = [row for row in domain_history if row["domain"] == domain_choice]
     st.line_chart(
         filtered,

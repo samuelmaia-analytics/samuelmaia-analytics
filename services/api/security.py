@@ -105,4 +105,4 @@ def _extract_bearer_token(authorization: str) -> str:
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Authorization header must use Bearer token format.",
         )
-    return authorization[len(prefix):].strip()
+    return authorization[len(prefix) :].strip()

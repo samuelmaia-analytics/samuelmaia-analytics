@@ -86,8 +86,12 @@ def metrics(_api_key: MetricsScope) -> dict[str, object]:
 def metrics_history(_api_key: MetricsScope) -> dict[str, object]:
     snapshot_payload = build_portfolio_snapshot(get_settings())
     return {
-        "series": snapshot_payload["operational_context"]["snapshot_history"].get("metric_history_series", []),
-        "summary": snapshot_payload["operational_context"]["snapshot_history"].get("comparison_summary"),
+        "series": snapshot_payload["operational_context"]["snapshot_history"].get(
+            "metric_history_series", []
+        ),
+        "summary": snapshot_payload["operational_context"]["snapshot_history"].get(
+            "comparison_summary"
+        ),
     }
 
 
@@ -95,7 +99,9 @@ def metrics_history(_api_key: MetricsScope) -> dict[str, object]:
 def metrics_domain_history(_api_key: MetricsScope) -> dict[str, object]:
     snapshot_payload = build_portfolio_snapshot(get_settings())
     return {
-        "series": snapshot_payload["operational_context"]["snapshot_history"].get("domain_history_series", []),
+        "series": snapshot_payload["operational_context"]["snapshot_history"].get(
+            "domain_history_series", []
+        ),
     }
 
 
@@ -132,5 +138,7 @@ def repositories(_api_key: RepositoriesScope) -> dict[str, object]:
     snapshot_payload = build_portfolio_snapshot(get_settings())
     return {
         "projects": snapshot_payload["repository_registry"],
-        "changes": snapshot_payload["operational_context"]["snapshot_history"].get("repository_change_summary", {}),
+        "changes": snapshot_payload["operational_context"]["snapshot_history"].get(
+            "repository_change_summary", {}
+        ),
     }

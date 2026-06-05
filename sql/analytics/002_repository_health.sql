@@ -6,4 +6,3 @@ SELECT
 FROM repository_registry
 GROUP BY role
 ORDER BY role;
-

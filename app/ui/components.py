@@ -24,12 +24,16 @@ def render_kpi_grid(metrics: dict[str, float]) -> None:
         columns[idx % len(columns)].metric(name.replace("_", " ").title(), f"{value:.1f}")
 
 
-def render_hero_panel(title: str, subtitle: str, eyebrow: str, chips: list[str] | None = None) -> None:
+def render_hero_panel(
+    title: str, subtitle: str, eyebrow: str, chips: list[str] | None = None
+) -> None:
     chip_markup = ""
     if chips:
-        chip_markup = "<div class='sm-chip-row'>" + "".join(
-            f"<span class='sm-chip'>{chip}</span>" for chip in chips
-        ) + "</div>"
+        chip_markup = (
+            "<div class='sm-chip-row'>"
+            + "".join(f"<span class='sm-chip'>{chip}</span>" for chip in chips)
+            + "</div>"
+        )
     st.markdown(
         (
             "<section class='sm-hero'>"

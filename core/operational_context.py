@@ -26,7 +26,8 @@ def build_operational_context(settings: Settings) -> dict[str, Any]:
     artifact_assets = {
         "portfolio_snapshot": settings.artifacts_dir / "portfolio_snapshot.json",
         "semantic_metrics_snapshot": settings.artifacts_dir / "semantic_metrics_snapshot.json",
-        "repository_registry_snapshot": settings.artifacts_dir / "repository_registry_snapshot.json",
+        "repository_registry_snapshot": settings.artifacts_dir
+        / "repository_registry_snapshot.json",
         "warehouse": settings.warehouse_path,
     }
 
@@ -101,7 +102,9 @@ def _load_recent_events(path: Path, limit: int = 5) -> list[dict[str, Any]]:
 
 
 def _build_run_history(events: list[dict[str, Any]]) -> dict[str, Any]:
-    snapshot_events = [event for event in events if event.get("event_name") == "portfolio_snapshot_built"]
+    snapshot_events = [
+        event for event in events if event.get("event_name") == "portfolio_snapshot_built"
+    ]
     if not snapshot_events:
         return {
             "event_count": 0,

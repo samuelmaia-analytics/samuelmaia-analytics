@@ -17,8 +17,15 @@ def test_sqlite_exports_create_expected_tables(tmp_path) -> None:
     )
     build_portfolio_snapshot(test_settings)
     with sqlite3.connect(test_settings.warehouse_path) as conn:
-        tables = {row[0] for row in conn.execute("SELECT name FROM sqlite_master WHERE type IN ('table', 'view')")}
-        history_rows = list(conn.execute("SELECT timestamp_utc, decision_readiness_score FROM metric_history"))
+        tables = {
+            row[0]
+            for row in conn.execute(
+                "SELECT name FROM sqlite_master WHERE type IN ('table', 'view')"
+            )
+        }
+        history_rows = list(
+            conn.execute("SELECT timestamp_utc, decision_readiness_score FROM metric_history")
+        )
         domain_rows = list(conn.execute("SELECT timestamp_utc, domain FROM domain_history"))
         project_rows = list(conn.execute("SELECT timestamp_utc, project_name FROM project_history"))
     assert "portfolio_projects" in tables

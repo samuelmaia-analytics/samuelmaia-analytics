@@ -26,7 +26,11 @@ def generate_insight(
         semantic_metrics=semantic_metrics,
         metric_catalog={"metrics": [], "dimensions": []},
         repository_registry=[],
-        operational_context={"freshness": {"sources": {}, "artifacts": {}}, "recent_events": [], "lineage": {}},
+        operational_context={
+            "freshness": {"sources": {}, "artifacts": {}},
+            "recent_events": [],
+            "lineage": {},
+        },
     )
     narrative = suite["narrative_kpi_insights"]
     return {

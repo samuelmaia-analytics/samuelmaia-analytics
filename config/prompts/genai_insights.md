@@ -12,4 +12,3 @@ Output:
 - one executive narrative
 - one risk note
 - one modernization recommendation
-

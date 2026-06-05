@@ -21,7 +21,12 @@ def run_quality_checks(projects: list[PortfolioProject], rules_path: Path) -> di
     )
 
     for project in projects:
-        for field_name in ("governance_score", "quality_score", "execution_score", "observability_score"):
+        for field_name in (
+            "governance_score",
+            "quality_score",
+            "execution_score",
+            "observability_score",
+        ):
             value = getattr(project, field_name)
             status = "pass" if score_min <= value <= score_max else "fail"
             results.append(
@@ -41,4 +46,3 @@ def run_quality_checks(projects: list[PortfolioProject], rules_path: Path) -> di
         "pass_rate": round((passed_checks / total_checks) * 100, 2) if total_checks else 0.0,
         "results": [item.__dict__ for item in results],
     }
-

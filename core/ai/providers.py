@@ -18,14 +18,18 @@ class ProviderResult:
 class GenAIProvider:
     provider_name: str
 
-    def generate(self, task: GenAITaskRequest, prompt_text: str, fallback: ProviderResult) -> ProviderResult:
+    def generate(
+        self, task: GenAITaskRequest, prompt_text: str, fallback: ProviderResult
+    ) -> ProviderResult:
         raise NotImplementedError
 
 
 class TemplateGenAIProvider(GenAIProvider):
     provider_name = "local-template"
 
-    def generate(self, task: GenAITaskRequest, prompt_text: str, fallback: ProviderResult) -> ProviderResult:
+    def generate(
+        self, task: GenAITaskRequest, prompt_text: str, fallback: ProviderResult
+    ) -> ProviderResult:
         return fallback
 
 
@@ -46,7 +50,9 @@ class OpenAICompatibleGenAIProvider(GenAIProvider):
         self.timeout_seconds = timeout_seconds
         self.max_retries = max_retries
 
-    def generate(self, task: GenAITaskRequest, prompt_text: str, fallback: ProviderResult) -> ProviderResult:
+    def generate(
+        self, task: GenAITaskRequest, prompt_text: str, fallback: ProviderResult
+    ) -> ProviderResult:
         if not self.base_url or not self.api_key:
             return ProviderResult(
                 narrative=fallback.narrative,
@@ -124,7 +130,13 @@ class OpenAICompatibleGenAIProvider(GenAIProvider):
                     "narrative": str(parsed["narrative"]).strip(),
                     "bullets": [str(item).strip() for item in parsed["bullets"]][:3],
                 }
-            except (error.URLError, TimeoutError, KeyError, ValueError, json.JSONDecodeError) as exc:
+            except (
+                error.URLError,
+                TimeoutError,
+                KeyError,
+                ValueError,
+                json.JSONDecodeError,
+            ) as exc:
                 last_error = exc
         assert last_error is not None
         raise last_error

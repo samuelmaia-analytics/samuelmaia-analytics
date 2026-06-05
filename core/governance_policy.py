@@ -32,7 +32,9 @@ def build_governance_policy_report(settings: Settings) -> dict[str, Any]:
 
 def _check_threshold_order(settings: Settings) -> dict[str, str]:
     ordered = (
-        settings.change_watch_threshold <= settings.change_material_threshold <= settings.change_critical_threshold
+        settings.change_watch_threshold
+        <= settings.change_material_threshold
+        <= settings.change_critical_threshold
     )
     return {
         "check": "change_driver_threshold_order",
@@ -96,7 +98,9 @@ def _check_data_governance_inventory(settings: Settings) -> dict[str, str]:
     missing = [
         item.get("dataset", "unknown")
         for item in inventory
-        if "classification" not in item or "contains_personal_data" not in item or "retention_days" not in item
+        if "classification" not in item
+        or "contains_personal_data" not in item
+        or "retention_days" not in item
     ]
     if missing:
         return {
@@ -114,7 +118,11 @@ def _check_data_governance_inventory(settings: Settings) -> dict[str, str]:
 def _check_retention_policy(settings: Settings) -> dict[str, str]:
     payload = json.loads(settings.data_governance_path.read_text(encoding="utf-8"))
     inventory = payload.get("data_inventory", [])
-    invalid = [item.get("dataset", "unknown") for item in inventory if not isinstance(item.get("retention_days"), int)]
+    invalid = [
+        item.get("dataset", "unknown")
+        for item in inventory
+        if not isinstance(item.get("retention_days"), int)
+    ]
     if invalid:
         return {
             "check": "retention_policy",
@@ -139,7 +147,9 @@ def _check_lgpd_positioning(settings: Settings) -> dict[str, str]:
             "detail": "LGPD applicability assessment is not documented.",
         }
     has_personal_data = any(item.get("contains_personal_data", False) for item in inventory)
-    if has_personal_data and positioning.get("data_subject_request_process", "").strip().lower().startswith("document before"):
+    if has_personal_data and positioning.get(
+        "data_subject_request_process", ""
+    ).strip().lower().startswith("document before"):
         return {
             "check": "lgpd_positioning",
             "status": "warn",

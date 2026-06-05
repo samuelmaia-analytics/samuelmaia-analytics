@@ -44,15 +44,22 @@ with intro_right:
         ],
     )
 
-render_section_header("Summary", "Short explanation of the current portfolio movement and the suggested response.")
+render_section_header(
+    "Summary", "Short explanation of the current portfolio movement and the suggested response."
+)
 summary_left, summary_right = st.columns((1.1, 0.9))
 with summary_left:
     render_info_card("Change Narrative", payload.get("summary", "No summary available."))
 with summary_right:
-    render_info_card("Recommended Action", payload.get("recommended_action", "No action currently recommended."))
+    render_info_card(
+        "Recommended Action", payload.get("recommended_action", "No action currently recommended.")
+    )
 
 if drivers:
-    render_section_header("Detected Drivers", "Structured list of the strongest contributors behind the most recent historical comparison.")
+    render_section_header(
+        "Detected Drivers",
+        "Structured list of the strongest contributors behind the most recent historical comparison.",
+    )
     highest = max(
         (driver.get("materiality", "stable") for driver in drivers),
         key=lambda item: {"stable": 0, "watch": 1, "material": 2, "critical": 3}.get(item, 0),

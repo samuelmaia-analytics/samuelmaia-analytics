@@ -21,8 +21,12 @@ def build_portfolio_snapshot(settings: Settings) -> dict[str, object]:
     projects = load_portfolio_projects(settings.raw_portfolio_path)
     projects_payload = [project.__dict__ for project in projects]
     quality_report = run_quality_checks(projects, settings.quality_rules_path)
-    semantic_metrics = compute_semantic_metrics(projects, quality_report, settings.semantic_metrics_path)
-    metric_catalog = build_metric_catalog(projects, semantic_metrics, settings.semantic_metrics_path)
+    semantic_metrics = compute_semantic_metrics(
+        projects, quality_report, settings.semantic_metrics_path
+    )
+    metric_catalog = build_metric_catalog(
+        projects, semantic_metrics, settings.semantic_metrics_path
+    )
     repository_registry = sync_repository_metadata(settings)
     operational_context = build_operational_context(settings)
     genai_outputs = build_genai_suite(
@@ -61,14 +65,22 @@ def build_portfolio_snapshot(settings: Settings) -> dict[str, object]:
     snapshot["change_drivers"] = build_change_drivers(snapshot, settings)
     snapshot_contract_errors = validate_contract(
         snapshot,
-        settings.semantic_metrics_path.parents[1] / "contracts" / "v1" / "portfolio_snapshot.schema.json",
+        settings.semantic_metrics_path.parents[1]
+        / "contracts"
+        / "v1"
+        / "portfolio_snapshot.schema.json",
     )
     metrics_contract_errors = validate_contract(
         metric_catalog,
-        settings.semantic_metrics_path.parents[1] / "contracts" / "v1" / "semantic_metrics_snapshot.schema.json",
+        settings.semantic_metrics_path.parents[1]
+        / "contracts"
+        / "v1"
+        / "semantic_metrics_snapshot.schema.json",
     )
     if snapshot_contract_errors:
-        raise ValueError(f"Portfolio snapshot contract validation failed: {snapshot_contract_errors}")
+        raise ValueError(
+            f"Portfolio snapshot contract validation failed: {snapshot_contract_errors}"
+        )
     if metrics_contract_errors:
         raise ValueError(f"Semantic metrics contract validation failed: {metrics_contract_errors}")
     settings.artifacts_dir.mkdir(parents=True, exist_ok=True)
@@ -76,7 +88,9 @@ def build_portfolio_snapshot(settings: Settings) -> dict[str, object]:
         json.dumps(snapshot, indent=2),
         encoding="utf-8",
     )
-    persist_snapshot_history(snapshot, settings.artifacts_dir, snapshot["observability_event"]["timestamp_utc"])
+    persist_snapshot_history(
+        snapshot, settings.artifacts_dir, snapshot["observability_event"]["timestamp_utc"]
+    )
     export_metric_catalog(metric_catalog, settings.artifacts_dir / "semantic_metrics_snapshot.json")
     write_sqlite_exports(snapshot, settings.warehouse_path)
     return snapshot

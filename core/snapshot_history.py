@@ -6,7 +6,9 @@ from pathlib import Path
 from typing import Any
 
 
-def persist_snapshot_history(snapshot: dict[str, Any], artifacts_dir: Path, timestamp_utc: str) -> Path:
+def persist_snapshot_history(
+    snapshot: dict[str, Any], artifacts_dir: Path, timestamp_utc: str
+) -> Path:
     history_dir = artifacts_dir / "history"
     history_dir.mkdir(parents=True, exist_ok=True)
     timestamp = _sanitize_timestamp(timestamp_utc)
@@ -83,8 +85,12 @@ def _compare_snapshots(latest: dict[str, Any], previous: dict[str, Any] | None) 
         "metric_definition_count_delta": len(latest_metric_defs) - len(previous_metric_defs),
         "repository_count_delta": len(latest_repo_ids) - len(previous_repo_ids),
         "genai_use_case_count_delta": len(latest_genai) - len(previous_genai),
-        "added_repositories": sorted(str(item) for item in latest_repo_ids - previous_repo_ids if item),
-        "removed_repositories": sorted(str(item) for item in previous_repo_ids - latest_repo_ids if item),
+        "added_repositories": sorted(
+            str(item) for item in latest_repo_ids - previous_repo_ids if item
+        ),
+        "removed_repositories": sorted(
+            str(item) for item in previous_repo_ids - latest_repo_ids if item
+        ),
     }
 
 
@@ -105,7 +111,9 @@ def _summarize_changes(changes: dict[str, Any]) -> str:
         signals.append(f"project count delta {changes['project_count_delta']}")
     if changes["quality_pass_rate_delta"]:
         direction = "improved" if changes["quality_pass_rate_delta"] > 0 else "declined"
-        signals.append(f"quality pass rate {direction} by {abs(changes['quality_pass_rate_delta']):.2f}")
+        signals.append(
+            f"quality pass rate {direction} by {abs(changes['quality_pass_rate_delta']):.2f}"
+        )
     if changes["metric_definition_count_delta"]:
         signals.append(f"metric definitions delta {changes['metric_definition_count_delta']}")
     if changes["repository_count_delta"]:

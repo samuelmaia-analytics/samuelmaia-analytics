@@ -7,4 +7,3 @@ CREATE TABLE IF NOT EXISTS repository_registry (
     entrypoint_exists INTEGER NOT NULL,
     readme_title TEXT
 );
-

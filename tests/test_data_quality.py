@@ -12,4 +12,3 @@ def test_quality_report_has_expected_shape() -> None:
     assert report["total_checks"] > 0
     assert report["failed_checks"] == 0
     assert report["pass_rate"] == 100.0
-

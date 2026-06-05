@@ -7,4 +7,3 @@ SELECT
 FROM portfolio_projects
 GROUP BY domain
 ORDER BY governance_score_avg DESC;
-

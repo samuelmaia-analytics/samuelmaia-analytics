@@ -14,7 +14,9 @@ def build_health_report(settings: Settings) -> dict[str, object]:
     return {
         "status": "ok" if all(path.exists() for path in paths.values()) else "degraded",
         "environment": settings.env,
-        "paths": {name: {"path": str(path), "exists": path.exists()} for name, path in paths.items()},
+        "paths": {
+            name: {"path": str(path), "exists": path.exists()} for name, path in paths.items()
+        },
         "warehouse_path": str(settings.warehouse_path),
         "governance_policy_status": build_governance_policy_report(settings)["status"],
     }

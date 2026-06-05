@@ -33,11 +33,15 @@ def build_change_drivers(snapshot: dict[str, Any], settings: Settings) -> dict[s
     return {
         "summary": summary,
         "drivers": drivers,
-        "recommended_action": _recommended_action(run_history, project_changes, repository_changes, drivers),
+        "recommended_action": _recommended_action(
+            run_history, project_changes, repository_changes, drivers
+        ),
     }
 
 
-def _primary_metric_driver(metric_deltas: dict[str, float], settings: Settings) -> dict[str, Any] | None:
+def _primary_metric_driver(
+    metric_deltas: dict[str, float], settings: Settings
+) -> dict[str, Any] | None:
     non_zero = [(name, delta) for name, delta in metric_deltas.items() if delta]
     if not non_zero:
         return None

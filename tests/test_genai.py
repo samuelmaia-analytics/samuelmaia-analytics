@@ -10,7 +10,11 @@ from core.genai import generate_insight
 def test_genai_layer_returns_narrative() -> None:
     settings = get_settings()
     payload = generate_insight(
-        {"decision_readiness_score": 90.0, "quality_pass_rate": 100.0, "platform_trust_score": 88.0},
+        {
+            "decision_readiness_score": 90.0,
+            "quality_pass_rate": 100.0,
+            "platform_trust_score": 88.0,
+        },
         {"pass_rate": 100.0},
         settings.genai_prompt_path,
         settings.genai_provider,
@@ -75,7 +79,12 @@ def test_genai_suite_exposes_expected_use_cases() -> None:
         },
         repository_registry=[{"repository": "tmp-revenue-intelligence-platform-suite"}],
         operational_context={
-            "freshness": {"sources": {}, "artifacts": {"portfolio_snapshot": {"updated_at_utc": "2026-04-05T22:00:00+00:00"}}},
+            "freshness": {
+                "sources": {},
+                "artifacts": {
+                    "portfolio_snapshot": {"updated_at_utc": "2026-04-05T22:00:00+00:00"}
+                },
+            },
             "recent_events": [],
             "run_history": {
                 "event_count": 2,
@@ -110,5 +119,8 @@ def test_genai_suite_exposes_expected_use_cases() -> None:
     assert payload["metric_definition_assistant"]["provider_status"] == "local_template"
     assert "analytics_platform" in payload["metric_definition_assistant"]["narrative"]
     assert "recent run history" in payload["narrative_kpi_insights"]["narrative"].lower()
-    assert "revenue intelligence platform changed" in payload["narrative_kpi_insights"]["narrative"].lower()
+    assert (
+        "revenue intelligence platform changed"
+        in payload["narrative_kpi_insights"]["narrative"].lower()
+    )
     assert "execution_score: 88.0 -> 91.0" in payload["executive_summary"]["narrative"]

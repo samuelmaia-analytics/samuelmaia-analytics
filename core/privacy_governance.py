@@ -9,8 +9,12 @@ def load_data_governance_summary(config_path: Path) -> dict[str, Any]:
     payload = json.loads(config_path.read_text(encoding="utf-8"))
     inventory = payload.get("data_inventory", [])
     contains_personal_data = any(item.get("contains_personal_data", False) for item in inventory)
-    contains_sensitive_personal_data = any(item.get("contains_sensitive_personal_data", False) for item in inventory)
-    retention_days = [item.get("retention_days") for item in inventory if item.get("retention_days") is not None]
+    contains_sensitive_personal_data = any(
+        item.get("contains_sensitive_personal_data", False) for item in inventory
+    )
+    retention_days = [
+        item.get("retention_days") for item in inventory if item.get("retention_days") is not None
+    ]
 
     return {
         "policy_version": payload.get("policy_version", "unknown"),

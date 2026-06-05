@@ -25,7 +25,9 @@ def compute_semantic_metrics(
     execution_score = sum(item.execution_score for item in projects) / len(projects)
     observability_score = sum(item.observability_score for item in projects) / len(projects)
     quality_pass_rate = float(quality_report["pass_rate"])
-    decision_readiness_score = 0.35 * governance_score + 0.35 * quality_pass_rate + 0.30 * execution_score
+    decision_readiness_score = (
+        0.35 * governance_score + 0.35 * quality_pass_rate + 0.30 * execution_score
+    )
     platform_trust_score = 0.5 * governance_score + 0.5 * observability_score
     return {
         "decision_readiness_score": round(decision_readiness_score, 2),

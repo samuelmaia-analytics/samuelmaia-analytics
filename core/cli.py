@@ -16,13 +16,23 @@ def build_parser() -> argparse.ArgumentParser:
 
     subparsers.add_parser("snapshot", help="Build the canonical portfolio snapshot.")
     subparsers.add_parser("health", help="Print the current operational health report.")
-    subparsers.add_parser("analytics-checks", help="Run dbt-like analytics engineering checks against the warehouse.")
-    subparsers.add_parser("policy-checks", help="Print governance policy checks for runtime configuration.")
-    subparsers.add_parser("validate", help="Run snapshot build as a contract and quality validation.")
+    subparsers.add_parser(
+        "analytics-checks", help="Run dbt-like analytics engineering checks against the warehouse."
+    )
+    subparsers.add_parser(
+        "policy-checks", help="Print governance policy checks for runtime configuration."
+    )
+    subparsers.add_parser(
+        "validate", help="Run snapshot build as a contract and quality validation."
+    )
     subparsers.add_parser("sync-registry", help="Sync enriched repository registry metadata.")
 
-    export_cmd = subparsers.add_parser("export", help="Export a copy of the snapshot to a target path.")
-    export_cmd.add_argument("--output", required=True, help="Target file path for the exported snapshot JSON.")
+    export_cmd = subparsers.add_parser(
+        "export", help="Export a copy of the snapshot to a target path."
+    )
+    export_cmd.add_argument(
+        "--output", required=True, help="Target file path for the exported snapshot JSON."
+    )
     return parser
 
 

@@ -6,4 +6,3 @@ CREATE TABLE IF NOT EXISTS portfolio_projects (
     execution_score REAL NOT NULL,
     observability_score REAL NOT NULL
 );
-

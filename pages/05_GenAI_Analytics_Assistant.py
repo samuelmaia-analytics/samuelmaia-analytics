@@ -51,7 +51,9 @@ selected = st.selectbox(
 )
 artifact = artifacts[selected]
 
-render_section_header(artifact["title"], "Generated draft based on current platform context and configured prompts.")
+render_section_header(
+    artifact["title"], "Generated draft based on current platform context and configured prompts."
+)
 st.caption(
     f"Provider: {artifact['provider_name']} | Status: {artifact['provider_status']} | Mode: {artifact['generation_mode']}"
 )
@@ -61,7 +63,9 @@ with artifact_left:
 with artifact_right:
     render_bullet_card("Key Points", artifact["bullets"])
 
-render_section_header("Change Drivers", "Operational context that helps explain what the drafts should emphasize.")
+render_section_header(
+    "Change Drivers", "Operational context that helps explain what the drafts should emphasize."
+)
 st.caption(change_drivers.get("recommended_action", ""))
 drivers = change_drivers.get("drivers", [])
 if drivers:

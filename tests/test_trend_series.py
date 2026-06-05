@@ -64,8 +64,26 @@ def test_domain_history_and_repository_changes_are_built(tmp_path: Path) -> None
                     }
                 }
             },
-            "projects": [{"project_name": "Revenue Intelligence Platform", "domain": "analytics_engineering", "governance_score": 90.0, "quality_score": 92.0, "execution_score": 88.0, "observability_score": 80.0}],
-            "repository_registry": [{"id": "repo-a", "markdown_files": 4, "python_files": 10, "tests_present": True, "exists_locally": True, "entrypoint_exists": True}],
+            "projects": [
+                {
+                    "project_name": "Revenue Intelligence Platform",
+                    "domain": "analytics_engineering",
+                    "governance_score": 90.0,
+                    "quality_score": 92.0,
+                    "execution_score": 88.0,
+                    "observability_score": 80.0,
+                }
+            ],
+            "repository_registry": [
+                {
+                    "id": "repo-a",
+                    "markdown_files": 4,
+                    "python_files": 10,
+                    "tests_present": True,
+                    "exists_locally": True,
+                    "entrypoint_exists": True,
+                }
+            ],
             "observability_event": {"timestamp_utc": "2026-04-05T22:00:00+00:00"},
         },
         artifacts_dir,
@@ -84,8 +102,26 @@ def test_domain_history_and_repository_changes_are_built(tmp_path: Path) -> None
                     }
                 }
             },
-            "projects": [{"project_name": "Revenue Intelligence Platform", "domain": "analytics_engineering", "governance_score": 91.0, "quality_score": 93.0, "execution_score": 89.0, "observability_score": 82.0}],
-            "repository_registry": [{"id": "repo-a", "markdown_files": 5, "python_files": 10, "tests_present": True, "exists_locally": True, "entrypoint_exists": True}],
+            "projects": [
+                {
+                    "project_name": "Revenue Intelligence Platform",
+                    "domain": "analytics_engineering",
+                    "governance_score": 91.0,
+                    "quality_score": 93.0,
+                    "execution_score": 89.0,
+                    "observability_score": 82.0,
+                }
+            ],
+            "repository_registry": [
+                {
+                    "id": "repo-a",
+                    "markdown_files": 5,
+                    "python_files": 10,
+                    "tests_present": True,
+                    "exists_locally": True,
+                    "entrypoint_exists": True,
+                }
+            ],
             "observability_event": {"timestamp_utc": "2026-04-05T22:10:00+00:00"},
         },
         artifacts_dir,

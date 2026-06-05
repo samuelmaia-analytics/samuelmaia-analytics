@@ -18,7 +18,9 @@ def test_snapshot_history_persists_and_compares(tmp_path: Path) -> None:
         "projects": [{"project_name": "A"}, {"project_name": "B"}],
         "repository_registry": [{"id": "repo-a"}, {"id": "repo-b"}],
         "quality_report": {"pass_rate": 100.0},
-        "metric_catalog": {"definitions": [{"name": "decision_readiness_score"}, {"name": "platform_trust_score"}]},
+        "metric_catalog": {
+            "definitions": [{"name": "decision_readiness_score"}, {"name": "platform_trust_score"}]
+        },
         "genai_outputs": {"narrative_kpi_insights": {}, "executive_summary": {}},
     }
 

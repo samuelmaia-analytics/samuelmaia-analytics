@@ -9,4 +9,3 @@ def test_repository_registry_detects_local_paths() -> None:
     registry = load_repository_registry(settings.project_registry_path)
     assert len(registry) >= 3
     assert any(item["exists_locally"] for item in registry)
-

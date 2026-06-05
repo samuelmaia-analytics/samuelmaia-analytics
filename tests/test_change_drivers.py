@@ -16,7 +16,10 @@ def test_change_drivers_extracts_metric_and_project_signals() -> None:
     payload = build_change_drivers(
         {
             "operational_context": {
-                "run_history": {"stability": "changing", "metric_deltas": {"decision_readiness_score": 2.5}},
+                "run_history": {
+                    "stability": "changing",
+                    "metric_deltas": {"decision_readiness_score": 2.5},
+                },
                 "snapshot_history": {
                     "project_change_summary": {
                         "changes": [

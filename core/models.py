@@ -18,4 +18,3 @@ class QualityCheckResult:
     rule: str
     status: str
     detail: str
-

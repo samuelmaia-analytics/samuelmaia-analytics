@@ -61,11 +61,15 @@ def get_settings() -> Settings:
         if not item or ":" not in item:
             continue
         key, scopes = item.split(":", 1)
-        api_key_scopes[key.strip()] = tuple(scope.strip() for scope in scopes.split(",") if scope.strip())
+        api_key_scopes[key.strip()] = tuple(
+            scope.strip() for scope in scopes.split(",") if scope.strip()
+        )
     jwt_enabled = os.getenv("PORTFOLIO_JWT_ENABLED", "false").strip().lower() == "true"
     jwt_secret = os.getenv("PORTFOLIO_JWT_SECRET", "change-me")
     if jwt_enabled and len(jwt_secret) < 32:
-        raise ValueError("PORTFOLIO_JWT_SECRET must be at least 32 characters when JWT auth is enabled.")
+        raise ValueError(
+            "PORTFOLIO_JWT_SECRET must be at least 32 characters when JWT auth is enabled."
+        )
 
     return Settings(
         env=os.getenv("PORTFOLIO_ENV", "dev"),
@@ -74,7 +78,8 @@ def get_settings() -> Settings:
         data_dir=data_dir,
         artifacts_dir=artifacts_dir,
         observability_dir=observability_dir,
-        warehouse_path=root / os.getenv("PORTFOLIO_WAREHOUSE_PATH", "data/warehouse/portfolio_platform.db"),
+        warehouse_path=root
+        / os.getenv("PORTFOLIO_WAREHOUSE_PATH", "data/warehouse/portfolio_platform.db"),
         genai_prompt_dir=root / "config" / "prompts" / "genai",
         semantic_metrics_path=root / "config" / "semantic_metrics.json",
         quality_rules_path=root / "config" / "quality_rules.json",

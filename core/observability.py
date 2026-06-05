@@ -5,7 +5,9 @@ from datetime import UTC, datetime
 from pathlib import Path
 
 
-def emit_observability_event(event_name: str, payload: dict[str, object], output_dir: Path) -> dict[str, object]:
+def emit_observability_event(
+    event_name: str, payload: dict[str, object], output_dir: Path
+) -> dict[str, object]:
     output_dir.mkdir(parents=True, exist_ok=True)
     event = {
         "event_name": event_name,
@@ -15,4 +17,3 @@ def emit_observability_event(event_name: str, payload: dict[str, object], output
     with (output_dir / "events.jsonl").open("a", encoding="utf-8") as file:
         file.write(json.dumps(event) + "\n")
     return event
-
