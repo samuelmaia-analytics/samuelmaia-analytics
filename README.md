@@ -1,9 +1,7 @@
-<a id="top"></a>
-
-**English** | [Português (Brasil)](./README.pt-BR.md) | [Português (Portugal)](./README.pt-PT.md)
-
 # Samuel Maia | Data Analyst / Analytics Engineer
 
-<p align="left">
-  <a href="https://github.com/samuelmaia-analytics"><img src="https://img.shields.io/badge/GitHub-samuelmaia--analytics-181717?style=for-the-badge&logo=github" alt="GitHub" /></a>
-  <a href="https://www.linkedin.com/in/samuelmaia-analytics/"><img src
+[GitHub](https://github.com/samuelmaia-analytics) | [LinkedIn](https://www.linkedin.com/in/samuelmaia-analytics/)
+
+I build business-facing analytics projects with Python, SQL, Power BI, Streamlit, data quality checks, documentation, and governance-oriented workflows.
+
+Based in Fortaleza, Brazil. Open to remote roles and freelance projects in Data Analysis, BI, Analytics Engineering, data quality, reporting automation
