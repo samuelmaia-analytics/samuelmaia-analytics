@@ -6,4 +6,8 @@ I build projects with Python, SQL, Power BI, Streamlit, DuckDB-style modeling, t
 
 Open to remote roles: Data Analyst, BI Analyst, Analytics Engineer and data consulting.
 
-[GitHub](https://github.com/samuelmaia-analytics) | [LinkedIn](https://www.linkedin.com/in/s
+## Featured Portfolio
+
+1. Governed Analytics Platform - governed publication layer, data quality checks and documentation.
+2. Revenue Intelligence Platform - revenue, churn and decision-support analytics.
+3. Revenue Intelligence Platform Suite - portfolio suite
