@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import subprocess
+import sys
 import time
 import urllib.request
 from pathlib import Path
@@ -11,7 +12,7 @@ def main() -> None:
     root = Path(__file__).resolve().parents[1]
     process = subprocess.Popen(
         [
-            str(root / ".venv" / "Scripts" / "python.exe"),
+            sys.executable,
             "-m",
             "uvicorn",
             "services.api.main:app",

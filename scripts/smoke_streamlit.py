@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import subprocess
+import sys
 import time
 import urllib.request
 from pathlib import Path
@@ -10,7 +11,9 @@ def main() -> None:
     root = Path(__file__).resolve().parents[1]
     process = subprocess.Popen(
         [
-            str(root / ".venv" / "Scripts" / "streamlit.exe"),
+            sys.executable,
+            "-m",
+            "streamlit",
             "run",
             "streamlit_app.py",
             "--server.headless",

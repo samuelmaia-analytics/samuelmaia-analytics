@@ -31,7 +31,6 @@ dev = [
 packages = [
   "app",
   "app.ui",
-  "app.pages",
   "config",
   "core",
   "core.ai",
