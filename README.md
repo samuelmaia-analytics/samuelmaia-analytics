@@ -1,103 +1,102 @@
 # Samuel Maia
 
-**Data Analyst | Analytics Engineer | Data Quality | Data Governance**
+**Analista de Dados | Analytics Engineer**
 
-I build data and analytics solutions across the analytical lifecycle — from ingestion and transformation to modeling, quality, governance, testing, publishing, and executive consumption.
+Atuo com Análise de Dados e Analytics Engineering, transformando dados brutos em informações confiáveis para apoiar decisões de negócio. Desenvolvo projetos de ponta a ponta envolvendo ingestão, transformação, modelagem, qualidade, governança, automação e consumo analítico.
 
-My work combines business-facing analytics with software engineering practices using Python, SQL, Power BI, Streamlit, dbt, automated testing, documentation, and CI/CD.
+Meu portfólio combina visão de negócio com práticas de engenharia de software aplicadas a dados, utilizando Python, SQL, Power BI, Streamlit, dbt, testes automatizados e CI/CD.
 
-[LinkedIn](https://www.linkedin.com/in/samuelmaia-analytics/) · [GitHub](https://github.com/samuelmaia-analytics)
-
----
-
-## What I work with
-
-- Data Analytics and Business Intelligence
-- Analytics Engineering and ETL/ELT
-- Data Modeling and semantic layers
-- Data Quality and automated validation
-- Data Governance, Data Contracts, and lineage
-- Python automation and APIs
-- CI/CD, testing, and technical documentation
-
-## Core technologies
-
-**Data & Analytics:** Python · SQL · Power BI · pandas · DuckDB · dbt · PostgreSQL · MySQL/MariaDB
-
-**Applications & APIs:** Streamlit · FastAPI
-
-**Quality & Engineering:** Pytest · Ruff · mypy · Git · GitHub Actions · CI/CD · Docker
-
-**Automation & Cloud:** n8n · AWS
+[LinkedIn](https://www.linkedin.com/in/samuelmaia-analytics/) · [GitHub](https://github.com/samuelmaia-analytics) · [Governed Analytics Platform](https://governed-analytics-platform.streamlit.app/)
 
 ---
 
-## Featured project
+## Áreas de atuação
+
+- Análise de Dados e Business Intelligence
+- Analytics Engineering e ETL/ELT
+- Modelagem de dados e camadas analíticas
+- Data Quality e validações automatizadas
+- Data Governance, Data Contracts e Data Lineage
+- Automação com Python e n8n
+- Testes, documentação e CI/CD
+- Cloud e arquiteturas orientadas a dados
+
+## Principais tecnologias
+
+**Dados e Analytics:** Python · SQL · pandas · DuckDB · PostgreSQL · MySQL/MariaDB  
+**Analytics Engineering:** dbt · ETL/ELT · modelagem dimensional · camadas Bronze/Silver/Gold  
+**BI e aplicações:** Power BI · Streamlit · Plotly · FastAPI  
+**Qualidade e engenharia:** Pytest · Ruff · mypy · Git · GitHub Actions · Codecov · CI/CD  
+**Automação e Cloud:** n8n · AWS
+
+---
+
+## Projeto em destaque
 
 ### [Governed Analytics Platform](https://github.com/samuelmaia-analytics/Governed-Analytics-Platform)
-**Analytics Engineering & Data Governance portfolio project**
 
-A production-inspired governed analytics platform built with public Olist data. The project demonstrates an end-to-end analytical flow with a clear separation between internal processing and the governed/published layer consumed by the executive application.
+Plataforma de Analytics Engineering com fluxo governado de dados, desenvolvida com dados públicos do Olist. O projeto separa o processamento interno da camada publicada consumida pela aplicação executiva, aplicando controles explícitos de qualidade, privacidade e publicação.
 
-Key capabilities include:
+**Principais entregas**
+- Pipeline modular com Python, SQL, pandas e DuckDB
+- Modelagem analítica com dbt
+- Camadas Bronze, Silver, Gold e Quarantine
+- Data Contracts em YAML e controles de Data Quality
+- Classificação inspirada na LGPD e Privacy Risk Score
+- Publication Gate com decisões auditáveis
+- Data Lineage, logs operacionais e evidências de governança
+- Aplicação executiva em Streamlit e endpoints FastAPI
+- Testes automatizados, linting, tipagem e CI/CD com GitHub Actions
+- Exemplos de orquestração com n8n
 
-- Modular Python and SQL pipeline with pandas and DuckDB
-- Analytical modeling with dbt
-- Bronze, Silver, Gold, and Quarantine data layers
-- YAML Data Contracts and Data Quality controls
-- LGPD-oriented classification and Privacy Risk Score
-- Publication Gate and auditable publication decisions
-- Data Lineage, operational logs, monitoring, and governance evidence
-- Revenue Analytics, Seller Performance, Pareto, Cohort Retention, and Business Insights
-- Streamlit executive application and FastAPI endpoints
-- GitHub Actions, Pytest, Ruff, mypy, Codecov, and CI/CD
-- n8n orchestration examples while business logic remains in code
-- **913 automated tests passed in the latest validated full-suite state**
+**Fluxo geral**  
+`Dados brutos → Ingestão → Transformação → Qualidade → Governança → Publication Gate → Camada publicada → Consumo analítico`
 
-Snowflake is treated as an optional integration with graceful degradation. AWS is documented as a reference architecture where applicable rather than presented as production infrastructure operated for real clients.
-
-> Portfolio project using public, synthetic, or demonstration data. It is inspired by production practices but does not represent an enterprise platform operating real customer data.
-
-**[Live demo](https://governed-analytics-platform.streamlit.app/)** · **[Repository](https://github.com/samuelmaia-analytics/Governed-Analytics-Platform)**
+[Ver demonstração](https://governed-analytics-platform.streamlit.app/) · [Ver repositório](https://github.com/samuelmaia-analytics/Governed-Analytics-Platform)
 
 ---
 
-## Selected projects
+## Outros projetos
 
 ### [Revenue Intelligence Platform Suite](https://github.com/samuelmaia-analytics/revenue-intelligence-platform-suite)
-Analytics platform focused on revenue, retention, KPI governance, observability, executive decision support, APIs, and reusable analytical assets.
+Plataforma analítica voltada a receita, retenção, governança de KPIs, observabilidade e apoio à decisão executiva.
 
 ### [Churn Prediction Data Product](https://github.com/samuelmaia-analytics/churn-prediction)
-Production-minded churn data product covering ingestion, layered data processing, model training and inference, drift monitoring, business prioritization, Streamlit, FastAPI, and automated quality gates.
+Produto de dados para previsão de churn, cobrindo preparação de dados, treinamento e inferência, monitoramento e priorização de clientes.
 
 ### [Retail Revenue Intelligence Platform](https://github.com/samuelmaia-analytics/retail-revenue-intelligence-platform)
-Data Analytics, BI, and Analytics Engineering portfolio project using public Olist data with Python, SQL, DuckDB, dimensional modeling, automated tests, Power BI specifications, and Streamlit.
+Projeto de Data Analytics, BI e Analytics Engineering com dados públicos do Olist, incluindo modelagem dimensional, testes e consumo analítico.
 
 ### [Amazon Sales Analytics Platform](https://github.com/samuelmaia-analytics/amazon-sales-analysis)
-Local-first analytics platform focused on commercial performance, data contracts, Bronze/Silver/Gold processing, quality gates, observability, DuckDB materialization, API/CLI/Streamlit serving, and CI validation.
+Plataforma analítica voltada a desempenho comercial, contratos de dados, processamento em camadas, qualidade, observabilidade e disponibilização dos dados.
 
 ### [AWS Serverless Access Counter](https://github.com/samuelmaia-analytics/aws-serverless-access-counter)
-AWS re/Start group project demonstrating a serverless access-counter architecture using CloudFront, S3, API Gateway, Lambda, DynamoDB, CloudWatch, IAM, WAF, SNS, and AWS Budgets.
+Projeto serverless desenvolvido no AWS re/Start com CloudFront, S3, API Gateway, Lambda, DynamoDB, CloudWatch, IAM, WAF, SNS e AWS Budgets.
 
 ---
 
-## Open to opportunities
+## O que você encontrará nos meus projetos
 
-I am open to opportunities in:
+Cada projeto busca demonstrar não apenas código, mas também o raciocínio por trás da solução:
 
-- Data Analyst
-- Analytics Engineer
-- BI / Analytics
-- Data Quality
-- Data Governance
-
-I am especially interested in remote opportunities, including international roles, where I can combine analytics, engineering practices, governance, and business context.
+- problema ou contexto de negócio;
+- arquitetura e fluxo dos dados;
+- tecnologias utilizadas;
+- qualidade e validações;
+- documentação técnica;
+- testes e automação;
+- dashboards, aplicações ou APIs quando aplicável.
 
 ---
 
-## Contact
+## Objetivo profissional
 
-- LinkedIn: https://www.linkedin.com/in/samuelmaia-analytics/
-- GitHub: https://github.com/samuelmaia-analytics
-- Governed Analytics Platform: https://github.com/samuelmaia-analytics/Governed-Analytics-Platform
-- Live demo: https://governed-analytics-platform.streamlit.app/
+Busco oportunidades como **Analista de Dados** e **Analytics Engineer**, contribuindo com análise, engenharia, qualidade e governança para transformar dados em produtos confiáveis e úteis para o negócio.
+
+---
+
+## Contato
+
+- [LinkedIn](https://www.linkedin.com/in/samuelmaia-analytics/)
+- [GitHub](https://github.com/samuelmaia-analytics)
+- [Governed Analytics Platform](https://governed-analytics-platform.streamlit.app/)
