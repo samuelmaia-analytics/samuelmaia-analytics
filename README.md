@@ -38,15 +38,13 @@ Plataforma de Analytics Engineering criada para demonstrar como transformar dado
 
 **O que resolve:** reduz o risco de dados inconsistentes chegarem ao consumo analítico e melhora rastreabilidade, governança e auditabilidade do fluxo de dados.
 
-**Principais entregas:**
-- pipeline modular com Python, SQL, pandas, DuckDB e PostgreSQL;
-- modelagem analítica com dbt;
-- Data Quality Gates e Data Contracts;
-- Privacy Risk Score e Publication Gate;
-- Data Lineage, logs operacionais e evidências de governança;
-- aplicação executiva em Streamlit e endpoints FastAPI;
-- testes automatizados e CI/CD com GitHub Actions;
-- automação e integração com n8n.
+**Escopo mensurável e defensável:**
+- **4 camadas de dados:** Bronze, Silver, Gold e Quarantine;
+- **3 estados explícitos de publicação:** Approved, Needs Review e Blocked;
+- **7 workflows versionados no GitHub Actions** para CI, deploy, lint, operação, políticas, segurança e sincronização de catálogo;
+- aplicação executiva em Streamlit, endpoints FastAPI, Data Contracts, Data Lineage, Privacy Risk Score e evidências de Data Quality.
+
+**Stack:** Python · SQL · pandas · DuckDB · PostgreSQL · dbt · FastAPI · Streamlit · Pytest · GitHub Actions · n8n
 
 `Dados brutos → Ingestão → Transformação → Qualidade → Governança → Publication Gate → Consumo analítico`
 
@@ -60,12 +58,13 @@ Produto analítico para monitorar workflows, SLA, backlog, gargalos e alertas op
 
 **O que resolve:** transforma dados operacionais dispersos em uma visão executiva para acompanhar risco, produtividade, SLA e prioridades.
 
-**Principais entregas:**
-- integração com Pipefy via API/GraphQL e modo demonstração;
-- regras automáticas de criticidade e alertas;
-- KPIs de operação, backlog e SLA;
-- dashboard executivo em Streamlit;
-- automação com Python e SQL.
+**Escopo mensurável e defensável:**
+- monitora **5 grupos principais de indicadores operacionais**: volume de processos, SLA, backlog/vencimentos, criticidade/responsabilidade e Índice de Saúde Operacional;
+- integração com Pipefy via GraphQL, com modo real ou demonstração;
+- regras automáticas de criticidade, alertas e recomendações de ação;
+- dashboard executivo e exportação de alertas para acompanhamento operacional.
+
+**Stack:** Python · SQL · Streamlit · Pipefy GraphQL API
 
 [Ver demonstração](https://central-automacao-operacoes.streamlit.app/)
 
@@ -76,6 +75,8 @@ Produto analítico para monitorar workflows, SLA, backlog, gargalos e alertas op
 Projeto desenvolvido no AWS re/Start para demonstrar uma arquitetura serverless de contagem de acessos com escalabilidade sob demanda, segurança e observabilidade.
 
 **O que resolve:** substitui uma arquitetura baseada em servidor por serviços gerenciados, reduzindo a necessidade de administração de infraestrutura para uma aplicação simples de tráfego variável.
+
+**Escopo mensurável e defensável:** arquitetura integrada com **10 serviços AWS** cobrindo frontend, distribuição, API, processamento, persistência, segurança, observabilidade, alertas e controle de custos.
 
 **Stack AWS:** CloudFront · S3 · API Gateway · Lambda · DynamoDB · CloudWatch · IAM · WAF · SNS · AWS Budgets
 
@@ -94,6 +95,8 @@ Cada projeto procura demonstrar não apenas código, mas também o raciocínio p
 - documentação e rastreabilidade;
 - testes e automação;
 - consumo por dashboards, aplicações ou APIs quando aplicável.
+
+As métricas apresentadas aqui descrevem o **escopo realmente implementado nos projetos**. Não utilizo percentuais fictícios de economia, produtividade ou impacto financeiro quando eles não foram medidos em ambiente real.
 
 ---
 
