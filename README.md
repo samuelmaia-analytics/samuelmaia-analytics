@@ -95,8 +95,10 @@ Busco oportunidades como **Analista de Dados** e **Analytics Engineer**, contrib
 
 ---
 
-## Contato
+## Let's connect
 
-- [LinkedIn](https://www.linkedin.com/in/samuelmaia-analytics/)
-- [GitHub](https://github.com/samuelmaia-analytics)
-- [Governed Analytics Platform](https://governed-analytics-platform.streamlit.app/)
+I’m available for **Data Analytics, BI, Analytics Engineering and Automation projects**, as well as full-time opportunities.
+
+📩 **Email:** samuelmaia.carreira@gmail.com  
+💼 **LinkedIn:** https://www.linkedin.com/in/samuelmaia-analytics/  
+🌐 **Portfolio:** https://samuelmaia-analytics.github.io/samuelmaia-analytics/
