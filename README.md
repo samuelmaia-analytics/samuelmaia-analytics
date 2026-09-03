@@ -97,7 +97,7 @@ Busco oportunidades como **Analista de Dados** e **Analytics Engineer**, contrib
 
 ## Let's connect
 
-I’m available for **Data Analytics, BI, Analytics Engineering and Automation projects**, as well as full-time opportunities.
+I’m available for **Data Analytics, BI, Analytics Engineering and Automation projects**, as well as **full-time opportunities in Brazil and remote/international roles**.
 
 📩 **Email:** samuelmaia.carreira@gmail.com  
 💼 **LinkedIn:** https://www.linkedin.com/in/samuelmaia-analytics/  
