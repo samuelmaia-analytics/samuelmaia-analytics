@@ -87,6 +87,28 @@ def main() -> None:
         )
 
     render_section_header(
+        "Experiência independente desde 2022",
+        "Projetos de Dados, BI, automação e tecnologia desenvolvidos de forma independente, inicialmente em demandas pontuais e estudos aplicados, evoluindo para soluções mais estruturadas de Analytics Engineering.",
+    )
+    experience_left, experience_right = st.columns((1.15, 0.85))
+    with experience_left:
+        render_info_card(
+            "Analytics Engineer | Data & BI Consultant",
+            "Atuação independente desde 2022 com pipelines ETL/ELT, modelagem analítica, Data Quality, governança, dashboards, APIs, automação e integração de dados. O foco evoluiu de demandas pontuais e estudos aplicados para projetos estruturados com práticas de engenharia e governança de dados.",
+        )
+    with experience_right:
+        render_bullet_card(
+            "Principais frentes",
+            [
+                "Pipelines e transformação com Python, SQL, dbt, DuckDB e PostgreSQL.",
+                "Dashboards e aplicações com Power BI, Streamlit e FastAPI.",
+                "Data Quality, Data Contracts, lineage e controles de publicação.",
+                "Automação de fluxos e integrações com APIs e n8n.",
+                "Testes, documentação e CI/CD com GitHub Actions.",
+            ],
+        )
+
+    render_section_header(
         "Projetos principais",
         "Três projetos complementares que demonstram Analytics Engineering, automação operacional e cloud.",
     )
