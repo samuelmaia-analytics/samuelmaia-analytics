@@ -2,9 +2,11 @@
 
 **Analytics Engineer | Data, BI & Automation**
 
-Transformo dados e processos em soluções analíticas confiáveis para apoiar decisões de negócio. Desenvolvo projetos de ponta a ponta envolvendo ingestão, transformação, modelagem, qualidade, governança, automação e consumo analítico.
+Presto serviços em Data Analytics, BI e Analytics Engineering, ajudando a transformar dados brutos em informações confiáveis para decisão. Desenvolvo pipelines, automações, dashboards e soluções com foco em qualidade, governança, rastreabilidade e eficiência operacional.
 
-Meu trabalho combina visão de negócio com práticas de engenharia de software aplicadas a dados, com foco em confiabilidade, rastreabilidade, automação e clareza para quem consome a informação.
+Minha atuação combina visão de negócio com práticas de engenharia de software aplicadas a dados, conectando ingestão, transformação, modelagem, qualidade, governança, automação e consumo analítico.
+
+**Disponível para novos projetos e oportunidades em Dados, BI, Analytics Engineering e Automação.**
 
 [LinkedIn](https://www.linkedin.com/in/samuelmaia-analytics/) · [Portfólio](https://samuelmaia-analytics.github.io/samuelmaia-analytics/) · [GitHub](https://github.com/samuelmaia-analytics)
 
@@ -100,10 +102,10 @@ As métricas apresentadas aqui descrevem o **escopo realmente implementado nos p
 
 ---
 
-## Let's connect
+## Contato
 
-I’m available for **Data Analytics, BI, Analytics Engineering and Automation projects**, as well as **full-time opportunities in Brazil and remote/international roles**.
+Disponível para **projetos em Data Analytics, BI, Analytics Engineering e Automação**, além de oportunidades profissionais no Brasil e posições remotas/internacionais.
 
 📩 **Email:** samuelmaia.carreira@gmail.com  
 💼 **LinkedIn:** https://www.linkedin.com/in/samuelmaia-analytics/  
-🌐 **Portfolio:** https://samuelmaia-analytics.github.io/samuelmaia-analytics/
+🌐 **Portfólio:** https://samuelmaia-analytics.github.io/samuelmaia-analytics/
