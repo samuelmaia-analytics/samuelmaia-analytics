@@ -40,7 +40,7 @@
         <div>
           <p class="eyebrow">Analytics Engineer · Data, BI & Automation</p>
           <h1>Transformo dados e processos em soluções analíticas confiáveis.</h1>
-          <p class="hero-copy">Atuo com Analytics Engineering, BI, automação, qualidade e governança de dados, conectando visão de negócio, engenharia e tecnologia para apoiar decisões e reduzir trabalho manual.</p>
+          <p class="hero-copy">Presto serviços em Analytics Engineering, BI, automação, qualidade e governança de dados, conectando visão de negócio, engenharia e tecnologia para apoiar decisões e reduzir trabalho manual.</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#projetos">Ver projetos</a>
             <a class="btn btn-secondary" href="assets/Samuel_Maia_Curriculo.pdf" download="Samuel_Maia_Curriculo.pdf">Baixar currículo</a>
@@ -55,7 +55,7 @@
         <aside class="hero-card" aria-label="Resumo profissional">
           <span class="status">Fortaleza · Brasil · Remoto · Internacional</span>
           <h2>Dados com contexto de negócio</h2>
-          <p>Disponível para projetos e oportunidades em Data Analytics, BI, Analytics Engineering e Automation.</p>
+          <p>Disponível para novos projetos em Data Analytics, BI, Analytics Engineering e Automation.</p>
           <div class="chips">
             <span>SQL</span><span>Python</span><span>Power BI</span><span>PostgreSQL</span><span>dbt</span><span>AWS</span><span>n8n</span><span>FastAPI</span>
           </div>
@@ -94,7 +94,7 @@
         <div class="section-head">
           <div>
             <p class="section-kicker">Projetos principais</p>
-            <h2>Três projetos complementares: dados, automação e cloud.</h2>
+            <h2>Três projetos explicados por contexto, ação e resultado.</h2>
           </div>
           <a class="text-link" href="https://github.com/samuelmaia-analytics?tab=repositories" target="_blank" rel="noreferrer">Ver todos no GitHub →</a>
         </div>
@@ -107,9 +107,10 @@
             <div class="project-body">
               <div class="project-meta">Analytics Engineering · Governança · BI</div>
               <h3>Governed Analytics Platform</h3>
-              <p>Plataforma de Analytics Engineering que transforma dados brutos em uma camada analítica governada, com qualidade, privacidade, rastreabilidade e controles de publicação.</p>
-              <p class="project-result"><strong>Escopo mensurável:</strong> 4 camadas de dados, 3 estados de publicação e 7 workflows de GitHub Actions.</p>
-              <p class="project-learning"><strong>O que demonstra:</strong> Data Contracts, Data Quality Gates, Data Lineage, Privacy Risk Score, Publication Gate, FastAPI, Streamlit, CI/CD e n8n.</p>
+              <p><strong>Contexto:</strong> dados de e-commerce sem controle de qualidade, rastreabilidade e critério claro de publicação podem chegar ao consumo analítico mesmo quando ainda apresentam problemas, elevando o risco de decisões tomadas sobre dados inconsistentes.</p>
+              <p><strong>Ação:</strong> construí uma plataforma de Analytics Engineering com Python, SQL, dbt, DuckDB e PostgreSQL, organizada em 4 camadas de dados, 3 estados de publicação e 7 workflows de GitHub Actions, incorporando Data Contracts, Data Quality Gates, Data Lineage, Privacy Risk Score e Publication Gate.</p>
+              <p class="project-result"><strong>Resultado:</strong> o Publication Gate aprova, envia para revisão ou bloqueia dados antes da camada publicada, enquanto mais de 900 testes automatizados ajudam a garantir que mudanças de interface ou evolução do código não alterem silenciosamente regras de qualidade e governança.</p>
+              <p class="project-learning"><strong>Resumo:</strong> uma plataforma governada que transforma dados brutos em dados publicáveis somente após critérios explícitos de qualidade, privacidade e rastreabilidade.</p>
               <div class="tags"><span>Python</span><span>SQL</span><span>DuckDB</span><span>PostgreSQL</span><span>dbt</span><span>FastAPI</span></div>
               <div class="card-actions">
                 <a href="https://governed-analytics-platform.streamlit.app/" target="_blank" rel="noreferrer">Demo</a>
@@ -123,8 +124,10 @@
             <div class="project-body">
               <div class="project-meta">Automação · Operações · BI</div>
               <h3>Central de Automação e Operações</h3>
-              <p>Produto analítico para monitorar workflows, SLA, backlog, gargalos, criticidade e saúde operacional.</p>
-              <p class="project-result"><strong>O que demonstra:</strong> integração com Pipefy via API/GraphQL, regras automáticas de criticidade, alertas e KPIs operacionais.</p>
+              <p><strong>Contexto:</strong> operações com múltiplos workflows podem perder visibilidade de SLA, backlog, criticidade e gargalos quando as informações ficam dispersas e exigem acompanhamento manual.</p>
+              <p><strong>Ação:</strong> desenvolvi uma solução analítica com Python, SQL e Streamlit para consolidar workflows, indicadores operacionais, regras de criticidade, alertas e integração com Pipefy via API/GraphQL.</p>
+              <p class="project-result"><strong>Resultado:</strong> a solução concentra em uma única visão o que exige atenção operacional, ajudando a priorizar itens críticos e evitando que atrasos, gargalos e violações de SLA fiquem escondidos em controles separados.</p>
+              <p class="project-learning"><strong>Resumo:</strong> dados operacionais transformados em uma visão única para acompanhamento, priorização e ação.</p>
               <div class="tags"><span>Python</span><span>SQL</span><span>Streamlit</span><span>GraphQL</span><span>APIs</span></div>
               <div class="card-actions"><a href="https://central-automacao-operacoes.streamlit.app/" target="_blank" rel="noreferrer">Demo</a></div>
             </div>
@@ -137,8 +140,10 @@
             <div class="project-body">
               <div class="project-meta">AWS · Serverless · Cloud</div>
               <h3>AWS Serverless Access Counter</h3>
-              <p>Arquitetura desenvolvida no AWS re/Start para contabilizar acessos sem manter servidores dedicados.</p>
-              <p class="project-result"><strong>Escopo mensurável:</strong> 10 serviços AWS usados para entrega web, API, persistência, segurança, observabilidade e custos.</p>
+              <p><strong>Contexto:</strong> o projeto precisava registrar acessos a uma aplicação web sem depender da manutenção de servidores dedicados.</p>
+              <p><strong>Ação:</strong> durante o AWS re/Start, construí uma arquitetura serverless utilizando 10 serviços AWS para entrega web, API, processamento, persistência, segurança, observabilidade, notificações e controle de custos.</p>
+              <p class="project-result"><strong>Resultado:</strong> a solução demonstra uma arquitetura orientada a eventos com persistência e monitoramento integrados, eliminando a necessidade de manter um servidor dedicado apenas para contabilizar acessos.</p>
+              <p class="project-learning"><strong>Resumo:</strong> contador de acessos serverless com entrega, segurança, persistência, observabilidade e custos tratados na própria arquitetura AWS.</p>
               <div class="tags"><span>CloudFront</span><span>S3</span><span>API Gateway</span><span>Lambda</span><span>DynamoDB</span></div>
               <div class="card-actions"><a href="https://github.com/samuelmaia-analytics/aws-serverless-access-counter" target="_blank" rel="noreferrer">GitHub</a></div>
             </div>
@@ -151,7 +156,7 @@
       <div class="container narrow">
         <p class="section-kicker">Impacto demonstrado</p>
         <h2>Métricas reais de escopo e resultados.</h2>
-        <p><strong>Projetos:</strong> 4 camadas de dados · 3 estados de publicação · 7 workflows de GitHub Actions · 10 serviços AWS no projeto serverless.</p>
+        <p><strong>Projetos:</strong> 4 camadas de dados · 3 estados de publicação · 7 workflows de GitHub Actions · mais de 900 testes automatizados no Governed Analytics Platform · 10 serviços AWS no projeto serverless.</p>
         <p><strong>Experiência profissional:</strong> ganhos mensurados em inventário de TI, consolidação de informações, automação de reporting e agilidade na análise comercial.</p>
       </div>
     </section>
