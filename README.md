@@ -36,53 +36,51 @@ Minha atuação combina visão de negócio com práticas de engenharia de softwa
 
 ### 1. [Governed Analytics Platform](https://github.com/samuelmaia-analytics/Governed-Analytics-Platform)
 
-Plataforma de Analytics Engineering criada para demonstrar como transformar dados brutos em produtos analíticos confiáveis com controles explícitos de qualidade, privacidade e publicação.
+**Contexto:** dados podem chegar ao consumo analítico mesmo quando ainda apresentam inconsistências ou não possuem critérios claros de qualidade, rastreabilidade e publicação.
 
-**O que resolve:** reduz o risco de dados inconsistentes chegarem ao consumo analítico e melhora rastreabilidade, governança e auditabilidade do fluxo de dados.
+**Ação:** construí uma plataforma de Analytics Engineering com Python, SQL, dbt, DuckDB e PostgreSQL, incorporando Data Contracts, Data Quality, Data Lineage, Privacy Risk Score, Publication Gate, FastAPI, Streamlit e CI/CD.
 
-**Escopo mensurável e defensável:**
-- **4 camadas de dados:** Bronze, Silver, Gold e Quarantine;
-- **3 estados explícitos de publicação:** Approved, Needs Review e Blocked;
-- **7 workflows versionados no GitHub Actions** para CI, deploy, lint, operação, políticas, segurança e sincronização de catálogo;
-- aplicação executiva em Streamlit, endpoints FastAPI, Data Contracts, Data Lineage, Privacy Risk Score e evidências de Data Quality.
+**Resultado:** o fluxo classifica cada execução como **Approved, Needs Review ou Blocked**, criando um critério explícito antes da publicação. O projeto possui **4 camadas de dados**, **3 estados de publicação** e **7 workflows no GitHub Actions**, além de uma suíte de testes automatizados para reduzir risco de regressões em regras de qualidade e governança.
 
-**Stack:** Python · SQL · pandas · DuckDB · PostgreSQL · dbt · FastAPI · Streamlit · Pytest · GitHub Actions · n8n
-
-`Dados brutos → Ingestão → Transformação → Qualidade → Governança → Publication Gate → Consumo analítico`
-
-[Ver repositório](https://github.com/samuelmaia-analytics/Governed-Analytics-Platform)
+[Ver repositório](https://github.com/samuelmaia-analytics/Governed-Analytics-Platform) · [Abrir demonstração](https://governed-analytics-platform.streamlit.app/)
 
 ---
 
-### 2. [Central de Automação e Operações](https://central-automacao-operacoes.streamlit.app/)
+### 2. [Central de Automação e Operações](https://github.com/samuelmaia-analytics/central-automacao-operacoes)
 
-Produto analítico para monitorar workflows, SLA, backlog, gargalos e alertas operacionais, conectando dados de operação a indicadores e recomendações de ação.
+**Contexto:** operações com múltiplos workflows podem perder visibilidade de SLA, backlog, criticidade e gargalos quando as informações ficam dispersas.
 
-**O que resolve:** transforma dados operacionais dispersos em uma visão executiva para acompanhar risco, produtividade, SLA e prioridades.
+**Ação:** desenvolvi uma solução analítica com Python, SQL e Streamlit, com integração ao Pipefy via API/GraphQL, regras de criticidade, alertas e indicadores operacionais.
 
-**Escopo mensurável e defensável:**
-- monitora **5 grupos principais de indicadores operacionais**: volume de processos, SLA, backlog/vencimentos, criticidade/responsabilidade e Índice de Saúde Operacional;
-- integração com Pipefy via GraphQL, com modo real ou demonstração;
-- regras automáticas de criticidade, alertas e recomendações de ação;
-- dashboard executivo e exportação de alertas para acompanhamento operacional.
+**Resultado:** a solução centraliza acompanhamento e priorização em uma única visão, facilitando a identificação de situações que exigem atenção antes que se transformem em violações de SLA ou acúmulo de backlog.
 
-**Stack:** Python · SQL · Streamlit · Pipefy GraphQL API
-
-[Ver demonstração](https://central-automacao-operacoes.streamlit.app/)
+[Ver repositório](https://github.com/samuelmaia-analytics/central-automacao-operacoes) · [Abrir demonstração](https://central-automacao-operacoes.streamlit.app/)
 
 ---
 
 ### 3. [AWS Serverless Access Counter](https://github.com/samuelmaia-analytics/aws-serverless-access-counter)
 
-Projeto desenvolvido no AWS re/Start para demonstrar uma arquitetura serverless de contagem de acessos com escalabilidade sob demanda, segurança e observabilidade.
+**Contexto:** o objetivo foi construir uma aplicação de contagem de acessos sem depender da manutenção de servidores dedicados.
 
-**O que resolve:** substitui uma arquitetura baseada em servidor por serviços gerenciados, reduzindo a necessidade de administração de infraestrutura para uma aplicação simples de tráfego variável.
+**Ação:** durante o AWS re/Start, desenvolvi uma arquitetura serverless integrando **10 serviços AWS** para entrega web, API, processamento, persistência, segurança, observabilidade, notificações e acompanhamento de custos.
 
-**Escopo mensurável e defensável:** arquitetura integrada com **10 serviços AWS** cobrindo frontend, distribuição, API, processamento, persistência, segurança, observabilidade, alertas e controle de custos.
+**Resultado:** a solução demonstra uma arquitetura orientada a eventos baseada em serviços gerenciados, evitando a necessidade de administrar um servidor dedicado para executar o contador.
 
 **Stack AWS:** CloudFront · S3 · API Gateway · Lambda · DynamoDB · CloudWatch · IAM · WAF · SNS · AWS Budgets
 
 [Ver repositório](https://github.com/samuelmaia-analytics/aws-serverless-access-counter)
+
+---
+
+## Projetos complementares
+
+### [Churn Prediction Data Product](https://github.com/samuelmaia-analytics/churn-prediction)
+
+Produto de dados para priorização de clientes com risco de churn, combinando pipeline em camadas, Machine Learning, inferência, monitoramento de drift, Streamlit e FastAPI.
+
+### [Revenue Intelligence Platform Suite](https://github.com/samuelmaia-analytics/revenue-intelligence-platform-suite)
+
+Plataforma de Revenue Intelligence que conecta ingestão, transformação, métricas governadas, qualidade, insights executivos, aplicações e acompanhamento de ações comerciais.
 
 ---
 
