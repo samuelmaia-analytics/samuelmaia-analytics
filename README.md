@@ -2,9 +2,11 @@
 
 **Analytics Engineer | Data, BI & Automation**
 
-Presto serviços em Data Analytics, BI e Analytics Engineering, ajudando a transformar dados brutos em informações confiáveis para decisão. Desenvolvo pipelines, automações, dashboards e soluções com foco em qualidade, governança, rastreabilidade e eficiência operacional.
+Presto serviços em Data Analytics, BI e Analytics Engineering, ajudando a transformar dados brutos em informações confiáveis para decisão. Desenvolvo pipelines ETL/ELT, automações, dashboards e soluções com foco em qualidade, governança, rastreabilidade e eficiência operacional.
 
 Minha atuação combina visão de negócio com práticas de engenharia de software aplicadas a dados, conectando ingestão, transformação, modelagem, qualidade, governança, automação e consumo analítico.
+
+Atuo de forma independente desde 2022 pela **Samuel Maia Analytics**. Sou profissional PcD e tenho interesse em oportunidades afirmativas.
 
 **Disponível para novos projetos e oportunidades em Dados, BI, Analytics Engineering e Automação.**
 
