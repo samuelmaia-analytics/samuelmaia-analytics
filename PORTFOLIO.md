@@ -1,10 +1,15 @@
 # Portfolio Guide
 
-Pinned order:
+## Projetos prioritários
 
-1. Governed-Analytics-Platform
-2. Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System
-3. revenue-intelligence-platform-suite
-4. data-senior-analytics
+1. azure-databricks-governed-lakehouse
+2. Governed-Analytics-Platform
+3. central-automacao-operacoes
+
+## Projetos complementares
+
+4. aws-serverless-access-counter
 5. churn-prediction
-6. amazon-sales-analysis
+6. revenue-intelligence-platform-suite
+
+A ordem prioriza Engenharia de Dados, Lakehouse, qualidade e governança, mantendo BI, automação e produtos analíticos como evidências complementares.
