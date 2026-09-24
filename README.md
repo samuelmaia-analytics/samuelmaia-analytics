@@ -4,11 +4,11 @@
 
 Construo soluções de dados para transformar informações brutas em dados confiáveis para análise e tomada de decisão.
 
-Fui contratado pela **Avanade** para atuar como **Data Engineer**, com início em **outubro de 2026**, ampliando minha atuação em Engenharia de Dados com **Databricks, PySpark, SQL, Python, Delta Lake, qualidade e governança de dados**.
+Fui contratado pela **Avanade** como **Engenheiro de Dados Pleno**, em posição de tempo integral, com início em **outubro de 2026**. O próximo passo da minha trajetória profissional aprofunda meu foco em **Databricks, PySpark, SQL, Python, Delta Lake, qualidade e governança de dados**.
 
 Minha trajetória combina visão de negócio, Analytics Engineering e práticas de engenharia de software aplicadas a dados: ingestão, transformação, modelagem, testes, observabilidade, governança e publicação controlada.
 
-Entre 2022 e 2026 também desenvolvi projetos de forma independente pela **Samuel Maia Analytics**, com foco em Dados, BI, Analytics Engineering e automação.
+Entre 2022 e setembro de 2026, construí projetos pessoais para meu portfólio técnico, com foco em **Dados, BI, Analytics Engineering, automação, qualidade e governança**. Esses projetos representam estudo aplicado e demonstração técnica, não uma atividade profissional paralela ao meu vínculo atual.
 
 [LinkedIn](https://www.linkedin.com/in/samuelmaia-analytics/) · [Portfólio](https://samuelmaia-analytics.github.io/samuelmaia-analytics/) · [GitHub](https://github.com/samuelmaia-analytics)
 
