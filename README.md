@@ -4,7 +4,7 @@
 
 Construo soluções de dados para transformar informações brutas em dados confiáveis para análise e tomada de decisão.
 
-Fui contratado pela **Avanade** como **Engenheiro de Dados Pleno**, em posição de tempo integral, com início em **outubro de 2026**. O próximo passo da minha trajetória profissional aprofunda meu foco em **Databricks, PySpark, SQL, Python, Delta Lake, qualidade e governança de dados**.
+Atuo na **Avanade** como **Analyst, Data Engineering — Analista Pleno**, desde **outubro de 2026**, com foco em pipelines de ingestão, transformação e processamento, ETL/ELT, qualidade e governança de dados. Minha atuação técnica está alinhada a **SQL, Python, PySpark, Azure Databricks e Delta Lake**.
 
 Minha trajetória combina visão de negócio, Analytics Engineering e práticas de engenharia de software aplicadas a dados: ingestão, transformação, modelagem, testes, observabilidade, governança e publicação controlada.
 
@@ -101,6 +101,12 @@ Cada projeto procura demonstrar não apenas código, mas também o raciocínio p
 - consumo analítico quando aplicável.
 
 As métricas apresentadas descrevem o **escopo realmente implementado**. Não utilizo percentuais fictícios de economia, produtividade ou impacto financeiro quando eles não foram medidos em ambiente real.
+
+---
+
+## Formação complementar recente
+
+- **Databricks Certified Data Engineer Associate — curso preparatório (Udemy)** · 13,5 horas · concluído em 09/10/2026. Certificado de conclusão do curso; não representa a certificação oficial Databricks.
 
 ---
 
