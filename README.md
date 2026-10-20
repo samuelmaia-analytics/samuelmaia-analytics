@@ -4,7 +4,7 @@
 
 Construo soluções de dados para transformar informações brutas em dados confiáveis para análise e tomada de decisão.
 
-Atuo na **Avanade** como **Analyst, Data Engineering — Analista Pleno**, desde **outubro de 2026**, com foco em pipelines de ingestão, transformação e processamento, ETL/ELT, qualidade e governança de dados. Minha atuação técnica está alinhada a **SQL, Python, PySpark, Azure Databricks e Delta Lake**.
+Desde **20 de outubro de 2026**, atuo na **Avanade** como **Analyst, Data Engineering — Engenheiro de Dados Pleno**. Minha atuação está alinhada à Engenharia de Dados com **SQL, Python, PySpark, Azure Databricks e Delta Lake**, incluindo pipelines ETL/ELT, qualidade e governança de dados.
 
 Minha trajetória combina visão de negócio, Analytics Engineering e práticas de engenharia de software aplicadas a dados: ingestão, transformação, modelagem, testes, observabilidade, governança e publicação controlada.
 
