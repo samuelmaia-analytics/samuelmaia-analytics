@@ -1,72 +1,63 @@
 # Samuel Maia
 
-**Data Engineer | Analytics Engineering | Data Quality & Governance**
+**Engenheiro de Dados Pleno | Analytics Engineering | SQL, Python e PySpark**
 
 Construo soluções de dados para transformar informações brutas em dados confiáveis para análise e tomada de decisão.
 
-Desde **20 de outubro de 2026**, atuo na **Avanade** como **Analyst, Data Engineering — Engenheiro de Dados Pleno**. Minha atuação está alinhada à Engenharia de Dados com **SQL, Python, PySpark, Azure Databricks e Delta Lake**, incluindo pipelines ETL/ELT, qualidade e governança de dados.
+Atuo na **Avanade** como **Analyst, Data Engineering | Engenheiro de Dados Pleno**, desde **out/2026**. Meu escopo técnico inclui pipelines ETL/ELT, ingestão, transformação, modelagem, qualidade e governança, com SQL, Python, PySpark, Azure Databricks e Delta Lake.
 
-Minha trajetória combina visão de negócio, Analytics Engineering e práticas de engenharia de software aplicadas a dados: ingestão, transformação, modelagem, testes, observabilidade, governança e publicação controlada.
+Minha trajetória conecta negócio, operações, BI e Analytics Engineering. Na **Samuel Maia Analytics**, como **Analytics Engineer | Data & BI Consultant**, entre **ago/2022 e set/2026**, desenvolvi pipelines, modelos dimensionais e aplicações analíticas com Python, SQL, dbt, DuckDB, PostgreSQL, Power BI e Streamlit.
 
-Entre 2022 e setembro de 2026, construí projetos pessoais para meu portfólio técnico, com foco em **Dados, BI, Analytics Engineering, automação, qualidade e governança**. Esses projetos representam estudo aplicado e demonstração técnica, não uma atividade profissional paralela ao meu vínculo atual.
+Aprofundei essa base em um Lakehouse com PySpark e Delta Lake, validado localmente, e na aplicação de **IA generativa**, integrando a API da OpenAI para extrair atributos estruturados de textos. As implementações de portfólio estão identificadas nos projetos correspondentes.
 
-[LinkedIn](https://www.linkedin.com/in/samuelmaia-analytics/) · [Portfólio](https://samuelmaia-analytics.github.io/samuelmaia-analytics/) · [GitHub](https://github.com/samuelmaia-analytics)
+[LinkedIn](https://www.linkedin.com/in/samuelmaia-analytics/) · [Portfólio](https://samuelmaia-analytics.github.io/samuelmaia-analytics/) · [Currículo em PDF](docs/assets/Samuel_Maia_Curriculo.pdf)
 
 ---
 
-## Foco profissional
-
-- Engenharia de Dados com Databricks, PySpark, SQL e Python
-- Arquiteturas Lakehouse e pipelines ETL/ELT
-- Modelagem e transformação de dados
-- Data Quality, Data Contracts, Data Lineage e governança
-- Testes automatizados, CI/CD e observabilidade
-- Analytics Engineering e disponibilização confiável de dados para consumo analítico
-
 ## Stack principal
 
-**Data Engineering:** Databricks · PySpark · Apache Spark · Delta Lake · Python · SQL  
-**Analytics Engineering:** dbt · ETL/ELT · modelagem dimensional · Raw/Bronze/Silver/Gold  
-**Dados:** DuckDB · PostgreSQL · pandas  
-**Qualidade e governança:** Data Quality · Data Contracts · Data Lineage · Publication Gate  
-**Engenharia:** Pytest · Ruff · mypy · Git · GitHub Actions · CI/CD  
-**Cloud e aplicações:** Azure · AWS · Streamlit · FastAPI · Power BI
+**Engenharia de Dados:** Python · SQL · PySpark · Apache Spark · Delta Lake · ETL/ELT · Data Lake · Data Warehouse · Lakehouse · conhecimentos em Azure Databricks  
+**Analytics Engineering e BI:** dbt · DuckDB · PostgreSQL · modelagem dimensional · Power BI · DAX · Power Query  
+**Qualidade e governança:** Data Quality · Data Contracts · Data Lineage · Publication Gate · reconciliação · controles de privacidade  
+**IA generativa:** OpenAI API · integração com LLMs · engenharia de prompts · extração de atributos textuais · saídas estruturadas em JSON  
+**Automação e aplicações:** pandas · NumPy · Streamlit · FastAPI · APIs REST · GraphQL · workflows com n8n  
+**Cloud e engenharia:** AWS · Git · GitHub Actions · CI/CD · pytest · Ruff · mypy
 
 ---
 
 ## Projetos em destaque
 
-### 1. [Azure Databricks Governed Lakehouse](https://github.com/samuelmaia-analytics/azure-databricks-governed-lakehouse)
+### 1. [Azure Databricks Governed Lakehouse](https://github.com/samuelmaia-analytics/azure-databricks-governed-lakehouse) | 2026
 
-**Contexto:** pipelines analíticos precisam impedir que dados fora dos critérios de qualidade avancem para camadas utilizadas pelo negócio.
+**Contexto:** em um fluxo analítico de pedidos e produtos, a publicação exige critérios de qualidade e integridade.
 
-**Ação:** desenvolvi uma arquitetura Lakehouse com **PySpark 3.5, Delta Lake e SQL**, estruturada em **Raw → Bronze → Silver → Gold**, com Quarantine, regras de Data Quality, testes automatizados e Publication Gate antes da Silver. O projeto possui execução local e preparação para Azure Databricks.
+**Ação:** desenvolvi um Lakehouse em Python, PySpark e Delta Lake, com camadas Raw, Bronze, Silver, Gold e Quarantine, schemas explícitos, validações e Publication Gate.
 
-**Resultado:** a arquitetura estabelece critérios objetivos para controlar a progressão dos dados entre camadas e torna explícito o tratamento de registros inválidos, criando uma base reproduzível para qualidade e governança em pipelines de Engenharia de Dados.
+**Resultado:** a execução local documentada publicou **seis datasets Silver e quatro tabelas Gold**, com reconciliações sem perdas ou multiplicações de registros e **186 testes automatizados**.
 
-[Ver repositório](https://github.com/samuelmaia-analytics/azure-databricks-governed-lakehouse)
+**Escopo:** execução validada localmente. Azure Databricks é a plataforma-alvo; a execução em nuvem permanece prevista.
 
----
+[Ver repositório e evidências](https://github.com/samuelmaia-analytics/azure-databricks-governed-lakehouse)
 
-### 2. [Governed Analytics Platform](https://github.com/samuelmaia-analytics/Governed-Analytics-Platform)
+### 2. [Governed Analytics Platform](https://github.com/samuelmaia-analytics/Governed-Analytics-Platform) | 2026
 
-**Contexto:** dados podem chegar ao consumo analítico mesmo quando apresentam inconsistências ou não possuem critérios claros de qualidade, rastreabilidade e publicação.
+**Contexto:** dados de e-commerce precisam de qualidade e rastreabilidade para apoiar o consumo executivo.
 
-**Ação:** construí uma plataforma de Analytics Engineering com Python, SQL, dbt, DuckDB e PostgreSQL, incorporando Data Contracts, Data Quality, Data Lineage, Privacy Risk Score, Publication Gate, FastAPI, Streamlit e CI/CD.
+**Ação:** construí uma plataforma com Python, SQL, dbt, DuckDB e PostgreSQL, incorporando Data Contracts, Data Quality, Data Lineage, Privacy Risk Score, Publication Gate, Streamlit, FastAPI e CI/CD. Acrescentei um módulo de **IA generativa integrado à OpenAI API** para extrair atributos de descrições de produtos, com engenharia de prompts, saída JSON e persistência em CSV/JSONL.
 
-**Resultado:** o fluxo classifica cada execução como **Approved, Needs Review ou Blocked**, criando um critério explícito antes da publicação. O projeto possui **4 camadas de dados**, **3 estados de publicação** e **7 workflows no GitHub Actions**, além de testes automatizados para reduzir o risco de regressões em regras de qualidade e governança.
+**Resultado:** o fluxo registra decisões de publicação **Approved, Needs Review ou Blocked**, mantém evidências de governança e disponibiliza dados e atributos estruturados para consumo analítico.
+
+**Escopo da IA:** a interface apresenta resultados previamente persistidos. O módulo possui modo de referência e modo de chamada à API; a página não executa inferência ao ser aberta. A implementação verificada é de extração estruturada com LLM.
 
 [Ver repositório](https://github.com/samuelmaia-analytics/Governed-Analytics-Platform) · [Abrir demonstração](https://governed-analytics-platform.streamlit.app/)
 
----
+### 3. [Central de Automação e Operações](https://github.com/samuelmaia-analytics/central-automacao-operacoes) | 2026
 
-### 3. [Central de Automação e Operações](https://github.com/samuelmaia-analytics/central-automacao-operacoes)
+**Contexto:** o acompanhamento de múltiplos workflows exige uma visão consolidada de prazos, responsáveis e prioridades.
 
-**Contexto:** operações com múltiplos workflows podem perder visibilidade de SLA, backlog, criticidade e gargalos quando as informações ficam dispersas.
+**Ação:** desenvolvi uma central com Python, SQL, DuckDB e Streamlit, integrada ao Pipefy via API/GraphQL, com regras de criticidade, indicadores de SLA, backlog e alertas.
 
-**Ação:** desenvolvi uma solução analítica com Python, SQL e Streamlit, integração ao Pipefy via API/GraphQL, regras de criticidade, alertas e indicadores operacionais.
-
-**Resultado:** a solução centraliza acompanhamento e priorização em uma única visão, facilitando a identificação de situações que exigem atenção antes que se transformem em violações de SLA ou acúmulo de backlog.
+**Resultado:** a visão consolidada permite identificar demandas vencidas, sem responsável ou prioritárias e apoiar o acompanhamento operacional.
 
 [Ver repositório](https://github.com/samuelmaia-analytics/central-automacao-operacoes) · [Abrir demonstração](https://central-automacao-operacoes.streamlit.app/)
 
@@ -74,44 +65,22 @@ Entre 2022 e setembro de 2026, construí projetos pessoais para meu portfólio t
 
 ## Projetos complementares
 
-### [AWS Serverless Access Counter](https://github.com/samuelmaia-analytics/aws-serverless-access-counter)
+- **[AWS Serverless Access Counter](https://github.com/samuelmaia-analytics/aws-serverless-access-counter):** projeto em grupo do AWS re/Start com CloudFront, S3, API Gateway, Lambda, DynamoDB, IAM, WAF, CloudWatch, SNS e AWS Budgets.
+- **[Churn Prediction Data Product](https://github.com/samuelmaia-analytics/churn-prediction):** preparação de features, treinamento e inferência com scikit-learn, priorização de clientes e monitoramento de drift com PSI/KS.
+- **[Revenue Intelligence Platform Suite](https://github.com/samuelmaia-analytics/revenue-intelligence-platform-suite):** métricas governadas, camada semântica, Prefect, Pandera, qualidade, observabilidade e aplicações analíticas.
 
-Arquitetura serverless desenvolvida durante o AWS re/Start, integrando serviços AWS para entrega web, API, processamento, persistência, segurança, observabilidade e acompanhamento de custos.
+## Como apresento as entregas
 
-### [Churn Prediction Data Product](https://github.com/samuelmaia-analytics/churn-prediction)
+Cada projeto segue **Contexto → Ação → Resultado**, com ferramentas, decisões técnicas e evidências verificáveis. Execuções locais, componentes opcionais e próximos passos ficam explicitados na documentação. As métricas descrevem o escopo implementado e os resultados das validações.
 
-Produto de dados para priorização de clientes com risco de churn, combinando pipeline em camadas, Machine Learning, inferência, monitoramento de drift, Streamlit e FastAPI.
+## Formação
 
-### [Revenue Intelligence Platform Suite](https://github.com/samuelmaia-analytics/revenue-intelligence-platform-suite)
+- Pós-graduação em Inovação e Transformação Digital — Gran Faculdade | out/2026
+- Pós-graduação em Ciência de Dados — Gran Faculdade | abr/2026
+- Bacharelado em Administração — FAEL | jul/2024
+- AWS re/Start, Inteligência Artificial e No Code — Escola da Nuvem | 270h | jul/2026
+- Databricks Certified Data Engineer Associate — **curso preparatório Udemy**, 13,5h | out/2026. Certificado de conclusão do curso.
 
-Plataforma de Revenue Intelligence com ingestão, transformação, métricas governadas, qualidade, insights executivos e aplicações analíticas.
+## Contato profissional
 
----
-
-## Como construo os projetos
-
-Cada projeto procura demonstrar não apenas código, mas também o raciocínio por trás da solução:
-
-- problema e contexto de negócio;
-- arquitetura e fluxo dos dados;
-- decisões técnicas;
-- qualidade, validações e governança;
-- documentação e rastreabilidade;
-- testes e automação;
-- consumo analítico quando aplicável.
-
-As métricas apresentadas descrevem o **escopo realmente implementado**. Não utilizo percentuais fictícios de economia, produtividade ou impacto financeiro quando eles não foram medidos em ambiente real.
-
----
-
-## Formação complementar recente
-
-- **Databricks Certified Data Engineer Associate — curso preparatório (Udemy)** · 13,5 horas · concluído em 09/10/2026. Certificado de conclusão do curso; não representa a certificação oficial Databricks.
-
----
-
-## Contato e networking
-
-📩 **Email:** samuelmaia.carreira@gmail.com  
-💼 **LinkedIn:** https://www.linkedin.com/in/samuelmaia-analytics/  
-🌐 **Portfólio:** https://samuelmaia-analytics.github.io/samuelmaia-analytics/
+Fortaleza/CE · [E-mail](mailto:samuelmaia.carreira@gmail.com) · [LinkedIn](https://www.linkedin.com/in/samuelmaia-analytics/) · [Portfólio](https://samuelmaia-analytics.github.io/samuelmaia-analytics/)

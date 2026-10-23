@@ -84,7 +84,7 @@ h3{font-size:1.3rem;letter-spacing:-.025em}
 .prose p{margin:0 0 16px;font-size:1.03rem}
 .prose strong{color:var(--text)}
 
-.stack-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:34px}
+.stack-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:34px}
 .stack-grid article{position:relative;padding:24px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(180deg,rgba(19,36,58,.78),rgba(11,25,43,.72));min-height:190px}
 .stack-grid article:hover{border-color:#38506d;transform:translateY(-2px)}
 .stack-grid article{transition:.2s ease}
