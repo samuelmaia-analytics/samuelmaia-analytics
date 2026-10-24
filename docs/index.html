@@ -108,6 +108,7 @@
           <div>
             <p class="section-kicker">Projetos em destaque</p>
             <h2>Contexto, ação e resultado.</h2>
+            <p>Projetos pessoais de portfólio, independentes das entregas da Avanade e de seus clientes. Contagens de testes referem-se à revisão de 24/10/2026, com dados sintéticos; não representam validação em nuvem.</p>
           </div>
           <a class="text-link" href="https://github.com/samuelmaia-analytics?tab=repositories" target="_blank" rel="noreferrer">Ver todos no GitHub →</a>
         </div>
@@ -125,8 +126,8 @@
             <h3>Azure Databricks Governed Lakehouse | 2026</h3>
             <p><strong>Contexto:</strong> em um fluxo analítico de pedidos e produtos, a publicação exige critérios de qualidade e integridade.</p>
             <p><strong>Ação:</strong> desenvolvi um Lakehouse com Python, PySpark e Delta Lake, estruturado em Raw → Bronze → Silver → Gold, com Quarantine, schemas explícitos, regras de Data Quality e Publication Gate.</p>
-            <p class="project-result"><strong>Resultado:</strong> seis datasets Silver e quatro tabelas Gold publicados na execução local documentada, com reconciliações sem perdas ou multiplicações de registros e 186 testes automatizados.</p>
-            <p><strong>Escopo:</strong> execução validada localmente. Azure Databricks é a plataforma-alvo; execução em nuvem prevista.</p>
+            <p class="project-result"><strong>Resultado:</strong> seis datasets Silver e quatro tabelas Gold publicados na execução local documentada, com reconciliações sem perdas ou multiplicações de registros. A validação histórica registrou 186 testes; a revisão de governança de 24/10/2026 passou com 192 testes.</p>
+            <p><strong>Escopo:</strong> execução validada localmente. Azure Databricks é a plataforma-alvo; execução em nuvem prevista. As melhorias de governança estão documentadas no <a href="https://github.com/samuelmaia-analytics/azure-databricks-governed-lakehouse/pull/3" target="_blank" rel="noreferrer">PR #3</a>; consulte seu estado de integração.</p>
             <div class="card-actions">
               <a href="https://github.com/samuelmaia-analytics/azure-databricks-governed-lakehouse" target="_blank" rel="noreferrer">Ver projeto →</a>
             </div>
@@ -140,7 +141,7 @@
               <h3>Governed Analytics Platform | 2026</h3>
               <p><strong>Contexto:</strong> dados de e-commerce precisam de qualidade e rastreabilidade para apoiar o consumo executivo.</p>
               <p><strong>Ação:</strong> construí uma plataforma com Python, SQL, dbt, DuckDB e PostgreSQL, com Data Contracts, Data Quality, Data Lineage, Publication Gate e CI/CD. Acrescentei um módulo de IA generativa com OpenAI API, prompts e saída JSON para extrair atributos de descrições de produtos.</p>
-              <p class="project-result"><strong>Resultado:</strong> estados Approved, Needs Review ou Blocked controlam a publicação, com evidências de governança e atributos estruturados persistidos em CSV/JSONL para análise.</p>
+              <p class="project-result"><strong>Resultado:</strong> estados Approved, Needs Review ou Blocked controlam a publicação, com evidências de governança e atributos estruturados persistidos em CSV/JSONL para análise. A revisão do Gate passou com 383 testes (<a href="https://github.com/samuelmaia-analytics/Governed-Analytics-Platform/pull/70" target="_blank" rel="noreferrer">PR #70</a>).</p>
               <p><strong>Escopo da IA:</strong> a interface apresenta resultados previamente persistidos; não executa inferência ao ser aberta.</p>
               <div class="card-actions">
                 <a href="https://governed-analytics-platform.streamlit.app/" target="_blank" rel="noreferrer">Demo</a>
@@ -155,7 +156,7 @@
               <h3>Central de Automação e Operações | 2026</h3>
               <p><strong>Contexto:</strong> o acompanhamento de múltiplos workflows exige uma visão consolidada de prazos, responsáveis e prioridades.</p>
               <p><strong>Ação:</strong> desenvolvi uma central com Python, SQL, DuckDB e Streamlit, integrada ao Pipefy via API/GraphQL, com regras de criticidade, alertas e indicadores de SLA e backlog.</p>
-              <p class="project-result"><strong>Resultado:</strong> visão consolidada para identificar demandas vencidas, sem responsável ou prioritárias.</p>
+              <p class="project-result"><strong>Resultado:</strong> visão consolidada para identificar demandas vencidas, sem responsável ou prioritárias. A revisão de bloqueio de qualidade passou com 27 testes (<a href="https://github.com/samuelmaia-analytics/central-automacao-operacoes/pull/1" target="_blank" rel="noreferrer">PR #1</a>).</p>
               <div class="card-actions">
                 <a href="https://central-automacao-operacoes.streamlit.app/" target="_blank" rel="noreferrer">Demo</a>
                 <a href="https://github.com/samuelmaia-analytics/central-automacao-operacoes" target="_blank" rel="noreferrer">GitHub</a>

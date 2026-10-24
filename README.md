@@ -33,7 +33,7 @@ Aprofundei essa base em um Lakehouse com PySpark e Delta Lake, validado localmen
 
 **Ação:** desenvolvi um Lakehouse em Python, PySpark e Delta Lake, com camadas Raw, Bronze, Silver, Gold e Quarantine, schemas explícitos, validações e Publication Gate.
 
-**Resultado:** a execução local documentada publicou **seis datasets Silver e quatro tabelas Gold**, com reconciliações sem perdas ou multiplicações de registros e **186 testes automatizados**.
+**Resultado:** a execução local documentada publicou **seis datasets Silver e quatro tabelas Gold**, com reconciliações sem perdas ou multiplicações de registros. A validação histórica registrou **186 testes**; a revisão de governança de 24/10/2026 passou com **192 testes**, conforme as evidências abaixo.
 
 **Escopo:** execução validada localmente. Azure Databricks é a plataforma-alvo; a execução em nuvem permanece prevista.
 
@@ -72,6 +72,20 @@ Aprofundei essa base em um Lakehouse com PySpark e Delta Lake, validado localmen
 ## Como apresento as entregas
 
 Cada projeto segue **Contexto → Ação → Resultado**, com ferramentas, decisões técnicas e evidências verificáveis. Execuções locais, componentes opcionais e próximos passos ficam explicitados na documentação. As métricas descrevem o escopo implementado e os resultados das validações.
+
+## Evidências da revisão de governança
+
+Em **24/10/2026**, foram validadas as seguintes revisões com dados sintéticos e testes automatizados:
+
+| Projeto | Testes aprovados | Melhoria verificada | Alteração proposta |
+|---|---:|---|---|
+| Lakehouse | 192 | Quarentena integrada, relatório de falhas parciais e CI | [PR #3](https://github.com/samuelmaia-analytics/azure-databricks-governed-lakehouse/pull/3) |
+| Governed Analytics | 383 | Rejeição de evidências inválidas no Publication Gate | [PR #70](https://github.com/samuelmaia-analytics/Governed-Analytics-Platform/pull/70) |
+| Central de Automação | 27 | Bloqueio de inconsistências antes da publicação | [PR #1](https://github.com/samuelmaia-analytics/central-automacao-operacoes/pull/1) |
+
+Essas evidências pertencem às revisões vinculadas. Consulte os PRs para conferir a integração à branch principal. A revisão não reexecutou o dataset completo do Lakehouse nem validou execução em Azure Databricks.
+
+Os projetos são pessoais e independentes da atuação na Avanade; não representam entregas ou dados da empresa e de seus clientes.
 
 ## Formação
 
