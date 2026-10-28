@@ -71,7 +71,7 @@ Aprofundei essa base em um Lakehouse com PySpark e Delta Lake, validado localmen
 
 ## Como apresento as entregas
 
-Cada projeto segue **Contexto → Ação → Resultado**, com ferramentas, decisões técnicas e evidências verificáveis. Execuções locais, componentes opcionais e próximos passos ficam explicitados na documentação. As métricas descrevem o escopo implementado e os resultados das validações.
+Os projetos apresentam ferramentas, decisões técnicas, resultados e evidências verificáveis. Execuções locais, componentes opcionais e próximos passos ficam explicitados na documentação. As métricas descrevem o escopo implementado e os resultados das validações.
 
 ## Evidências da revisão de governança
 

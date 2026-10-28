@@ -2,7 +2,7 @@
 
 **Engenheiro de Dados Pleno na Avanade | Analytics Engineering**
 
-A apresentação atualizada, os projetos em Contexto → Ação → Resultado e a stack técnica estão na [versão principal em português do Brasil](README.md).
+A apresentação atualizada, os projetos com resultados e evidências verificáveis e a stack técnica estão na [versão principal em português do Brasil](README.md).
 
 - [Portfólio](https://samuelmaia-analytics.github.io/samuelmaia-analytics/)
 - [Currículo em PDF](docs/assets/Samuel_Maia_Curriculo.pdf)
