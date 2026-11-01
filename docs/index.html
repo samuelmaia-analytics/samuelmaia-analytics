@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Portfólio de Samuel Maia, Engenheiro de Dados Pleno na Avanade. PySpark, Delta Lake, qualidade, governança e IA generativa aplicada a dados." />
+  <meta name="description" content="Portfólio de Samuel Maia, Engenheiro de Dados Pleno na Avanade. PySpark, Delta Lake, qualidade, governança e RAG aplicado a contratos de dados." />
   <meta property="og:title" content="Samuel Maia | Engenheiro de Dados Pleno" />
-  <meta property="og:description" content="Engenharia de Dados, Lakehouse, qualidade, governança e IA generativa aplicada a dados com Python e OpenAI API." />
+  <meta property="og:description" content="Engenharia de Dados, Lakehouse, qualidade, governança e RAG com recuperação TF-IDF local, citações e OpenAI opcional." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://samuelmaia-analytics.github.io/samuelmaia-analytics/" />
   <meta property="og:image" content="https://avatars.githubusercontent.com/u/256553462?s=1200&v=4" />
@@ -40,7 +40,7 @@
           </div>
           <p class="eyebrow">Data Engineer · Analytics Engineering · Data Governance</p>
           <h1>Construo pipelines e plataformas de dados confiáveis.</h1>
-          <p class="hero-copy">Engenheiro de Dados Pleno na Avanade. Minha trajetória conecta negócio, BI e Analytics Engineering a pipelines com SQL, Python, PySpark e Delta Lake, com qualidade, governança e IA generativa aplicada em projetos próprios.</p>
+          <p class="hero-copy">Engenheiro de Dados Pleno na Avanade. Minha trajetória conecta negócio, BI e Analytics Engineering a pipelines com SQL, Python, PySpark e Delta Lake, com qualidade, governança e IA aplicada em projetos próprios, incluindo um assistente RAG com recuperação local e citações.</p>
 
           <div class="hero-actions">
             <a class="btn btn-primary" href="#projetos">Ver projetos</a>
@@ -82,7 +82,7 @@
           <p>Construo soluções de dados para transformar informações brutas em dados confiáveis para análise e tomada de decisão.</p>
           <p>Minha trajetória conecta negócio, operações, BI e Analytics Engineering, com ingestão, transformação, modelagem, testes, governança e publicação controlada. Essa base evoluiu para um Lakehouse com PySpark e Delta Lake, validado localmente.</p>
           <p>Atuo na <strong>Avanade</strong> como <strong>Analyst, Data Engineering | Engenheiro de Dados Pleno</strong>, desde <strong>out/2026</strong>. Meu escopo técnico inclui pipelines ETL/ELT, modelagem, qualidade e governança, com SQL, Python, PySpark, Azure Databricks e Delta Lake.</p>
-          <p>Na <strong>Samuel Maia Analytics</strong>, entre <strong>ago/2022 e set/2026</strong>, atuei como <strong>Analytics Engineer | Data &amp; BI Consultant</strong>, desenvolvendo pipelines, modelos dimensionais e aplicações analíticas. Em projetos próprios, apliquei <strong>IA generativa via OpenAI API</strong> para transformar descrições de produtos em atributos estruturados, com prompts, saída JSON e persistência para análise.</p>
+          <p>Na <strong>Samuel Maia Analytics</strong>, entre <strong>ago/2022 e set/2026</strong>, atuei como <strong>Analytics Engineer | Data &amp; BI Consultant</strong>, desenvolvendo pipelines, modelos dimensionais e aplicações analíticas. Em projetos próprios, apliquei IA generativa via OpenAI API para extrair atributos estruturados de produtos e implementei um assistente RAG com recuperação local TF-IDF sobre contratos aprovados, citações e uso externo opcional mediante consentimento por consulta.</p>
         </div>
       </div>
     </section>
@@ -96,7 +96,7 @@
           <article><span class="stack-num">02</span><h3>Analytics Engineering</h3><p>dbt · ETL/ELT · modelagem dimensional · Raw/Bronze/Silver/Gold</p></article>
           <article><span class="stack-num">03</span><h3>Qualidade & Governança</h3><p>Data Quality · Data Contracts · Data Lineage · Publication Gate · rastreabilidade</p></article>
           <article><span class="stack-num">04</span><h3>Engenharia &amp; Cloud</h3><p>pytest · Ruff · mypy · GitHub Actions · CI/CD · AWS</p></article>
-          <article><span class="stack-num">05</span><h3>IA Generativa</h3><p>OpenAI API · LLMs · engenharia de prompts · extração de atributos textuais · JSON</p></article>
+          <article><span class="stack-num">05</span><h3>IA Generativa &amp; RAG</h3><p>OpenAI API · LLMs · engenharia de prompts · TF-IDF local · recuperação com citações · contratos aprovados</p></article>
           <article><span class="stack-num">06</span><h3>Automação &amp; Aplicações</h3><p>pandas · DuckDB · PostgreSQL · Streamlit · FastAPI · APIs REST · GraphQL · n8n</p></article>
         </div>
       </div>
@@ -137,12 +137,12 @@
         <div class="projects-grid">
           <article class="project-card">
             <div class="project-body">
-              <div class="project-meta">Analytics Engineering · Governança · IA Generativa</div>
+              <div class="project-meta">Analytics Engineering · Governança · IA Generativa · RAG</div>
               <h3>Governed Analytics Platform | 2026</h3>
               <p><strong>Contexto:</strong> dados de e-commerce precisam de qualidade e rastreabilidade para apoiar o consumo executivo.</p>
-              <p><strong>Ação:</strong> construí uma plataforma com Python, SQL, dbt, DuckDB e PostgreSQL, com Data Contracts, Data Quality, Data Lineage, Publication Gate e CI/CD. Acrescentei um módulo de IA generativa com OpenAI API, prompts e saída JSON para extrair atributos de descrições de produtos.</p>
-              <p class="project-result"><strong>Resultado:</strong> estados Approved, Needs Review ou Blocked controlam a publicação, com evidências de governança e atributos estruturados persistidos em CSV/JSONL para análise. A revisão do Gate passou com 383 testes (<a href="https://github.com/samuelmaia-analytics/Governed-Analytics-Platform/pull/70" target="_blank" rel="noreferrer">PR #70</a>).</p>
-              <p><strong>Escopo da IA:</strong> a interface apresenta resultados previamente persistidos; não executa inferência ao ser aberta.</p>
+              <p><strong>Ação:</strong> construí uma plataforma com Python, SQL, dbt, DuckDB e PostgreSQL, com Data Contracts, Data Quality, Data Lineage, Publication Gate e CI/CD. Também implementei extração de atributos de produtos com OpenAI API e um assistente RAG em Python, com TF-IDF local, citações e corpus limitado a três contratos versionados e aprovados.</p>
+              <p class="project-result"><strong>Resultado:</strong> estados Approved, Needs Review ou Blocked controlam a publicação, com evidências de governança e atributos estruturados persistidos em CSV/JSONL. O RAG recupera trechos dos contratos com citações e se abstém sem evidência suficiente. A integração RAG foi revisada com 1.111 testes, zero skips e 92% de cobertura (<a href="https://github.com/samuelmaia-analytics/Governed-Analytics-Platform/pull/75" target="_blank" rel="noreferrer">PR #75</a>).</p>
+              <p><strong>Escopo da IA:</strong> a extração de atributos mostra resultados persistidos. O RAG usa TF-IDF local por padrão; a chamada OpenAI é opcional, consentida por consulta e não executa SQL nem decide publicações.</p>
               <div class="card-actions">
                 <a href="https://governed-analytics-platform.streamlit.app/" target="_blank" rel="noreferrer">Demo</a>
                 <a href="https://github.com/samuelmaia-analytics/Governed-Analytics-Platform" target="_blank" rel="noreferrer">GitHub</a>
