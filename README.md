@@ -75,7 +75,7 @@ Os projetos apresentam ferramentas, decisões técnicas, resultados e evidência
 
 ## Evidências da revisão de governança
 
-Em **24/10/2026**, foram validadas as seguintes revisões com dados sintéticos e testes automatizados:
+As validações documentadas entre **24 e 31/10/2026** incluem as seguintes revisões e resultados:
 
 | Projeto | Testes aprovados | Melhoria verificada | Alteração proposta |
 |---|---:|---|---|
@@ -83,7 +83,7 @@ Em **24/10/2026**, foram validadas as seguintes revisões com dados sintéticos 
 | Governed Analytics | 1.111 testes · 92% cobertura | RAG com contratos aprovados, citações e abstinência; resultado registrado em 31/10/2026 | [Repositório](https://github.com/samuelmaia-analytics/Governed-Analytics-Platform) |
 | Central de Automação | 27 | Bloqueio de inconsistências antes da publicação | [PR #1](https://github.com/samuelmaia-analytics/central-automacao-operacoes/pull/1) |
 
-Essas evidências pertencem às revisões vinculadas. Consulte os PRs para conferir a integração à branch principal. A revisão não reexecutou o dataset completo do Lakehouse nem validou execução em Azure Databricks.
+Os números são históricos e se referem às validações registradas em cada projeto; não foram reexecutados durante esta atualização do perfil. A execução em Azure Databricks permanece prevista, não validada em nuvem.
 
 Os projetos são pessoais e independentes da atuação na Avanade; não representam entregas ou dados da empresa e de seus clientes.
 
