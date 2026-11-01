@@ -117,17 +117,17 @@
           <div class="project-visual lakehouse-visual" aria-label="Fluxo Lakehouse">
             <div class="flow-node">Raw</div><div class="flow-line"></div>
             <div class="flow-node">Bronze</div><div class="flow-line"></div>
-            <div class="flow-node gate">Gate</div><div class="flow-line"></div>
             <div class="flow-node">Silver</div><div class="flow-line"></div>
-            <div class="flow-node">Gold</div>
+            <div class="flow-node">Gold</div><div class="flow-line"></div>
+            <div class="flow-node gate">Gate</div>
           </div>
           <div class="project-body">
             <div class="project-meta">Databricks · PySpark · Delta Lake · Data Quality</div>
             <h3>Azure Databricks Governed Lakehouse | 2026</h3>
             <p><strong>Contexto:</strong> em um fluxo analítico de pedidos e produtos, a publicação exige critérios de qualidade e integridade.</p>
             <p><strong>Ação:</strong> desenvolvi um Lakehouse com Python, PySpark e Delta Lake, estruturado em Raw → Bronze → Silver → Gold, com Quarantine, schemas explícitos, regras de Data Quality e Publication Gate.</p>
-            <p class="project-result"><strong>Resultado:</strong> seis datasets Silver e quatro tabelas Gold publicados na execução local documentada, com reconciliações sem perdas ou multiplicações de registros. A execução local documentada registrou 186 testes automatizados, conforme o currículo atualizado.</p>
-            <p><strong>Escopo:</strong> execução validada localmente. Azure Databricks é a plataforma-alvo; execução em nuvem prevista. As melhorias de governança estão documentadas no <a href="https://github.com/samuelmaia-analytics/azure-databricks-governed-lakehouse/pull/3" target="_blank" rel="noreferrer">PR #3</a>; consulte seu estado de integração.</p>
+            <p class="project-result"><strong>Resultado:</strong> a execução local publicou seis datasets Silver e quatro tabelas Gold. As reconciliações não registraram perdas nem duplicações; a suíte automatizada passou com 186 testes.</p>
+            <p><strong>Escopo:</strong> validação local documentada. Azure Databricks é a plataforma-alvo; o projeto ainda não foi executado em nuvem.</p>
             <div class="card-actions">
               <a href="https://github.com/samuelmaia-analytics/azure-databricks-governed-lakehouse" target="_blank" rel="noreferrer">Ver projeto →</a>
             </div>
