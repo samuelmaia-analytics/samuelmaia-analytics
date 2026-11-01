@@ -19,7 +19,7 @@ Aprofundei essa base em um Lakehouse com PySpark e Delta Lake, validado localmen
 **Engenharia de Dados:** Python · SQL · PySpark · Apache Spark · Delta Lake · ETL/ELT · Data Lake · Data Warehouse · Lakehouse · conhecimentos em Azure Databricks  
 **Analytics Engineering e BI:** dbt · DuckDB · PostgreSQL · modelagem dimensional · Power BI · DAX · Power Query  
 **Qualidade e governança:** Data Quality · Data Contracts · Data Lineage · Publication Gate · reconciliação · controles de privacidade  
-**IA generativa:** OpenAI API · integração com LLMs · engenharia de prompts · extração de atributos textuais · saídas estruturadas em JSON  
+**IA aplicada a dados:** OpenAI API · integração com LLMs · engenharia de prompts · extração de atributos textuais · saídas estruturadas em JSON · RAG com TF-IDF local, citações e fontes aprovadas  
 **Automação e aplicações:** pandas · NumPy · Streamlit · FastAPI · APIs REST · GraphQL · workflows com n8n  
 **Cloud e engenharia:** AWS · Git · GitHub Actions · CI/CD · pytest · Ruff · mypy
 
@@ -43,11 +43,11 @@ Aprofundei essa base em um Lakehouse com PySpark e Delta Lake, validado localmen
 
 **Contexto:** dados de e-commerce precisam de qualidade e rastreabilidade para apoiar o consumo executivo.
 
-**Ação:** construí uma plataforma com Python, SQL, dbt, DuckDB e PostgreSQL, incorporando Data Contracts, Data Quality, Data Lineage, Privacy Risk Score, Publication Gate, Streamlit, FastAPI e CI/CD. Acrescentei um módulo de **IA generativa integrado à OpenAI API** para extrair atributos de descrições de produtos, com engenharia de prompts, saída JSON e persistência em CSV/JSONL.
+**Ação:** construí uma plataforma com Python, SQL, dbt, DuckDB e PostgreSQL, incorporando Data Contracts, Data Quality, Data Lineage, Privacy Risk Score, Publication Gate, Streamlit, FastAPI e CI/CD. Acrescentei dois recursos de IA independentes: extração de atributos de produtos com OpenAI API e saída JSON persistida em CSV/JSONL; e um **assistente RAG de governança**, com recuperação local TF-IDF, citações e corpus restrito a três contratos versionados e aprovados. A consulta externa via OpenAI é opcional e exige consentimento explícito por pergunta.
 
 **Resultado:** o fluxo registra decisões de publicação **Approved, Needs Review ou Blocked**, mantém evidências de governança e disponibiliza dados e atributos estruturados para consumo analítico.
 
-**Escopo da IA:** a interface apresenta resultados previamente persistidos. O módulo possui modo de referência e modo de chamada à API; a página não executa inferência ao ser aberta. A implementação verificada é de extração estruturada com LLM.
+**Escopo de IA:** a página de extração apresenta resultados persistidos e não executa inferência ao abrir. O RAG é um recurso separado: TF-IDF local é o padrão, sem chave ou rede; OpenAI pode ser selecionada por consulta, após consentimento, para selecionar evidências citadas. Não executa SQL nem decide publicações. Na revisão da integração RAG registrada em 31/10/2026, a suíte passou com **1.111 testes e 92% de cobertura**.
 
 [Ver repositório](https://github.com/samuelmaia-analytics/Governed-Analytics-Platform) · [Abrir demonstração](https://governed-analytics-platform.streamlit.app/)
 
