@@ -105,6 +105,10 @@ h3{font-size:1.3rem;letter-spacing:-.025em}
 .card-actions{margin-top:20px}
 .card-actions a{color:var(--accent);text-decoration:none;font-weight:800;font-size:.92rem}
 .card-actions a:hover{color:var(--text)}
+.architecture-link{display:block;margin:18px 0 4px;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#f7f9fc;text-decoration:none}
+.architecture-link img{display:block;width:100%;height:auto}
+.architecture-link span{display:block;padding:11px 14px;background:var(--panel-2);color:var(--accent);font-size:.88rem;font-weight:800}
+.architecture-link:hover span{color:var(--text)}
 .projects-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
 .projects-grid .project-card{display:flex}
 .projects-grid .project-body{display:flex;flex-direction:column}
