@@ -114,12 +114,12 @@ h3{font-size:1.3rem;letter-spacing:-.025em}
 .projects-grid .project-body{display:flex;flex-direction:column}
 .projects-grid .card-actions{margin-top:auto}
 
-.lakehouse-visual{min-height:100%;padding:34px;display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;background:
+.lakehouse-visual{min-height:100%;padding:34px;display:flex;align-items:center;justify-content:center;gap:6px;flex-wrap:nowrap;background:
   radial-gradient(circle at 30% 30%,rgba(110,141,255,.22),transparent 38%),
   linear-gradient(145deg,#102441,#08111f)}
-.flow-node{min-width:84px;padding:14px 15px;text-align:center;border:1px solid rgba(101,228,255,.30);border-radius:14px;background:rgba(255,255,255,.04);font-weight:800}
+.flow-node{min-width:62px;padding:12px 8px;text-align:center;border:1px solid rgba(101,228,255,.30);border-radius:14px;background:rgba(255,255,255,.04);font-size:.86rem;font-weight:800}
 .flow-node.gate{border-color:rgba(116,241,180,.45);color:#c9f9df}
-.flow-line{width:20px;height:1px;background:linear-gradient(90deg,var(--accent-2),var(--accent))}
+.flow-line{width:16px;flex:0 0 16px;height:1px;background:linear-gradient(90deg,var(--accent-2),var(--accent))}
 
 .compact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:20px}
 .compact-grid a{display:flex;flex-direction:column;gap:8px;padding:20px;border:1px solid var(--line);border-radius:18px;text-decoration:none;background:rgba(255,255,255,.025);transition:.2s ease}
