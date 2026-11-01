@@ -8,7 +8,7 @@ Atuo na **Avanade** como **Analyst, Data Engineering | Engenheiro de Dados Pleno
 
 Minha trajetória conecta negócio, operações, BI e Analytics Engineering. Na **Samuel Maia Analytics**, como **Analytics Engineer | Data & BI Consultant**, entre **ago/2022 e set/2026**, desenvolvi pipelines, modelos dimensionais e aplicações analíticas com Python, SQL, dbt, DuckDB, PostgreSQL, Power BI e Streamlit.
 
-Aprofundei essa base em um Lakehouse com PySpark e Delta Lake, validado localmente, e na aplicação de **IA generativa**, integrando a API da OpenAI para extrair atributos estruturados de textos. As implementações de portfólio estão identificadas nos projetos correspondentes.
+Aprofundei essa base em um Lakehouse com PySpark e Delta Lake, validado localmente, e em projetos de **IA generativa e RAG**. No Governed Analytics Platform, o assistente consulta contratos técnicos aprovados, recupera evidências localmente e responde com citações. A chamada à OpenAI é opcional e depende do consentimento para cada consulta.
 
 [LinkedIn](https://www.linkedin.com/in/samuelmaia-analytics/) · [Portfólio](https://samuelmaia-analytics.github.io/samuelmaia-analytics/) · [Currículo em PDF](docs/assets/Samuel_Maia_Curriculo.pdf)
 
@@ -19,7 +19,7 @@ Aprofundei essa base em um Lakehouse com PySpark e Delta Lake, validado localmen
 **Engenharia de Dados:** Python · SQL · PySpark · Apache Spark · Delta Lake · ETL/ELT · Data Lake · Data Warehouse · Lakehouse · conhecimentos em Azure Databricks  
 **Analytics Engineering e BI:** dbt · DuckDB · PostgreSQL · modelagem dimensional · Power BI · DAX · Power Query  
 **Qualidade e governança:** Data Quality · Data Contracts · Data Lineage · Publication Gate · reconciliação · controles de privacidade  
-**IA generativa:** OpenAI API · integração com LLMs · engenharia de prompts · extração de atributos textuais · saídas estruturadas em JSON  
+**IA generativa e RAG:** OpenAI API opcional · TF-IDF local · contratos YAML aprovados · manifesto e SHA-256 · citações · consentimento por consulta  
 **Automação e aplicações:** pandas · NumPy · Streamlit · FastAPI · APIs REST · GraphQL · workflows com n8n  
 **Cloud e engenharia:** AWS · Git · GitHub Actions · CI/CD · pytest · Ruff · mypy
 
@@ -33,7 +33,7 @@ Aprofundei essa base em um Lakehouse com PySpark e Delta Lake, validado localmen
 
 **Ação:** desenvolvi um Lakehouse em Python, PySpark e Delta Lake, com camadas Raw, Bronze, Silver, Gold e Quarantine, schemas explícitos, validações e Publication Gate.
 
-**Resultado:** a execução local documentada publicou **seis datasets Silver e quatro tabelas Gold**, com reconciliações sem perdas ou multiplicações de registros. A validação histórica registrou **186 testes**; a revisão de governança de 24/10/2026 passou com **192 testes**, conforme as evidências abaixo.
+**Resultado:** a execução local documentada publicou **seis datasets Silver e quatro tabelas Gold**, com reconciliações sem perdas ou multiplicações de registros. A execução local documentada registrou **186 testes automatizados**, conforme o currículo atualizado.
 
 **Escopo:** execução validada localmente. Azure Databricks é a plataforma-alvo; a execução em nuvem permanece prevista.
 
@@ -43,11 +43,11 @@ Aprofundei essa base em um Lakehouse com PySpark e Delta Lake, validado localmen
 
 **Contexto:** dados de e-commerce precisam de qualidade e rastreabilidade para apoiar o consumo executivo.
 
-**Ação:** construí uma plataforma com Python, SQL, dbt, DuckDB e PostgreSQL, incorporando Data Contracts, Data Quality, Data Lineage, Privacy Risk Score, Publication Gate, Streamlit, FastAPI e CI/CD. Acrescentei um módulo de **IA generativa integrado à OpenAI API** para extrair atributos de descrições de produtos, com engenharia de prompts, saída JSON e persistência em CSV/JSONL.
+**Ação:** construí uma plataforma com Python, SQL, dbt, DuckDB e PostgreSQL, incorporando Data Contracts, Data Quality, Data Lineage, Privacy Risk Score, Publication Gate, Streamlit, FastAPI e CI/CD. Acrescentei extração estruturada de atributos com OpenAI API opcional e um assistente RAG de governança com TF-IDF local, citações e contratos aprovados.
 
 **Resultado:** o fluxo registra decisões de publicação **Approved, Needs Review ou Blocked**, mantém evidências de governança e disponibiliza dados e atributos estruturados para consumo analítico.
 
-**Escopo da IA:** a interface apresenta resultados previamente persistidos. O módulo possui modo de referência e modo de chamada à API; a página não executa inferência ao ser aberta. A implementação verificada é de extração estruturada com LLM.
+**Escopo:** a extração generativa exibe resultados previamente persistidos. O assistente RAG consulta somente três contratos YAML aprovados, validados por manifesto e SHA-256. TF-IDF local é o padrão; a chamada OpenAI é opcional, requer consentimento por consulta e usa evidências com citações. Sem evidência suficiente, o assistente se abstém; não executa SQL ou ações e não persiste histórico. A arquitetura Azure é proposta, ainda não implantada.
 
 [Ver repositório](https://github.com/samuelmaia-analytics/Governed-Analytics-Platform) · [Abrir demonstração](https://governed-analytics-platform.streamlit.app/)
 
@@ -75,15 +75,15 @@ Os projetos apresentam ferramentas, decisões técnicas, resultados e evidência
 
 ## Evidências da revisão de governança
 
-Em **24/10/2026**, foram validadas as seguintes revisões com dados sintéticos e testes automatizados:
+As validações documentadas entre **24 e 31/10/2026** incluem as seguintes revisões e resultados:
 
 | Projeto | Testes aprovados | Melhoria verificada | Alteração proposta |
 |---|---:|---|---|
-| Lakehouse | 192 | Quarentena integrada, relatório de falhas parciais e CI | [PR #3](https://github.com/samuelmaia-analytics/azure-databricks-governed-lakehouse/pull/3) |
-| Governed Analytics | 383 | Rejeição de evidências inválidas no Publication Gate | [PR #70](https://github.com/samuelmaia-analytics/Governed-Analytics-Platform/pull/70) |
+| Lakehouse | 186 | Seis datasets Silver e quatro tabelas Gold na execução local documentada | [Repositório](https://github.com/samuelmaia-analytics/azure-databricks-governed-lakehouse) |
+| Governed Analytics | 1.111 testes · 92% cobertura | RAG com contratos aprovados, citações e abstinência; resultado registrado em 31/10/2026 | [Repositório](https://github.com/samuelmaia-analytics/Governed-Analytics-Platform) |
 | Central de Automação | 27 | Bloqueio de inconsistências antes da publicação | [PR #1](https://github.com/samuelmaia-analytics/central-automacao-operacoes/pull/1) |
 
-Essas evidências pertencem às revisões vinculadas. Consulte os PRs para conferir a integração à branch principal. A revisão não reexecutou o dataset completo do Lakehouse nem validou execução em Azure Databricks.
+Os números são históricos e se referem às validações registradas em cada projeto; não foram reexecutados durante esta atualização do perfil. A execução em Azure Databricks permanece prevista, não validada em nuvem.
 
 Os projetos são pessoais e independentes da atuação na Avanade; não representam entregas ou dados da empresa e de seus clientes.
 
