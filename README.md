@@ -2,7 +2,7 @@
 
 **Engenheiro de Dados Pleno | Analytics Engineering | SQL, Python e PySpark**
 
-Construo soluções de dados para transformar informações brutas em dados confiáveis para análise e tomada de decisão.
+Desenvolvo projetos de dados com foco em ingestão, transformação, qualidade e publicação controlada, conectando Python, SQL, Analytics Engineering e automação.
 
 Atuo na **Avanade** como **Analyst, Data Engineering | Engenheiro de Dados Pleno**, desde **out/2026**. Meu escopo técnico inclui pipelines ETL/ELT, ingestão, transformação, modelagem, qualidade e governança, com SQL, Python, PySpark, Azure Databricks e Delta Lake.
 
@@ -10,7 +10,7 @@ Minha trajetória conecta negócio, operações, BI e Analytics Engineering. Na 
 
 Aprofundei essa base em um Lakehouse com PySpark e Delta Lake, validado localmente, e em projetos de **IA generativa e RAG**. No Governed Analytics Platform, o assistente consulta contratos técnicos aprovados, recupera evidências localmente e responde com citações. A chamada à OpenAI é opcional e depende do consentimento para cada consulta.
 
-[LinkedIn](https://www.linkedin.com/in/samuelmaia-analytics/) · [Portfólio](https://samuelmaia-analytics.github.io/samuelmaia-analytics/) · [Currículo em PDF](docs/assets/Samuel_Maia_Curriculo.pdf)
+[LinkedIn](https://www.linkedin.com/in/samuelmaia-analytics/) · [Portfólio](https://samuelmaia-analytics.github.io/samuelmaia-analytics/) · [Currículo em PDF](https://samuelmaia-analytics.github.io/samuelmaia-analytics/assets/Samuel_Maia_Curriculo.pdf)
 
 ---
 
@@ -47,6 +47,8 @@ Aprofundei essa base em um Lakehouse com PySpark e Delta Lake, validado localmen
 
 **Resultado:** o fluxo registra decisões de publicação **Approved, Needs Review ou Blocked**, mantém evidências de governança e disponibiliza dados e atributos estruturados para consumo analítico.
 
+**Orquestração:** templates n8n importáveis executam scripts do projeto e registram execuções; ambiente, agendamento e alertas precisam de configuração. A lógica de negócio permanece em Python, SQL e dbt.
+
 **Escopo:** a extração generativa exibe resultados previamente persistidos. O assistente RAG consulta somente três contratos YAML aprovados, validados por manifesto e SHA-256. TF-IDF local é o padrão; a chamada OpenAI é opcional, requer consentimento por consulta e usa evidências com citações. Sem evidência suficiente, o assistente se abstém; não executa SQL ou ações e não persiste histórico. A arquitetura Azure é proposta, ainda não implantada.
 
 [Ver repositório](https://github.com/samuelmaia-analytics/Governed-Analytics-Platform) · [Abrir demonstração](https://governed-analytics-platform.streamlit.app/)
@@ -57,15 +59,24 @@ Aprofundei essa base em um Lakehouse com PySpark e Delta Lake, validado localmen
 
 **Ação:** desenvolvi uma central com Python, SQL, DuckDB e Streamlit, integrada ao Pipefy via API/GraphQL, com regras de criticidade, indicadores de SLA, backlog e alertas.
 
-**Resultado:** a visão consolidada permite identificar demandas vencidas, sem responsável ou prioritárias e apoiar o acompanhamento operacional.
+**Resultado:** a visão consolidada permite identificar demandas vencidas, sem responsável ou prioritárias e apoiar o acompanhamento operacional. O pipeline principal valida a integridade antes da publicação e registra informações de rastreabilidade.
+
+**Escopo:** a integração Pipefy dispõe de modo demonstrativo e acesso à API mediante configuração. A automação utiliza regras em Python; a demonstração pode usar dados de exemplo.
 
 [Ver repositório](https://github.com/samuelmaia-analytics/central-automacao-operacoes) · [Abrir demonstração](https://central-automacao-operacoes.streamlit.app/)
 
 ---
 
+### 4. [Contador de Acessos Serverless na AWS](https://github.com/samuelmaia-analytics/aws-serverless-access-counter) | 2026
+
+Participei do desenvolvimento de um contador de acessos como projeto em grupo do AWS re/Start, na Escola da Nuvem. O repositório contém frontend estático e função Lambda em Python que incrementa o contador atomicamente no DynamoDB.
+
+A arquitetura documentada reúne entrega web, API, persistência, segurança, observabilidade e acompanhamento de custos. O frontend ainda precisa receber o endpoint real do API Gateway; a infraestrutura como código está planejada. O conteúdo versionado não comprova implantação dos dez serviços da arquitetura.
+
+[Ver código e arquitetura](https://github.com/samuelmaia-analytics/aws-serverless-access-counter)
+
 ## Projetos complementares
 
-- **[AWS Serverless Access Counter](https://github.com/samuelmaia-analytics/aws-serverless-access-counter):** projeto em grupo do AWS re/Start com CloudFront, S3, API Gateway, Lambda, DynamoDB, IAM, WAF, CloudWatch, SNS e AWS Budgets.
 - **[Churn Prediction Data Product](https://github.com/samuelmaia-analytics/churn-prediction):** preparação de features, treinamento e inferência com scikit-learn, priorização de clientes e monitoramento de drift com PSI/KS.
 - **[Revenue Intelligence Platform Suite](https://github.com/samuelmaia-analytics/revenue-intelligence-platform-suite):** métricas governadas, camada semântica, Prefect, Pandera, qualidade, observabilidade e aplicações analíticas.
 
