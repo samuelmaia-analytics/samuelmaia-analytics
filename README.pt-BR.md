@@ -2,7 +2,7 @@
 
 **Engenheiro de Dados Pleno | Analytics Engineering | SQL, Python e PySpark**
 
-Construo soluções de dados para transformar informações brutas em dados confiáveis para análise e tomada de decisão.
+Desenvolvo projetos de dados com foco em ingestão, transformação, qualidade e publicação controlada, conectando Python, SQL, Analytics Engineering e automação.
 
 Atuo na **Avanade** como **Analyst, Data Engineering | Engenheiro de Dados Pleno**, desde **out/2026**. Meu escopo técnico inclui pipelines ETL/ELT, ingestão, transformação, modelagem, qualidade e governança, com SQL, Python, PySpark, Azure Databricks e Delta Lake.
 
@@ -16,54 +16,46 @@ Aprofundei essa base em um Lakehouse com PySpark e Delta Lake, validado localmen
 
 ## Stack principal
 
-**Engenharia de Dados:** Python · SQL · PySpark · Apache Spark · Delta Lake · ETL/ELT · Data Lake · Data Warehouse · Lakehouse · conhecimentos em Azure Databricks  
-**Analytics Engineering e BI:** dbt · DuckDB · PostgreSQL · modelagem dimensional · Power BI · DAX · Power Query  
-**Qualidade e governança:** Data Quality · Data Contracts · Data Lineage · Publication Gate · reconciliação · controles de privacidade  
-**IA generativa e RAG:** OpenAI API opcional · TF-IDF local · contratos YAML aprovados · manifesto e SHA-256 · citações · consentimento por consulta  
-**Automação e aplicações:** pandas · NumPy · Streamlit · FastAPI · APIs REST · GraphQL · workflows com n8n  
+**Engenharia de Dados:** Python · SQL · PySpark · Apache Spark · Delta Lake · ETL/ELT · Data Lake · Data Warehouse · Lakehouse · conhecimentos em Azure Databricks  <br>
+**Analytics Engineering e BI:** dbt · DuckDB · PostgreSQL · modelagem dimensional · Power BI · DAX · Power Query  <br>
+**Qualidade e governança:** Data Quality · Data Contracts · Data Lineage · Publication Gate · reconciliação · controles de privacidade  <br>
+**IA generativa e RAG:** OpenAI API opcional · TF-IDF local · contratos YAML aprovados · manifesto e SHA-256 · citações · consentimento por consulta  <br>
+**Automação e aplicações:** pandas · NumPy · Streamlit · FastAPI · APIs REST · GraphQL · workflows com n8n  <br>
 **Cloud e engenharia:** AWS · Git · GitHub Actions · CI/CD · pytest · Ruff · mypy
 
 ---
 
 ## Projetos em destaque
 
-### 1. [Azure Databricks Governed Lakehouse](https://github.com/samuelmaia-analytics/azure-databricks-governed-lakehouse) | 2026
+### 1. [Governed Analytics Platform](https://github.com/samuelmaia-analytics/Governed-Analytics-Platform) | 2026
 
-**Contexto:** em um fluxo analítico de pedidos e produtos, a publicação exige critérios de qualidade e integridade.
+**Contexto:** dados analíticos sem contratos e critérios de publicação tendem a gerar inconsistências e dificultar auditoria e consumo confiável.
 
-**Ação:** desenvolvi um Lakehouse em Python, PySpark e Delta Lake, com camadas Raw, Bronze, Silver, Gold e Quarantine, schemas explícitos, validações e Publication Gate.
+**Ação:** desenvolvi uma plataforma demonstrativa com camadas Bronze/Silver/Gold e Quarantine, Data Contracts, Data Quality, governança e rastreabilidade, com Publication Gate para decisões de publicação. Inclui interface Streamlit e APIs FastAPI para exploração e observabilidade.
 
-**Resultado:** a execução local documentada publicou **seis datasets Silver e quatro tabelas Gold**, com reconciliações sem perdas ou multiplicações de registros. A execução local documentada registrou **186 testes automatizados**, conforme o currículo atualizado.
-
-**Escopo:** execução validada localmente. Azure Databricks é a plataforma-alvo; a execução em nuvem permanece prevista.
-
-[Ver repositório e evidências](https://github.com/samuelmaia-analytics/azure-databricks-governed-lakehouse)
-
-### 2. [Governed Analytics Platform](https://github.com/samuelmaia-analytics/Governed-Analytics-Platform) | 2026
-
-**Contexto:** dados de e-commerce precisam de qualidade e rastreabilidade para apoiar o consumo executivo.
-
-**Ação:** construí uma plataforma com Python, SQL, dbt, DuckDB e PostgreSQL, incorporando Data Contracts, Data Quality, Data Lineage, Privacy Risk Score, Publication Gate, Streamlit, FastAPI e CI/CD. Acrescentei extração estruturada de atributos com OpenAI API opcional e um assistente RAG de governança com TF-IDF local, citações e contratos aprovados.
-
-**Resultado:** o fluxo registra decisões de publicação **Approved, Needs Review ou Blocked**, mantém evidências de governança e disponibiliza dados e atributos estruturados para consumo analítico.
-
-**Escopo:** a extração generativa exibe resultados previamente persistidos. O assistente RAG consulta somente três contratos YAML aprovados, validados por manifesto e SHA-256. TF-IDF local é o padrão; a chamada OpenAI é opcional, requer consentimento por consulta e usa evidências com citações. Sem evidência suficiente, o assistente se abstém; não executa SQL ou ações e não persiste histórico. A arquitetura Azure é proposta, ainda não implantada.
+**Resultado:** validação local em **13/11/2026** com **1.353 testes aprovados**, **92% de cobertura total** em src + app e **nenhuma falha**. O repositório documenta evidências, limites e componentes opcionais (projeto de portfólio; sem implantação corporativa comprovada).
 
 [Ver repositório](https://github.com/samuelmaia-analytics/Governed-Analytics-Platform) · [Abrir demonstração](https://governed-analytics-platform.streamlit.app/)
 
+### 2. [Azure Databricks Governed Lakehouse](https://github.com/samuelmaia-analytics/azure-databricks-governed-lakehouse) | 2026
+
+**Contexto:** em um fluxo analítico de pedidos e produtos, a publicação exige critérios de qualidade e integridade.
+
+**Ação:** desenvolvi um Lakehouse em Python, PySpark e Delta Lake com camadas Raw/Bronze/Silver/Gold/Quarantine, schemas explícitos e Publication Gate. Inclui validações e reconciliações para evitar perdas ou multiplicações de registros.
+
+**Resultado:** a execução local documentada publicou **seis datasets Silver** e **quatro tabelas Gold**, com **186 testes automatizados** (conforme currículo). Azure Databricks é a plataforma-alvo; a execução em nuvem permanece prevista.
+
+[Ver repositório e evidências](https://github.com/samuelmaia-analytics/azure-databricks-governed-lakehouse)
+
 ### 3. [Central de Automação e Operações](https://github.com/samuelmaia-analytics/central-automacao-operacoes) | 2026
 
-**Contexto:** o acompanhamento de múltiplos workflows exige uma visão consolidada de prazos, responsáveis e prioridades.
+**Contexto:** o acompanhamento de múltiplos workflows exige visibilidade de prazos, responsáveis, backlog e criticidade.
 
-**Ação:** desenvolvi uma central com Python, SQL, DuckDB e Streamlit, integrada ao Pipefy via API/GraphQL, com regras de criticidade, indicadores de SLA, backlog e alertas.
+**Ação:** desenvolvi uma central com Python, SQL, DuckDB e Streamlit, integrada ao Pipefy via API/GraphQL, com regras de criticidade, indicadores de SLA, backlog e alertas. Estruturei a navegação para destacar demandas vencidas, sem responsável ou prioritárias.
 
-**Resultado:** a visão consolidada permite identificar demandas vencidas, sem responsável ou prioritárias e apoiar o acompanhamento operacional.
+**Resultado:** entrega uma visão consolidada para acompanhamento operacional e identificação de pontos de atenção, sem extrapolar métricas não comprovadas. A demonstração depende de configuração de acesso à API e pode operar com dados de exemplo.
 
-[Ver repositório](https://github.com/samuelmaia-analytics/central-automacao-operacoes) · [Abrir demonstração](https://central-automacao-operacoes.streamlit.app/)
-
----
-
-## Projetos complementares
+[Ver repositório](https://github.com/samuelmaia-analytics/central-automacao-operacoes) · [Abrir demonstração](https://central-automacao-operacoes.streamlit.app/)\n---\n\n## Projetos complementares
 
 - **[AWS Serverless Access Counter](https://github.com/samuelmaia-analytics/aws-serverless-access-counter):** projeto em grupo do AWS re/Start com CloudFront, S3, API Gateway, Lambda, DynamoDB, IAM, WAF, CloudWatch, SNS e AWS Budgets.
 - **[Churn Prediction Data Product](https://github.com/samuelmaia-analytics/churn-prediction):** preparação de features, treinamento e inferência com scikit-learn, priorização de clientes e monitoramento de drift com PSI/KS.
@@ -75,12 +67,14 @@ Os projetos apresentam ferramentas, decisões técnicas, resultados e evidência
 
 ## Evidências da revisão de governança
 
-As validações documentadas entre **24 e 31/10/2026** incluem as seguintes revisões e resultados:
+Além dos marcos históricos de revisão, a execução local mais recente do **Governed Analytics Platform** em **13/11/2026** registrou **1.353 testes aprovados**, **92% de cobertura total** em `src + app` e **nenhuma falha**. Esse resultado é de validação local e não deve ser interpretado como métrica automática de GitHub Actions/Codecov.
+
+As validações documentadas incluem as seguintes revisões e resultados:
 
 | Projeto | Testes aprovados | Melhoria verificada | Alteração proposta |
 |---|---:|---|---|
 | Lakehouse | 186 | Seis datasets Silver e quatro tabelas Gold na execução local documentada | [Repositório](https://github.com/samuelmaia-analytics/azure-databricks-governed-lakehouse) |
-| Governed Analytics | 1.111 testes · 92% cobertura | RAG com contratos aprovados, citações e abstinência; resultado registrado em 31/10/2026 | [Repositório](https://github.com/samuelmaia-analytics/Governed-Analytics-Platform) |
+| Governed Analytics | 1.353 testes · 92% cobertura | Validação local em 13/11/2026 sem falhas; histórico anterior em 31/10/2026 registrou 1.111 testes | [Repositório](https://github.com/samuelmaia-analytics/Governed-Analytics-Platform) |
 | Central de Automação | 27 | Bloqueio de inconsistências antes da publicação | [PR #1](https://github.com/samuelmaia-analytics/central-automacao-operacoes/pull/1) |
 
 Os números são históricos e se referem às validações registradas em cada projeto; não foram reexecutados durante esta atualização do perfil. A execução em Azure Databricks permanece prevista, não validada em nuvem.
@@ -93,7 +87,7 @@ Os projetos são pessoais e independentes da atuação na Avanade; não represen
 - Pós-graduação em Ciência de Dados — Gran Faculdade | abr/2026
 - Bacharelado em Administração — FAEL | jul/2024
 - AWS re/Start, Inteligência Artificial e No Code — Escola da Nuvem | 270h | jul/2026
-- Databricks Certified Data Engineer Associate — **curso preparatório Udemy**, 13,5h | out/2026. Certificado de conclusão do curso.
+- Curso preparatório para **Databricks Certified Data Engineer Associate** — Udemy, 13,5h | out/2026. Certificado de conclusão do curso (curso preparatório; não é a certificação obtida).
 
 ## Contato profissional
 

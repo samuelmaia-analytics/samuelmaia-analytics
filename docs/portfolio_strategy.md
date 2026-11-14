@@ -2,82 +2,63 @@
 
 ## Current Diagnosis
 
-The portfolio already contains strong raw material for senior positioning, especially in revenue analytics, analytical applications, layered pipelines, documentation, and governance-oriented structure.
-What weakens the overall impression is not lack of substance, but lack of hierarchy.
+The portfolio has strong material across analytics engineering, layered pipelines, documentation, and governance. What weakens the impression is not lack of substance, but lack of hierarchy and inconsistent messaging between the GitHub profile, the hub repository, and the GitHub Pages site.
 
 Current issues:
 
-- The public GitHub profile mixes mature repositories with generic, legacy, and Portuguese-only naming.
-- Repository descriptions are inconsistent in quality and language.
-- The current public narrative looks closer to a collection of projects than to a coherent analytical portfolio.
-- Legacy repositories such as `samuelmaia-data-analyst` and generic names such as `data-senior-analytics` dilute the stronger positioning.
-- `Governed-Analytics-Platform` is one of the strongest enterprise-adjacent assets in the portfolio and now benefits from a name that improves immediate perception.
-- Under the current portfolio scope, that repository should be incorporated into the portfolio narrative without changing anything inside the repository itself.
-- Some repositories appear stronger in README structure than in their GitHub short descriptions, which means the first impression is weaker than the actual substance.
+- The public narrative can look closer to a collection of repositories than to a coherent portfolio thesis.
+- Repository descriptions and README depth are not always aligned with the desired first impression.
+- Some strategic documents still reflect an older hierarchy where revenue analytics was treated as the flagship.
 
 ## Strategic Direction
 
 The portfolio should present a single professional thesis:
 
-`Samuel Maia builds decision-ready analytical systems with strong business framing, analytics engineering discipline, governance awareness, and executive usability.`
+`Samuel Maia builds decision-ready data products with governance, quality controls, and controlled publishing.`
 
 That thesis should be visible at three layers:
 
 1. GitHub profile headline and summary
 2. Pinned repository order
-3. Repository descriptions and README structure
+3. GitHub Pages project hierarchy and repository descriptions
 
-## Target Portfolio Architecture
+## Target Portfolio Architecture (Updated)
 
-### Layer 1: Flagship
+### Layer 1: Flagship (current)
 
-Use one repository to represent the highest level of maturity and architectural range.
+Use one repository to represent the highest level of maturity and architectural range:
 
-- `revenue-intelligence-platform-suite`
+- `Governed-Analytics-Platform`
+
+Rationale: contracts, quality gates, lineage, controlled publishing, and reproducible validation evidence. It is a portfolio project (no corporate production claim).
 
 ### Layer 2: Core Proofs
 
-Use four repositories to reinforce the flagship from complementary angles:
+Use two repositories to reinforce the flagship from complementary angles:
 
-- `Revenue-Intelligence-Platform-End-to-End-Analytics-ML-System`
+- `azure-databricks-governed-lakehouse`
+- `central-automacao-operacoes`
+
+### Layer 3: Complementary Proofs
+
+Keep additional repositories visible as supporting evidence, without competing with the flagship:
+
+- `aws-serverless-access-counter`
 - `churn-prediction`
-- `Governed-Analytics-Platform`
-- `amazon-sales-analysis`
+- `revenue-intelligence-platform-suite`
 
-### Layer 3: Supporting Depth
+### Layer 4: Supporting Depth / Legacy
 
-Keep additional repositories visible only if they support the same narrative:
-
-- `data-senior-analytics`
-- `analise-vendas-python`
-
-### Layer 4: Legacy / Noise Control
-
-Avoid giving prominence to repositories that weaken consistency:
+De-emphasize repositories that dilute the narrative (keep for history/redirects only):
 
 - `samuelmaia-data-analyst`
+- generic or older analysis-focused repositories
 
-`Governed-Analytics-Platform` should not be treated as supporting noise. The repository is strong and now aligns better with the portfolio's public framing.
+## Historical Note
 
-## What Senior Hiring Signals Look For
+Earlier drafts (before the 13/11/2026 validation update) treated revenue analytics repositories as the flagship. The current portfolio direction uses `Governed-Analytics-Platform` as the flagship to anchor the narrative on governed publishing, quality discipline, and defensible evidence.
 
-The strongest signals already present in the portfolio are:
-
-- clear business framing
-- layered data architecture
-- analytical outputs tied to decisions
-- governance and contracts
-- CI/CD and reproducibility
-- dashboards or applications that expose results to stakeholders
-
-The weakest signals currently are:
-
-- inconsistent naming
-- mixed language presentation
-- lack of clear project hierarchy
-- descriptions that undersell the work
-
-## README Standard to Use Across Repositories
+## README Standard to Use Across Major Repositories
 
 Every major repository should follow roughly this structure:
 
@@ -85,27 +66,25 @@ Every major repository should follow roughly this structure:
 2. Business context
 3. What problem it solves
 4. Who it is for
-5. Business impact or decision value
+5. Evidence and validation scope
 6. Architecture
 7. Data pipeline or system flow
 8. Quality, governance, and CI/CD
 9. Main outputs
 10. Demo or usage
 11. Repository structure
-12. Links / release / contact
+12. Links
 
 ## Naming and Presentation Rules
 
 - Keep repository titles and descriptions in English when possible.
-- Use Portuguese only as secondary localized documentation.
+- Use Portuguese as secondary localized documentation.
 - Avoid generic words like `portfolio`, `case`, or `analysis` without business context.
-- Prefer names and descriptions that immediately signal business domain, operating model, and analytical value.
-- Keep old repositories unpinned if their names no longer match the target brand.
+- Prefer names and descriptions that signal business domain, operating model, and analytical value.
 
 ## Immediate Priority Actions
 
 1. Keep `samuelmaia-analytics` as the canonical entry point.
-2. Reorder pinned repositories around flagship and core proofs.
-3. Update GitHub short descriptions for all visible repositories.
-4. Normalize README structure across flagship and core repositories.
-5. De-emphasize legacy repositories and opaque names, while still surfacing the strongest enterprise-adjacent work through the portfolio hub.
+2. Ensure the GitHub Pages site highlights the flagship first (GAP), then Lakehouse and Central.
+3. Update strategic documents to reflect the current hierarchy.
+4. Keep complementary projects visible, but clearly secondary.

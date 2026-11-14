@@ -2,8 +2,8 @@
 
 ## Projetos prioritários
 
-1. azure-databricks-governed-lakehouse
-2. Governed-Analytics-Platform
+1. Governed-Analytics-Platform
+2. azure-databricks-governed-lakehouse
 3. central-automacao-operacoes
 
 ## Projetos complementares
@@ -12,4 +12,4 @@
 5. churn-prediction
 6. revenue-intelligence-platform-suite
 
-A ordem prioriza Engenharia de Dados, Lakehouse, qualidade e governança, mantendo BI, automação e produtos analíticos como evidências complementares.
+A ordem prioriza a Governed Analytics Platform como projeto âncora, seguida por evidências de Lakehouse e automação. Os demais repositórios permanecem como projetos complementares.
