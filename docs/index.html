@@ -124,10 +124,9 @@
           <div class="project-body">
             <div class="project-meta">Python · SQL · dbt · DuckDB · Data Contracts · Data Quality</div>
             <h3>Governed Analytics Platform | 2026</h3>
-            <p><strong>Contexto:</strong> dados analíticos sem contratos e critérios de publicação tendem a gerar inconsistências e dificultar auditoria e consumo confiável.</p>
-            <p><strong>Ação:</strong> desenvolvi uma plataforma demonstrativa com Bronze/Silver/Gold e Quarantine, Data Contracts, Data Quality, governança e rastreabilidade, com Publication Gate para decisões de publicação. Inclui interface Streamlit e APIs FastAPI.</p>
-            <p class="project-result"><strong>Resultado:</strong> validação local em <strong>13/11/2026</strong> com <strong>1.353 testes aprovados</strong>, <strong>92% de cobertura total</strong> em <strong>src + app</strong> e <strong>nenhuma falha</strong>.</p>
-            <p><strong>Escopo:</strong> projeto de portfólio; autenticação Bearer compartilhada nos endpoints sensíveis (sem RBAC/ABAC); a arquitetura cloud é proposta, não implantação comprovada.</p>
+            <p>Dados analíticos sem contratos e critérios claros de publicação podem gerar inconsistências difíceis de auditar. Desenvolvi uma plataforma demonstrativa com Python, SQL, dbt e DuckDB, camadas Bronze/Silver/Gold e Quarantine, Data Contracts, Data Quality, rastreabilidade e Publication Gate. A interface Streamlit recebeu uma visão executiva modernizada, com navegação organizada e indicadores baseados em evidências; a API FastAPI protege endpoints sensíveis por autenticação Bearer.</p>
+            <p class="project-result">Na validação <strong>local de 13/11/2026</strong>, foram aprovados <strong>1.353 testes</strong>, com <strong>92% de cobertura</strong> em <strong>src + app</strong> e nenhuma falha. Os workflows de CI, lint, segurança, política e deploy passaram após a correção de tipagem de 14/11/2026; esses resultados não substituem uma validação de produção.</p>
+            <p>Projeto pessoal demonstrativo, sem implantação corporativa comprovada. Os endpoints protegidos usam token Bearer compartilhado, sem RBAC/ABAC; a arquitetura cloud permanece uma proposta.</p>
             <div class="card-actions">
               <a href="https://governed-analytics-platform.streamlit.app/" target="_blank" rel="noreferrer">Demo</a>
               <a href="https://github.com/samuelmaia-analytics/Governed-Analytics-Platform" target="_blank" rel="noreferrer">GitHub</a>
@@ -140,9 +139,8 @@
             <div class="project-body">
               <div class="project-meta">Databricks · PySpark · Delta Lake · Publication Gate</div>
               <h3>Azure Databricks Governed Lakehouse | 2026</h3>
-              <p><strong>Contexto:</strong> em um fluxo analítico de pedidos e produtos, a publicação exige critérios de qualidade e integridade.</p>
-              <p><strong>Ação:</strong> desenvolvi um Lakehouse em Python, PySpark e Delta Lake com camadas Raw/Bronze/Silver/Gold/Quarantine, schemas explícitos e Publication Gate, com validações e reconciliações.</p>
-              <p class="project-result"><strong>Resultado:</strong> execução local documentada com seis datasets Silver, quatro tabelas Gold e 186 testes automatizados (conforme currículo). A execução em nuvem permanece prevista.</p>
+              <p>Dados de pedidos e produtos exigem verificações de integridade antes de chegarem ao consumo. Desenvolvi um Lakehouse em Python, <strong>PySpark e Delta Lake</strong> com camadas Raw/Bronze/Silver/Gold/Quarantine, schemas explícitos, reconciliações e Publication Gate.</p>
+              <p class="project-result">A execução local documentada produziu <strong>seis datasets Silver e quatro tabelas Gold</strong>, com <strong>186 testes automatizados</strong>. A execução em Azure Databricks permanece prevista, sem implantação em nuvem comprovada.</p>
               <div class="card-actions">
                 <a href="https://github.com/samuelmaia-analytics/azure-databricks-governed-lakehouse" target="_blank" rel="noreferrer">GitHub</a>
               </div>
@@ -153,9 +151,8 @@
             <div class="project-body">
               <div class="project-meta">Python · SQL · DuckDB · Streamlit · Pipefy API</div>
               <h3>Central de Automação e Operações | 2026</h3>
-              <p><strong>Contexto:</strong> o acompanhamento de múltiplos workflows exige visibilidade de prazos, responsáveis, backlog e criticidade.</p>
-              <p><strong>Ação:</strong> desenvolvi uma central integrada ao Pipefy via API/GraphQL, com regras de criticidade, alertas e indicadores de SLA e backlog.</p>
-              <p class="project-result"><strong>Resultado:</strong> visão consolidada para identificar demandas vencidas, sem responsável ou prioritárias, sem extrapolar métricas não comprovadas.</p>
+              <p>Workflows dispersos dificultam identificar atrasos, responsáveis e prioridades. Desenvolvi uma central em Python, SQL, DuckDB e Streamlit integrada ao Pipefy via API/GraphQL, com acompanhamento de SLA, backlog, criticidade e alertas.</p>
+              <p class="project-result">A aplicação consolida informações para identificar demandas vencidas, sem responsável ou prioritárias. Pode usar dados de demonstração quando a integração não está configurada, sem alegar ganhos quantitativos não medidos.</p>
               <div class="card-actions">
                 <a href="https://central-automacao-operacoes.streamlit.app/" target="_blank" rel="noreferrer">Demo</a>
                 <a href="https://github.com/samuelmaia-analytics/central-automacao-operacoes" target="_blank" rel="noreferrer">GitHub</a>
